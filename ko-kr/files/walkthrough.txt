@@ -1,11 +1,11 @@
-﻿﻿ GGG  RRRR   OOO    CCC  EEEE RRRR   22   11   12  
-G     R   R O   O  C     E    R   R 2  2 111  112  
-G  GG RRRR  O   O C      EEE  RRRR    2   11   12  
-G   G R  R  O   O  C     E    R R    2    11   12  
- GGG  R  RR  OOO    CCC  EEEE R  RR 2222 11l1 11l2 
-                                                 
+﻿﻿ GGG  RRRR   OOO    CCC  EEEE RRRR   22   11   11
+G     R   R O   O  C     E    R   R 2  2 111  111
+G  GG RRRR  O   O C      EEE  RRRR    2   11   11
+G   G R  R  O   O  C     E    R R    2    11   11
+ GGG  R  RR  OOO    CCC  EEEE R  RR 2222 11l1 11l1
+
 Grocery Simulator 2010 FULL WALKTHROUGH
-COPYRIGHT 2011 GROCER212
+COPYRIGHT 2011 GROCER211
 YOUR bRO in GROCERY-BASED INFOZ
 email grocer211@grocermail.groc!
 

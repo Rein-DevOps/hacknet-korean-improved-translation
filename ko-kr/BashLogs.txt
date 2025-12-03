@@ -1,19 +1,19 @@
 ﻿﻿#23396 +(35362)- [X]
 
-<Donut[AFK]> 이봐 EURAKARTE
+<Donut[AFK]> 야 EURAKARTE
  <Donut[AFK]> 욕함
- <Eurakarte> 받아침
- <Donut[AFK]> 반사
- <Eurakarte> 게이냐고 물어봄
- <Donut[AFK]> 입 닥치는 걸 추천
- <Eurakarte> 좆까
- <Donut[AFK]> 비꼼
- <Donut[AFK]> 또 비꼼
  <Eurakarte> 반사
- <Donut[AFK]> 재반사
- <Eurakarte> 인간 쓰레기와의 말도 안 되는 대화
- <Miles_Prower> 관련 없는 대화로 상대가 차단될 수 있다는 경고
- <Eurakarte> 완벽한 인간 쓰레기를 칭찬
+ <Donut[AFK]> 무한반사
+ <Eurakarte> 게이냐
+ <Donut[AFK]> 입닥쳐
+ <Eurakarte> 즐
+ <Donut[AFK]> 느그엄마
+ <Donut[AFK]> 느그아빠도
+ <Eurakarte> 너나즐
+ <Donut[AFK]> 우주반사
+ <Eurakarte> 병신같은 헛소리
+ <Miles_Prower> 둘 다 밴 먹을 수 있다는 경고
+ <Eurakarte> 중재자 칭찬
  <Miles_Prower> 약관 승인 및 수락
 
 #244321 +(32935)- [X]
@@ -52,7 +52,7 @@ t0rbad> 그래서 그곳에서 나는 이 복도에 있었단 말야
  BlackAdder> 사실
  BlackAdder> 니가 지금 당장 죽어도
  BlackAdder> 아무도 신경 안 쓸 걸
- BlackAdder> 그래서 그 게이놈을 어떻게 생각하는데
+ BlackAdder> 그래서 할 말 있냐
  *** t0rbad 님이 모드를 설정했습니다: +b BlackAdder*!*@*.*
  *** BlackAdder 님이 강퇴되었습니다 t0rbad ( )
  t0rbad> 그래서 그곳에서 나는 이 복도에 있었단 말야
@@ -83,11 +83,11 @@ t0rbad> 그래서 그곳에서 나는 이 복도에 있었단 말야
 
 #5300 +(23796)- [X]
 
-<tatclass> 다들 좆까라
- <tatclass> 에.
- <tatclass> 안녕.
- <andy\code> 일반적인 오타지.
- <tatclass> 키들이 서로 너무 붙어있어서 말야.
+<tatclass> 좆까 다들
+ <tatclass> 아
+ <tatclass> 좋아 다들
+ <andy\code> 흔한 오타지.
+ <tatclass> ㅈ 치면 바로 떠서
 
 #287414 +(23126)- [X]
 
@@ -107,13 +107,13 @@ t0rbad> 그래서 그곳에서 나는 이 복도에 있었단 말야
  <Thirteen-> 하하 맞아, 그치만 들키기 전까진 재밌을 거야
  입장: (PeteRepeat) (bob@3F8C4655.11D1C8C.18637D35.IP)
  <PeteRepeat> 좆 같은 켄
- <PeteRepeat> 켄... 그 새끼가 지난밤에 날 모래에 묻었는데, 난 5분 이따가 도망갔어. 켄은 병신처럼 거기에 있도록 놔두고
+ <PeteRepeat> 켄... 그 새끼가 지난밤에 날 모래에 묻었는데, 난 5분 있다가 도망갔어. 켄은 병신처럼 거기에 있도록 놔두고
  <quiqsilver> 피트, 켄이 어젯밤에 안 들어왔어, 난 너랑 같이 있었는 줄 알았는데.
  <PeteRepeat> 오 씨발.
  <PeteRepeat> 만약 켄이 나타나면, 내가 해변에서 걔 시체를 파내고 있다는 걸 말하지 말아 줘 내가 걱정하고 있다고 생각하게 하고 싶지 않아
  종료: (PeteRepeat)
  <Thirteen-> ㅋㅋㅋㅋ. 둘이 해변에서 서로 마주치면 엄청 놀라겠구먼
- <Tyran> 얼마나 적절한 타이밍인지 믿을 수가 없군
+ <Tyran> 타이밍 ㅈㄴ 미쳤다
 
 #414593 +(20160)- [X]
 
@@ -124,9 +124,9 @@ DragonflyBlade21: 여자에게 친한 남자사람친구가 있다. 이건 그 �
 <anamexis> 이런
  <anamexis> 콜라를 따고 있었는데 말야
  --> Beefpile (~mbeefpile@cloaked.wi.rr.com) 님이 #themacmind에 입장하였습니다.
- <anamexis> 이게 폭발했어
- <anamexis> 키보드 위에 다 쏟았어
- <anamexis> 하지만 잽싸게 닦았지
+ <anamexis> 이게 터졌어
+ <anamexis> 키보드 위로 다 쏟아졌는데
+ <anamexis> 휴지로 잽싸게 닦음
  <-- Beefpile 님이 퇴장하였습니다 (역겨운 놈들)
  <anamexis> :<
 
@@ -139,9 +139,9 @@ DragonflyBlade21: 여자에게 친한 남자사람친구가 있다. 이건 그 �
 
 #5775 +(18889)- [X]
 
-* ab는 부재중이니, 만약 다른 사람이 다음 25분간 나인 척 한다면 가짜임
-   병신처럼 구는 -           
- <ab> 하하하 신경 쓰지 마, 나 좆 빨았어
+* ab 자리비움 - 다음 25분간 나인 척 하는 사람 있으면 bm이
+   병신짓 하는 거임 -
+ <ab> ㅋㅋㅋ 아 무시해 나 자지 빨아
 
 #330261 +(17967)- [X]
 
@@ -213,10 +213,10 @@ Rabidplaybunny87: 좋아, 그래서 내 이웃들은 나를 싫어하는 게 확
 
 #258908 +(15060)- [X]
 
-<Ben174> : 만약 내가 야근 수당이 지급되는 초과 근무시간의 90% 이상을 대역폭을 꽉 채우면서 Kaza질이나 하고 있는 걸 들키면
- <ChrisLMB> : 만약 내 직원이 그러면 난 바로 해고할 거예요.
- <Ben174> : 회사가 어딘데요?
- <ChrisLMB> : LowerMyBills.com의 CTO(최고기술경영자)로 있어요.
+<Ben174> : 회사에서 야근수당 주는데 90%는 퇴근 후 대역폭 좋을 때 Kazaa 돌리려고 남아있는 건데 이걸 알면 ㅋㅋ
+ <ChrisLMB> : 내 직원이 그러면 바로 해고야.
+ <Ben174> : 어디 다니세요?
+ <ChrisLMB> : LowerMyBills.com CTO.
  *** Ben174 (BenWright@TeraPro33-41.LowerMyBills.com) 님이 종료하였습니다. (종료)
 
 #670375 +(14934)- [X]
@@ -289,7 +289,7 @@ bloodninja: 자기, 나 오늘 너무 힘들었거든, 부드럽게 다뤄 줄�
 
 #261501 +(13899)- [X]
 
-<jeebus> 그 "주교"가 오늘 우리 교회에 왔어
+<jeebus> 그 "비숍"이 오늘 우리 교회에 왔어
  <jeebus> 존나 사기꾼이더라
  <jeebus> 한번도 대각선으로 안 움직였어
 
@@ -384,15 +384,15 @@ bloodninja: 자기, 나 오늘 너무 힘들었거든, 부드럽게 다뤄 줄�
 
 #85514 +(12297)- [X]
 
-<Reverend> IRC는 그냥 여러 기능이 있는 노트패드야.
+<Reverend> IRC는 그냥 멀티플레이어 노트패드야.
 
 #309397 +(12275)- [X]
 
-<VolteFace`> 네가 바닥에 똥 쌀 때, 떨어지는 소리를 들었지만 정확하게 어디에 떨어졌는지 몰라서 5분 동안 그걸 찾느라 시간 보내는 거, 싫지 않아?
+<VolteFace`> 휴지로 닦을 때 아무리 닦아도 남아있어서 5분 내내 닦는 거 힘들지 않아?
  <peng> ...
  <peng> 뭐?
- <VolteFace`> 오 씨발
- <VolteFace`> 네가 똥 드랍할 때 싫지 않냐고.
+ <VolteFace`> 아 씨발
+ <VolteFace`> 콜라 쏟았을 때 닦기 힘들지 않냐고
 
 #127039 +(12275)- [X]
 
@@ -642,12 +642,12 @@ IronChef Foicite: 뭐, 많은 이유가 있어
 
 #334331 +(9750)- [X]
 
-<LordChewy> 그래서 내가 우리 아빠 야동 폴더를 찾았거든
+<LordChewy> 그래서 아빠가 내 야동 폴더를 찾았거든
  <LordChewy> 근데 아빠가 겁나 열받은 거야
  <LordChewy> 그러니까 이렇게 "놀랐냐? 나 바보 아냐, 알겠냐"
  <LordChewy> "알아요 아빠"
  <LordChewy> "무슨 변명을 할 거야?"
- <LordChewy> 그 때 아빠의 눈을 똑바로 보고 말했지 "C:Documents and SettingsRickyMy Documentsfaxessent faxes"
+ <LordChewy> 그 때 아빠의 눈을 똑바로 보고 말했지 "C:\Documents and Settings\Ricky\My Documents\faxes\sent faxes"
  <LordChewy> 그러니까 아무말도 못하더라
  <kingKahn> 그게 뭔데?
  <LordChewy> 아빠 야동 폴더
