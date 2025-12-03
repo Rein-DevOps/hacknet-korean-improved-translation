@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dMF_1_Misc" name="iodependency~Atlas" security="3" ip="88.29.144.6" icon="DLCServer" type="empty">
+
+  <!-- Discoverable computer from block 1 of the memory forensics intro missions
+  Use the IP address in the second line of this file in one of the memory dumps
+  to make it findable.-->
+  
+  <ports>6881, 443, 21</ports>
+  
+  <proxy time="0.2" />
+  <portsForCrack val="3" />
+
+  <trace time="125" />
+
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  <adminPass pass="4TL4S" />
+  <account username="listen" password="4TL4S" type="1" />
+
+  <file path="goliath" name="help_me.txt">이건 말이지</file>
+  <file path="helios" name="help_me.txt">뭔가 기억하려고 애쓰는데</file>
+  <file path="hyperion" name="help_me.txt">좀처럼… 생각이 안나는 상황.</file>
+  <file path="selene" name="help_me.txt">막 생각날 것 같으면서도</file>
+  <file path="tethys" name="help_me.txt">막상 떠오르지 않는 그런</file>
+
+  <file path="home/MemoryForensics" name="SN_MF_Decompiled.zip">#BINARY#</file>
+  
+</Computer>

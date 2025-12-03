@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="bitRelay01" name="비트단위 릴레이 01" security="2" allowsDefaultBootModule="false" type="2"> <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Accounts -->
+  <account username="bittest" password="test" type="1"/>
+
+  <!-- Security Stuff -->
+  <ports>1433, 22, 21, 80</ports>
+  <portsForCrack val="4"/> <!-- Number of ports to be open to allow porthack to run -->
+  <trace time="-1"/> <!-- Adds a trace timer - set to -1 to remove -->
+  <admin type="basic"/>
+  
+  <!-- Files -->
+  <file path="home" name="Home_Base.txt">당신이 이걸 보고 있다면, 당신은 내 릴레이 서버와 조우한 것이다(그리고 침투한 거지).
+무슨 이유로 나와 연락하려 한다면, 내 드롭 서버로 파일 하나 보내.난 가끔 체크하니까.
+
+108.160.165.139
+</file>
+
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+  
+  
+</Computer>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Help an aspiring writer" reqs="dechead,decypher">
+야심 있는 작가가 자기 대본을 제작자에게 전달해달라고 부탁했어.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>설득력 있는 지원</subject>
+    <body>
+한 작가가 최신 작품 초안을 제작자에게 전달하고 싶은데 비서들을 통과하는 게 어려웠다고 하네.
+우리가 그냥 침투해서 표적의 검토 대본 폴더에 그의 작품을 넣어서 제작자가 보게 만들어달라고 해.
+
+그의 대본 "FOF_Screenply.doc"는 크로스로드에 업로드되어 있어.
+또한 그의 작품과 경쟁하는 암호화된 대본도 제공했는데, 이걸 추적에 사용할 수 있어.
+이것도 크로스로드에 있어, "T2_Screenply.dec".
+
+그의 대본을 표적 컴퓨터의 대본 폴더에 업로드해.
+언제나 그렇듯이 탭 자동완성으로 업로드 명령을 사용하는 걸 잊지 마 - "upload bin/" 입력 후 탭 키를 눌러 업로드할 로컬 파일 목록을 보고 자동완성해.
+
+행운을 빈다,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+      <note title="의뢰 세부사항">FOF_Screenply.doc 다운로드
+
+T2_Screenplay.dec 추적
+
+FOF_Screenply.doc를 표적 대본 폴더에 업로드</note>
+    </attachments>
+  </email>
+</mission>

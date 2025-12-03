@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true"/>
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Locate or Create Decryption Software">
+새 회사가 파일 암호화 소프트웨어를 출시했고, 이전에 오픈 소스였던 코드들을 이걸로 잠가버렸어.
+알고리즘은 이전에 봤던 것만큼 강력해 보이진 않지만, 아직 해독 도구가 없어. 이 의뢰는 네 방식대로 해결하면 되지만, 우리가 필요한 건 파일 하나를 해독하는 거야.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>금고의 유령</subject>
+    <body>
+DEC Solutions가 최근 "DEC 암호화 제품군"을 완성했어 - 기본적으로 파일 암호화 패키지지. 우리가 보고 싶은 파일이 이 암호화로 잠겨있어.
+파일 사본을 크로스로드 서버(모든 CSEC 유저를 위한 비보안 공용 저장소)에 "encrypt_source.dec"라는 이름으로 올려뒀어. 참고로 ".dec"는 이 새 암호화가 만드는 파일 확장자야.
+
+먼저 파일 자체를 살펴보는 게 좋을 거야. 회사 웹사이트엔 쓸만한 정보가 별로 없지만, 좀 파보면 도움될 만한 걸 찾을 수도 있어. 일단 침투하면, 스캔해서 네트워크가 더 깊은지 확인해봐.
+
+파일을 해독하면 CSEC 드롭 서버에 업로드해.
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+      <link comp="hubPubDrop"/>
+      <link comp="decSoftWeb"/>
+      <note title="의뢰 세부사항">DEC Solutions 기업 네트워크 조사
+DEC 파일 해독 방법 찾기
+CSEC 크로스로드에서 파일 해독
+해독된 파일을 CSEC 드롭 서버로 업로드</note>
+    </attachments>
+  </email>
+</mission>

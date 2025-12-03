@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <generationKeys File="GameFile_Source_Pak.zip" Path="home/code"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Illegal Clone of a #CLIENT# Product">
+이 회사의 제품을 원형 그대로 복제한 제품이 시장에 나타나 해적들이 부당한 이득을 취하고 있다. 
+이 해적들을 처리하라..
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 하나만 존재해야 한다</subject>
+    <body>
+요원, 
+
+우리 #CLIENT# 회사에서는 최근 앱 스토어에서 새로운 제품을 출시하였는데, 며칠 동안은 판매가 잘 되다가 갑자기 뚝 떨어졌네. 그 원인은 바로 어떤 도둑이 우리 앱을 훔쳐서 우리보다 낮은 가격에 앱 스토어에서 팔고 있어서였더군. 
+선의의 경쟁이야 괜찮지만, 이건 우리 제품을 그대로 카피한 클론이네! 우리의 수고를 가로채서 돈을 벌고 있는 것이야! 이는 막아야만 하네&lt;br&gt;
+
+이 문제를 해결해주면 정말 고맙겠네.&lt;br&gt;
+이 말은 곧, 저들의 시스템에서 무엇이든지 모조리 파괴해주면 고맙겠다는 말이네. 링크를 첨부했네.
+
+ 수고하게,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

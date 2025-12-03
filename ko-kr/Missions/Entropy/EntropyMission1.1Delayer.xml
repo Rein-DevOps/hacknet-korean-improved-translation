@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="eosIntro" activeCheck="true">
+  <goals>
+    <goal type="delay" time="3.8"/>
+  </goals>
+  <nextMission IsSilent="true">Entropy/EntropyMission1.1.xml</nextMission>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>대기 중인 요청</subject>
+    <body>
+      메일 서버에 대기 중인 요청이 있어요.
+      잠시만 기다려주세요.
+    </body>
+    <attachments>
+      <link comp="eosIntroComp"/>
+    </attachments>
+  </email>
+</mission>

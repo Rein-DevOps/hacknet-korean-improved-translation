@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="csecFactionGainHelper" activeCheck="true">
+  <goals>
+    <goal type="delay" time="1.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC 초대</subject>
+    <body>
+안녕하세요 #PLAYERNAME# 
+
+님,최근 계약건 성공에 대해 축하합니다 - 당신의 스킬을 잘 보았습니다.
+
+축하합니다, 그리고 행운을 빕니다.
+-CSEC 경영진
+
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

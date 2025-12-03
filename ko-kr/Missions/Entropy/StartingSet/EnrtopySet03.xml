@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="*******"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/MilburgReply.xml</nextMission>
+  <posting title="Back to School">
+한 고등학교가 IT 부서가 학생 개인 데이터에 접근하는 것에 대한 우려로 연락해왔다(아마 학생 학부모 중 한 명의 요청일 가능성이 크지만 확실하지 않다). 삭제는 원치 않고, 직접 조사할 수 있도록 IT 직원들의 개인 비밀번호를 몰래 찾아달라고 한다.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>학교로 복귀</subject>
+    <body>요원,
+
+Milburgh 고등학교 행정부가 IT 직원들이 학생들에 대해 어떤 데이터를 보관하는지 조사할 수 있도록 IT 직원들의 관리자 비밀번호를 조용히 얻을 방법을 찾고 있다고 연락해왔다.
+내부에 있는 동안 발견한 모든 데이터를 그대로 보존하도록 해라 - 어떤 변경도 그들의 판단을 망칠 수 있다.
+네가 할 일은 침입하고, 흔적을 지우고, 서버 비밀번호를 이 메일로 회신하는 것이다. 학교에 연락하고 정보를 보내는 건 우리가 처리하겠다. 
+
+행운을 빈다, 
+-Entropy 관리자
+    </body>
+    <attachments>
+      <link comp="milburgHigh"/>
+    </attachments>
+  </email>
+</mission>

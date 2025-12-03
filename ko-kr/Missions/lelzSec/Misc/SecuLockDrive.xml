@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="secuLockDrive" name="덤벼라 /EL&apos;s Secure SecuLock Drive" ip="69.172.201.208" security="4" type="4" icon="chip">
+
+  <portsForCrack val="4"/>
+  <proxy time="0.2"/>
+  <ports>25, 22, 21, 1433</ports>
+  <trace time="400"/>
+  <adminPass pass="ithoughtyouweremakingtea"/>
+  <admin type="fast" resetPassword="false" isSuper="true"/>
+  
+  
+  <file path="home" name="DeleteMe.txt">해냈군! 이거 지워서 내 생각대로 이게 얼마나 취약한지 보여줘</file>
+  
+  
+  
+</Computer>

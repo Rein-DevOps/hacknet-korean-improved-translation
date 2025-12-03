@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="hubCrossroads" name="CSEC 크로스로드 서버" security="0">
+
+  <positionNear target="mainHub" position="1" total="6"/>
+
+  <file path="home" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="home" name="CT2.zip">#BINARY##BINARY#</file>
+
+  <encryptedFile path="home" name="encrypt_source.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs">
+
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + &quot; &quot;);
+            }
+            return ret.ToString().Trim();
+        }
+
+        ///요약
+        /// 다음을 포함하는 배열 반환:
+        /// [0] 헤더 메시지
+        /// [1] IP 링크
+        /// [2] 메시지 데이터
+        /// [3] 파일 확장자(제공된 경우), 아니면 null
+        /// [4] 비밀번호가 유효하면 &quot;1&quot;, 아니면 &quot;0&quot;
+        ///요약
+        public static string[] DecryptString(string data, string pass = &quot;&quot;)
+        {
+            string[] ret = new string[5];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length &gt; 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            string passValid = &quot;1&quot;;
+            if (check == &quot;ENCODED&quot;) {
+                //비밀번호가 정확합니다!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //유효하지 않은 비밀번호
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = &quot;0&quot;;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            ret[4] = passValid;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="home" name="CSEC_encode_1.dec" ip="168.61.82.245" header="WinC Firmware Specifications" extension=".pdf" pass="beepbeep">
+    WinCE 펌웨어 드라이버 개발 가이드
+    ------------------------------------------------------
+    WinCE 운영체제가 실행되는 임베디드 시스템용 드라이버 및 펌웨어 개발을 위한 문서입니다. 자동차부터 미디어 플레이어까지 수천 개의 장치가 이 OS를 사용합니다. 드라이버 및/또는 펌웨어 개발 시 코드가 배포될 장치의 다양성을 염두에 두십시오.
+    ------------------------------------------------------
+
+    다수의 WinCE 장치 드라이버는 스트림 인터페이스를 구현합니다. 핵심 스트림 인터페이스 진입점은 XXX_Open (장치 관리자), XXX_Close (장치 관리자), XXX_Read (장치 관리자), XXX_Write (장치 관리자)입니다. 자세한 정보는 스트림 인터페이스 드라이버를 참조하세요.
+    네트워크 어댑터, 디스플레이 어댑터, 마우스, 키보드 및 기타 특수 목적 장치는 스트림 인터페이스를 사용하지 않습니다. 이러한 장치는 기능에 적합한 인터페이스를 사용합니다.
+    장치 드라이버가 노출하는 인터페이스와 관계없이, 인터럽트 서비스 루틴(ISR)을 구현해야 할 수 있습니다. 인터럽트 및 ISR에 관한 자세한 정보는 인터럽트를 참조하세요.
+    각 프로세스는 서로 다른 드라이버를 로드합니다. 다음 표는 드라이버를 로드하는 프로세스와 각 프로세스가 로드하는 드라이버를 나타냅니다.
+
+    드라이버에 코드를 주입하려면 다음 경로를 사용하세요:
+
+    %_WINCEROOT%\Platform\%_TGTPLAT%
+    하드웨어 플랫폼 종속적 코드가 포함됩니다. 이 디렉토리에는 주로 OAL, 구성 파일 및 BSP 드라이버가 포함됩니다. %_WINCEROOT%\Platform\%_TGTPLAT%\Drivers의 하드웨어 플랫폼 종속적 드라이버는 수정하지 않아야 합니다.
+    %_WINCEROOT%\Platform\Common\Src\SOC
+    고집적 마이크로프로세서 또는 다수의 네이티브 주변장치가 통합된 마이크로프로세서 컴패니언용 SOC 드라이버가 포함됩니다. SOC 드라이버는 실시간 클럭, 타이머, 디버그 이더넷 카드 등을 위한 마이크로프로세서 특정 OAL 드라이버를 포함합니다. 동일한 마이크로프로세서를 사용하는 표준 개발 보드(SDB)는 같은 SOC 드라이버 세트를 사용할 수 있습니다.
+    %_WINCEROOT%\Public\Common\OAK\Drivers
+    플러그인 카드에 존재하거나 회로판에 직접 연결된 비네이티브 주변장치용 공통 드라이버가 포함됩니다. 공통 드라이버에는 플랫폼 종속적 코드와 연결되어 하드웨어 드라이버를 생성하는 플랫폼 독립적 코드가 포함됩니다. 공통 드라이버는 하드웨어 플랫폼이나 마이크로프로세서에 특정되지 않습니다. 모든 SDB가 공통 드라이버를 사용할 수 있습니다.
+  </encryptedFile>
+
+  <file path="home" name="FOF_Screenplay.doc">
+    만사에 무관심
+    -시나리오-
+
+    오프닝 씬: 배경에서 잔잔한 피아노 음악이 흐른다. 골프 카트 계기판의 시계가 보인다 - 오전 7시 22분.
+    남루한 차림의 남자가 훔친 게 분명한 박스 와인을 들이켠다. 판단하지 마라 - 편하고, 맛있다. 남루한 차림이라 함은,
+    물론 그가 스피도 수영복만 입고 있다는 뜻이다. 그의 윤곽이 선명하게 드러난다.
+
+    최대 속도 40km/h(뒤에 터보차저 달았다)로 카페를 지나가며, 그는 무심히 손을 뻗어 사업가의 커피를 엎어버린다.
+
+    장애인 주차 공간 2개를 차지하며 끼익 하고 멈춘 후, 그는 유유히 걸어나와 박스 와인 나머지를 다 마시고는, 진짜 전혀 신경 안 쓴다는 듯 그냥 도로에 던진다. 조금도.
+    이제 음악이 정말 고조되고 있다. 호른과 온갖 악기가 연주되는 매우 극적인 순간. 우리의 영웅이 당당하게 근처 쓰레기통으로 걸어가 올라타고, 망설임 없이 &quot;팬츠&quot;를 벗고 만족스럽게 긴 볼일을 본다.
+
+    경악한 노부인의 얼굴. 쇼 제목.
+  </file>
+
+  <encryptedFile path="home" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" pass="DANGER">
+    타이타닉 2: 빙산의 복수
+    -시나리오-
+
+JACK DAWSON: &quot;아무도 생각 못했던 건데 - 빙산이 우릴 친 게 아니라… 우리가 들이받았어!&quot;
+ROSE DEWITT BUKATER: &quot;뭐라고?! 당신을 되살린 미친 과학 수술 때문에 머리가 망가진 거야? 난 당신을 *사랑*해서 다시 데려온 건데!&quot;
+JACK DAWSON: &quot;알아, 하지만 우린 위험해. 저 빙산한테 가족이 있었어, 그들은 복수하려고 해. 내가 죽기 직전에 말했잖아… 그들은 예상 못했어…&quot;
+- JACK DAWSON, 멋진 선글라스를 꺼내 쓴다
+JACK DAWSON: &quot;돌아올게.&quot;
+
+캘리포니아 해안으로 장면 전환.
+
+빙산 하나가 물 위로 떠올라 엄청난 속도로 도시를 향해 다가온다.
+대피 사이렌이 울리기 시작하고, 해변의 사람들이 비명을 지르며 빙산을 가리키고 도망친다.
+더 많은 빙산들이 그 옆으로 떠오르며 해안을 향해 돌진한다.
+
+ROSE DEWITT BUKATER: &quot;도와줘!&quot;
+JACK DAWSON: &quot;로즈! 내가 여기 있어! 절대 떠나지 않을게!&quot;
+
+선두 빙산이 이제 해안에 올라와 두 주인공을 향해 미끄러진다. 빙산이 총을 꺼낸다.
+
+ROSE DEWITT BUKATER: &quot;재애애애애애애액!&quot;
+
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="C_EXE_contact.dec" ip="74.125.237.119" header="Encrypted Messaging Systems inc" extension=".txt" pass="quinnoq">
+
+    연락처는 &quot;dlocke&quot;라는 이름으로 Jmail 계정을 사용한다.
+
+    우리가 오랫동안 찾아왔다는 거 알지만, 확실한 단서라고 해서 성급하게 굴지 마 - 천천히 가자.
+    계획 세우면 다시 업데이트할게.
+
+  </encryptedFile>
+</Computer>

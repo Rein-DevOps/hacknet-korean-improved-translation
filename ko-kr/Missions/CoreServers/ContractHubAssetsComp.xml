@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="mainHubAssets" name="CSEC 애셋 서버" security="4">
+  <adminPass pass="csec-5xg3D11"/>
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6"/>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[FIRST_NAME]#[LAST_NAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LAST_WORDS]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+사망 예정 데이터베이스 파일 명명 규칙:
+
+LastName_FirstName[RecordNumber]
+
+template.txt 파일을 다운로드한 후 로컬에서 편집하고, 규칙에 맞게 이름을 변경하여 데이터베이스에 삽입하는 것을 권장합니다.
+예시: Doe_John[12345]
+
+템플릿 파일의 모든 와일드카드를 교체해야 하므로, 빠른 바꾸기 단축키를 사용하는 것이 좋습니다:
+1: 운영 체제에서 파일을 &quot;활성&quot; 상태로 표시하세요 (cat 명령어로 읽는 것이 가장 쉬운 방법입니다 - &quot;cat template.txt&quot;)
+2: 파일 이름 없이 replace를 사용하세요 - (replace &quot;[FIRST_NAME]&quot; &quot;John&quot;)
+3: 파일이 원하는 형태가 될 때까지 2단계를 반복하세요
+4: 파일 이름을 변경하세요 (mv template.txt Doe_John[12345])
+5: 파일을 데이터베이스에 업로드하세요 (원격 데이터베이스에 연결 후 &quot;upload /home/Doe_John[12345]&quot; - 업로드할 폴더에 있는지 확인하세요!)
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--SQL 메모리 손상 주입기 리드미--
+
+SQL 메모리 손상 주입기(SQL_MemCorrupt.exe)는 공개된 SQL 포트(기본값 1433)를 공격하는 표적 익스플로잇입니다.
+읽으면 데이터베이스에 메모리 손상 오류를 일으키는 테이블 항목을 주입한 후, 즉시 해당 테이블을 쿼리하여 SQL 데이터베이스를 즉시 크래시시키고 코어 덤프를 발생시킵니다.
+이렇게 되면 대상 OS가 죽어가는 SQL 연결을 정리하고 서비스를 재시작하기 전까지 일시적으로 SQL 서버 포트에 비인증 트래픽이 허용됩니다.
+
+이 프로그램은 디스플레이 모드에서 상단에 작동 상태를 출력하고, 그 아래에 SQL 서버 출력(이상적으로는 주입된 항목의 메모리 덤프)을 표시합니다.
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--웹 서버 웜 리드미--
+
+이 웹 서버 고속 액세스 웜은 HTTP 웹 서버(일반적으로 80번 또는 8080번 포트에서 실행)를 공격하는 표적 실행 파일입니다.
+이 프로그램은 현재 사용 중인 웹 서버 소프트웨어의 결함을 이용하여, 버퍼 오버플로우를 악용해 임의의 코드(웜 자체)를 주입할 수 있게 합니다.
+서버에서 실행된 웜은 웹 포트를 통과하는 모든 외부 트래픽을 운영 체제로 전달하여, 사실상 포트 보안을 우회합니다.
+이는 포트를 자유롭게 사용할 수 있도록 여는 것과 같습니다.
+
+웜은 웹 서버 자체의 정상적인 작동을 방해하지 *않습니다*. 일반적으로 그렇게 하면 웜 자체가 더 쉽게 탐지되고, 외부인들에게 뭔가 이상한 일이 일어나고 있다는 것을 분명히 알려주기 때문입니다.
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

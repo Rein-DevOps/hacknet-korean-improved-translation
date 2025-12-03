@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="WipeDegrees" owner="Jacob Stevens"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Wipe clean an academic record">
+익명을 원하는 CSEC 멤버가 작은 작업 하나를 의뢰했어. 익명성과 동기를 숨기기 위해 본인이 직접 할 수 없다고 해.
+
+전 고용주가 계속해서 직원들에게 저임금을 주면서 돈을 아끼는 정책을 펴왔고, 장기간 직원 복지를 해치는 관행을 유지했대.
+요원은 그의 잘못을 바로잡는 사이드 프로젝트의 일환으로 그의 학업 기록을 완전히 지워버리고 싶어 한다고.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>기록 깨끗이 지우기</subject>
+    <body>이 의뢰는 익명을 원하는 CSEC 멤버가 추가했습니다. 이 의뢰를 통해 의뢰인의 신원을 파악할 수도 있겠지만, CSEC는 항상 그래왔듯이 멤버들의 프라이버시와 익명성을 존중해주길 부탁합니다.
+
+의뢰:
+전 직원의 학업 기록을 완전히 지워야 합니다 - 모든 학위를 깨끗이 삭제해주세요.
+
+이름: Jacob Stevens
+
+중요: 흔적을 반드시 지우세요 - 국제 교육 기관들은 신뢰성을 유지하기 위해 평판에 의존합니다 - 당신은 지금 그걸 침해하는 겁니다. 만약 이게 발각되면 용서받지 못할 겁니다.
+
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic"/>
+      <note title="연락처 이름">삭제할 기록:
+Jacob Stevens</note>
+    </attachments>
+  </email>
+</mission>

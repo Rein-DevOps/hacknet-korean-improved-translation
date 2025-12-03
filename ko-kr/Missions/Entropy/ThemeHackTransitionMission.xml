@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyToThemeHackTransitionMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="themeHackTransComp" file="Macrosoft_Internal_Raid_Archive.rar" path="home"/>
+  </goals>
+  <missionStart val="0">entropyAddSMTPCrack</missionStart>
+  <missionEnd val="0">triggerThemeHackRevenge</missionEnd>
+  <nextMission>Theme/ThemeHackEndMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>공격성은 처벌되어야 한다</subject>
+    <body>
+#PLAYERNAME#,
+
+짧은 시간 안에 실력을 제대로 증명했군. 인상적이야.
+
+한동안 신경 쓰이던 일이 있는데 도움을 부탁하고 싶어. 비교적 새롭지만 재능 있는 해커 "Naix"가 좀... 과도하게 공격적이야. 최근 Macrosoft inc에서 엄청난 양의 내부 자료를 훔쳤다고 주장하더군.
+
+Entropy는 대중의 시선에서 해커 커뮤니티의 이미지를 개선하려고 적극적으로 노력 중이야 - 우리 수단이 불법일 수는 있지만, 우리 의도가 해를 끼치려는 건 아니거든. Naix는 이런 노력에 큰 타격을 주고 있어.
+그가 훔친 걸 삭제해줬으면 해. 첨부된 건 그가 서버 접속에 사용한 IP야. 그 노드 어딘가에 아카이브가 있을 거야.
+
+이 작업을 돕기 위해 최근 입수한 프로그램을 자산 서버에 추가해뒀어. 
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="themeHackTransComp"/>
+    </attachments>
+  </email>
+</mission>

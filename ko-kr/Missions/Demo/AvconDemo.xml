@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="avconMission">
+  <goals>
+    <goal type="getAdmin" target="avconComp"/>
+  </goals>
+  <nextMission>Demo/AvconDemoEnd.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>처녀항해</subject>
+    <body>축하해! 
+
+이런 종류의 소프트웨어는 아무 데서나 구할 수 있는 게 아니거든.
+
+좀 더 재미있는 걸 시도해보자 - Viper가 소문대로 이것저것 구해놓는 사람이라면, 더 보안이 강한 곳에 침투하는 데 필요한 모든 걸 이미 갖고 있을 거야.
+네 옆에서 Glove Slap 데모를 돌리고 있는 컴퓨터는 어때? 침입해서 CD 트레이를 열 수 있는지 확인해봐.
+
+기억해, 기본 프로그램이 아닌 건 실행할 때 포트 번호가 필요해 - 이런 식으로:
+
+>SSHCrack 21
+ ^파일명 ^포트번호
+
+뚫고 싶은 포트를 찾아서 거기다 실행하면 돼.
+
+잘 됐는지 직접 확인하는 거 잊지 마.
+
+행운을 빌어!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="avconComp"/>
+    </attachments>
+  </email>
+</mission>

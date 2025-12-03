@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Loose Ends">
+해커들이 귀중한 회사 데이터를 훔쳤다. 해커들은 처리됐지만, 도난당한 데이터는 제거해야 한다.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 끝마무리</subject>
+    <body>
+안녕하십니까, 요원.
+
+저희 회사 #CLIENT#는 최근 해커 공격의 피해자가 되었습니다. 문제의 공격자들은 이미 그들의 행위에 대해 법의 심판을 받았지만, 그들이 훔친 아카이브는 회수하지 못했습니다.
+하지만 그들의 서버 IP 주소를 확보했으니, 이 문제를 처리해주시기 바랍니다.
+
+조용히 처리해주시면 감사하겠습니다.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

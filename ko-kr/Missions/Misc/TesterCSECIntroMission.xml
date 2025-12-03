@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="practiceServer"/>
+  </goals>
+  <missionStart val="0">CSECTesterGameWorldSetup</missionStart>
+  <missionEnd val="0">플레이어를서버그룹으로파견</missionEnd>
+  <nextMission>MainHub/Intro/Intro01.xml</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>초특급 비밀 테스터 임무</subject>
+    <body>
+    이봐,
+
+    테스트 도와줘서 고마워! 이건 해킹 메카닉에 다시 익숙해지도록 만든 워밍업 미션이야.
+    여러 개의 관리자 노드와 기본 프로그램 4개(SSHCrack, WebServerWorm, SMTPOVerflow, FTPBounce)를 줬어.
+
+    연결된 컴퓨터에서 관리자 권한을 얻고 여기에 답장해서 계속 진행해.
+    그러면 바로 CSEC 레벨로 올라가서 새로운 계약들을 받을 수 있을 거야.
+    먼저 CSEC 자산 서버에 가는 걸 잊지 마!
+
+    -Matt
+    
+    
+    .
+    
+    
+    </body>
+    <attachments>
+      <link comp="practiceServer"/>
+    </attachments>
+  </email>
+</mission>

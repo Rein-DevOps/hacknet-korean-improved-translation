@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="pacemaker01" ip="202.6.141.219" name="KBT-PM 2.44 REG#10811" security="1" icon="chip" type="4"> <!-- 1=  corporate, 2 = Home, 3 = server, 4= empty -->
+  <!-- Security Stuff -->
+  <trace time="-1"/>
+  <ports>104</ports>
+
+  <HeartMonitor patient="E_Whit"/>
+  
+  <file path="KBT_Pacemaker" name="readme.txt"> 이 폴더의 모든 파일은 심박 조율기 소프트웨어가 감지하며, 파일이 올바르게 서명되었을 경우 UI에서 펌웨어 패치로 지정할 수 있습니다.
+이 칩을 원격으로 패치하려면 &quot;upload [로컬 파일 경로]&quot;를 사용하여 이 폴더에 파일을 업로드하세요.
+  </file>
+  
+</Computer>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="빌드 해독 도구">암호화된 파일이 계속 튀어나와서, 이걸 뚫을 도구가 필요해. 이건 네 특기잖아, D3f4ult. 어떻게 좀 해 봐.</posting>
+  <email>
+    <sender>크립시스</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

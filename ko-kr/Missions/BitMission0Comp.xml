@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="bitMission00" name="Bitwise 테스트 PC" security="1">
+  <file path="home" name="Test_File.txt">축하합니다, 이겼습니다!</file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+명령줄에서 유용한 명령어 목록:
+
+cat [filename] - 지정한 파일의 텍스트 내용을 표시합니다
+
+cd / - 파일 시스템의 루트 디렉토리로 이동합니다
+
+ls - 현재 디렉토리의 폴더와 파일 목록을 출력합니다
+
+cd .. - 한 단계 상위 디렉토리로 이동합니다
+
+replace [filename] &quot;[string1]&quot; &quot;[string2]&quot; - 대상 파일의 내용 중 string1을 string2로 바꿉니다
+
+mv [filename] [target] - 파일을 이동하거나 이름을 변경합니다. 파일을 이동하려면 대상 폴더를 다음과 같이 지정하세요:
+
+mv config.sys /misc/
+
+파일 이름을 변경하려면 새 이름을 지정하면 됩니다:
+
+mv config.sys config.old
+
+Help 1, Help 2, Help 3 - 도움말 파일 세 페이지. 읽고 숙지하세요.
+
+forkbomb - 공식 명령어는 아니지만 시스템을 긴급히 다운시켜야 할 때 유용한 긴급 버튼입니다. 관리자 권한이 필요하며, 방어 목적으로 자신의 시스템에도 사용할 수 있습니다
+
+shell - 관리자 권한이 있는 시스템에 원격 호스트를 설치합니다. 방어 목적으로 자신의 시스템에도 실행할 수 있습니다(자세한 내용은 &quot;Trap&quot; 참조)
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt">
+[shinterland] 상사가 퇴근하길 기다리는 중
+[shinterland] 그럼 뒤에서 만나자
+[jwalter] 상사가 눈치 챈 건 아니겠지?
+[shinterland] 에이, 아닐 걸.
+[shinterland] 무슨 일이 벌어질지 전혀 모르고 있어.
+[jwalter] 브라우저 기록 삭제하는 거 잊지 마. 흔적 남기면 안 돼.
+[shinterland] 알아, 알아, 걱정 마.
+[shinterland] 막 외투를 들고 문으로 나가는 중... 지금이야.
+[jwalter] 좋아, 카메라 피드 설정하게 잠깐만...
+[jwalter] 준비 완료. 정적 화면이 유지되는 시간은 3분이야.
+[shinterland] 목록 챙기고 나서 한잔하자.
+</file>
+  
+<file path="home/autolog_reports" name="log0177_F.txt">
+[vope] 믿기지가 않네
+[r@$put1n] 뭐가?
+[r@$put1n] 성공했어?
+[vope] 용병들이 소스 달라고 문 두드리고 있어
+[r@$put1n] 오, 대박 쳤구나!
+[r@$put1n] 수익은 짭짤해?
+[vope] 만2천 달러, 두 달 작업치고는 나쁘지 않지
+[vope] 대체 뭐에 쓰려는 걸까?
+[r@$put1n] 아마 은행 계좌 털려고 그러겠지
+[vope] 내 통장엔 털 것도 없는데 ㅋㅋㅋ
+
+-- 가짜임이 확인됨 --
+</file>
+  
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] 이쪽은 괜찮아. 멍청한 Bill이 해고당했고 나는 무사해
+[bleedingcool] 잘됐네.
+[felix] Bill 원래 싫어했거든. 네 덕분이야.
+[bleedingcool] 1만 달러 리베이트도 챙겼잖아?
+[felix] 뭐 그것도 도움이 됐지.
+[felix] 이제 끝난 거야?
+[bleedingcool] 끝났어. 몇 달치 특종감 확보했으니까. 내년에 새 Brisby 영화 나올 때쯤 다시 연락할게.
+[felix] 나중에 봐, 보스.
+</file>
+  
+</Computer>

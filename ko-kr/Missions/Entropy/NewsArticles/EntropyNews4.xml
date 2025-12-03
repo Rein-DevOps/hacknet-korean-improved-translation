@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Is your data at risk?">
+인기 소셜 네트워크 FriendHole이 모든 형태의 소셜 미디어를 공략하려는 악성 해킹 그룹의 최신 희생자가 됐다. 사이버 경찰은 여전히 이 그룹의 정체와 위치를 파악하지 못했지만, 그들의 메시지는 분명하다: '안전한 것은 없다'. 오늘 FaceSpace의 CEO는
+불안해하는 사용자들을 안심시키려 시도하며 "FaceSpace의 보안은 철통같다"고 설명했고, FaceSpace에서 사용자의 개인 데이터에 접근할 수 있는 건 본인과 공유를 선택한 사람들, 그리고 FaceSpace의 믿을 수 있는 12,000개 광고 파트너뿐이라고 밝혔다.
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy를 막아야 한다</subject>
+    <body>
+Entropy 데이터베이스를 파괴하라
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

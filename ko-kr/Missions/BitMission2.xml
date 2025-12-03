@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>이제 다음은 어디로</subject>
+    <body>
+좋아! 이걸 보고 있다면 잘해낸 거고... 이 모든 게 의미가 있을지도 모르겠어.
+너무 큰 기대일까? 아니길 바라지만.
+
+이 모든 걸 다 설명할 시간이 없다는 걸 깨달았어. 배워야 할 게 너무 많은데 내가 가르칠 시간이 없어. 그래서 부탁을 하나 더 해야겠어.
+
+'Entropy'라는 그룹이 지금 멤버를 모집 중이야. 그들이 더 많은 걸 가르쳐줄 수 있어. 준비되면 다시 연락할게.
+Entropy에 들어가려면 프록시 서버를 우회해야 해. 이미 관리자 권한이 있는 컴퓨터에서 셸 몇 개(&quot;shell&quot; 명령으로 실행)를 돌리면 과부하시킬 수 있을 거야.
+
+행운을 빌어...
+그리고 고마워.
+
+--Bit
+0
+
+추신: 깜빡할 뻔했는데, 문제가 생기면 네트워크 교육 아카이브 서버도 링크해뒀어. 유용한 정보가 많아.
+    </body>
+    <attachments>
+      <note title="프록시 서버 정보">프록시 서버 참고사항 - 전형적인 Entropy 도전 과제.
+
+관리자 권한이 있는 컴퓨터에서 &quot;Shell&quot;로 셸 실행.
+
+대상 컴퓨터에 접속해 보안 조사.
+
+셸로 대상 프록시 과부하.
+
+자세한 내용은 NetEdu Archives 참조.
+      </note>
+      <link comp="netEduComp"/>
+      <link comp="bitMission02"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="kfcWebServer" name="www.cfc.com" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="0"/>
+  <addWebServer name="CFC Homepage" url="Content/Web/Presets/KFC/KFCHomePage.html"/>
+  <positionNear target="kfcMainframe" position="0" total="3"/>
+  <link target="kfcMainframe"/>
+
+  <file path="home" name="ServerStructure.txt">웹 관리자 - 이 서버는 전단 콘텐츠 전용임을 명심하십시오!
+모든 회사 파일들은 더 안전한 메인프레임 및 내부 서버에서 호스팅되어야 합니다.
+이 서버는 업데이트 및 유지관리 목적으로 메인프레임으로 다시 연결되는 링크를 유지합니다 - 이 구성을 변경하지 마십시오!</file>
+  
+</Computer>

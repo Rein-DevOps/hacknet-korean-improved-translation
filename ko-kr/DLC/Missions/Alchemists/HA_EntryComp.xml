@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaEntry" name="헤르메스 연금술사 학교" security="4" type="empty" icon="Alchemist">
+  
+  <!-- This will be the entry point of the whole network. It's the "public facing" side of it.
+  Each computer on the network will also have an image and line or two of text that comes up as the
+  "opener" for that server - please select the image from the book to be vectorized and sent to me
+  for each one, and prepate the line that's on each server. The network has been pre-assembled to have all
+  of these clearly outward facing things from the start, even though the internal ones are meant to be hidden.
+  It's like the sysadmin wanted it broken into and seen, as a kind of indoctrination thing for "other hackers
+  like him". -->
+  
+  <!-- Each server should have a bunch of files describing various parts of the philosophy, and in seperate
+  folders, a few bits and peices about the job of the server in the network. This one is a greetings/front facing server,
+  designed to be an announcement thing, more saying who they are and what they're about. It's not written like
+  it was put here just to be broken into, but the sysadmin *does* expect it to be attacked at some point, and is
+  clearly making an effort to indoctrinate whoever is trying to break in.-->
+
+  <file path="home" name="welcome_to_heaven.txt">모든 것은 연결되어 있다. 종교, 사회, 과학. 이들은 실제이자 환상이다. -- 명료함, 그리고 혼돈이다. 
+
+우리는 흙으로부터 새로 태어나며, 또한 불의 시련을 통해 모든 것이 연결되어 있다는 점을 이해하게 된다. 통상의 교육에는 진실이 없다. 하지만 비문의 기록은 참으로 진실된 것이다.
+
+모든 것은 연결되어 있다. 종교, 사회, 과학. 이들은 실제이자 환상이다. -- 명료함, 그리고 혼돈이다.
+
+모든 것에는 아름다움과 결합 관계가 있다. 이 여정은 방랑자를 양에서 음, 즉 응고로 이끈다. 여행자는 1차원의 존재에서 4차원의 존재로 이동하며, 세상의 본질이 모습을 드러낸다.
+
+모든 것은 연결되어 있다. 옛 음, 아르카눔 IV 현상은 언젠가 모든 것이 그렇듯 흙으로 돌아간다.
+
+용해 및 응고 위에서와 같이, 아래에서도.
+</file>
+  
+  <file path="home" name="nameofgod.txt">요드
+헤
+바브
+헤
+
+</file>
+
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <dlink target="dhaComp1"/>
+  <dlink target="dhaComp2"/>
+  <dlink target="dhaComp3"/>
+
+  <positionNear target="dhaComp2" position="2" total="360"/>
+
+  <LogoDaemon Name="헤르메스 연금술사 학교" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/MainLogo" >
+------------------------------------
+위에서와 같이
+아래에서도
+------------------------------------
+  </LogoDaemon>
+
+</Computer>

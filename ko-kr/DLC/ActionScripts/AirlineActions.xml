@@ -1,0 +1,31 @@
+﻿<ConditionalActions>
+
+  <OnAdminGained target="dpa_nethub">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20">음, @channel 이 화이트리스트 서버에서 막힌 사람 또 있어?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="24">그래. 하지만 방법을 찾은 것 같아. 1~2분만 무력화해주면 내가 처리해 볼게.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25">뭐라고?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="30">내 말은, 나도 그걸 해결할 수 있을 거야. 다만 네가 어떻게 하겠다는 건지 모르겠어. :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="34">영업 비밀이야 ;) 준비 됐어? 카운트다운 해줘.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="39">좋아, 기다려...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="44">5</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="45">4</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="46">3</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47">2</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48">1</AddIRCMessage>
+    
+    <CrashComputer Delay="50" DelayHost="dhs" CrashSource="D3F_POD" TargetComp="dpa_whitelist" />
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="52">됐어, ㄱㄱㄱ</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="74">거의 다 됐다...</AddIRCMessage>
+    <DeleteFile Delay="82" DelayHost="dhs" TargetComp="dpa_whitelist" FilePath="Whitelist" FileName="authenticator.dll" />
+
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="85">이이제 끝! 들어가도 돼. 확인 좀 해줄래, D3f4ult?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="90">이런 썅, 어떻게 한 거야?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="93">;)</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="95">아 참, @#PLAYERNAME#. 화이트리스트 서버가 다운됐어!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="101">이제 예약용 메인프레임에 접속해 봐.</AddIRCMessage>
+    
+  </OnAdminGained>
+  
+</ConditionalActions>

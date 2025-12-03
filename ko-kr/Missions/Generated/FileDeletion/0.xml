@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyServer01">
+  <generationKeys File="#LC_CLIENT#_Internal_Archive.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Cleanup Operation">
+본 그룹의 주요 고객이 전직 직원의 개인 컴퓨터에서 파일 삭제를 요청했습니다.
+파일은 고유하지 않으며, 회사는 단순히 이 개인이 가진 사본을 제거하기를 원합니다.
+대상이 당신을 패시브 추적할 가능성은 낮습니다.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>청소 작전</subject>
+    <body>
+안녕하십니까, 요원.
+
+최근 우리 회사의 직원 한 명이 경쟁사로 이직하면서 회사를 떠났습니다. 그 과정에서 상당한 양의 내부 데이터를 가져갔는데, 그가 계속 보유하고 있다면 우리에게 불리한 상황입니다.
+
+이 직원의 컴퓨터에 접근하여 해당 정보를 삭제해주시기 바랍니다. 백업 없이 단일 아카이브 파일로 저장되어 있을 가능성이 높습니다.
+파일명은 #FILE#입니다.
+
+감사합니다.
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

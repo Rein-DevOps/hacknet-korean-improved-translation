@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="deathRow" name="사망 예정 기록 데이터베이스" ip="168.51.178.4" security="5" type="4">
+  <adminPass pass="texas"/>
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="3"/>
+  <ports>80, 21, 1433</ports>
+  <firewall solution="AHSUNYAG"/>
+  <proxy time="-1"/>
+  <trace time="160"/>
+  
+  <file path="home/SECURE/ProtectedFolder/AdminOnly" name="InternalMemo.txt">
+  내가 이 프로그램의 책임자로서 당연히 통제권을 가져야 할 이 컴퓨터에 로그인하려는데, IT 직원들이 또 비밀번호를 바꿔놨습니다. 또다시!
+
+  이런 일이 너무 자주 일어나서 회사를 위해 쓸 수 있었던 소중한 내 시간만 낭비하고 있습니다. 지금부터 비밀번호는 "texas"로 유지하도록 하겠습니다. 이것은 내가 직접 선택한 것입니다.
+  향후 참고를 위해 이 메모를 안전한 곳에 보관합니다. 날짜도 기록해두었으니, 앞으로 또 내 시간을 낭비하려 든다면 법적 자료로 사용하겠습니다.
+
+  다시는 이런 말 하게 만들지 마시오!
+
+  작성일 04/02/2012
+
+  Brad Collier
+  기록부 총책임자
+  형사사법부
+
+  </file>
+  
+  <deathRowDatabase/>
+  
+</Computer>

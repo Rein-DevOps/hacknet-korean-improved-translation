@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="nortronInternalServices" name="Nortron Internal Services Server" security="2">
+  <ports>22,21</ports>
+  <trace time="60"/>
+  <firewall level="1"/>
+  <link target="nortronMail"/>
+  <link target="nortronMainframe"/>
+  <positionNear target="nortronMainframe" position="1" total="3"/>
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat">#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt">
+    메모:
+    새 이메일 정보
+    사용자명 = j.abrams
+    비밀번호 = bootyking420
+
+    매년 왜 이걸 바꾸라고 하는 거야?
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc">
+할 일: 보고서 작성
+&lt;br&gt;http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc">
+안티바이러스 소프트웨어는 루트킷을 스캔하려고 시도할 수 있다;
+루트킷은 발견되지 않고 컴퓨터 시스템의 관리자 수준 제어를
+획득하도록 설계된 악성 프로그램이다. 루트킷은 운영 체제의
+작동 방식을 변경할 수 있으며, 경우에 따라 안티바이러스
+프로그램을 조작해서 무력화시킬 수 있다. 루트킷은 제거하기도
+어려워서, 운영 체제를 완전히 재설치해야 하는 경우도 있다.
+
+출처 - http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat">#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt">
+
+다음은 동료에게서 받은 이메일 복사본:
+
+| T-BONE, Tony, 야 친구 - 뭐해?
+| 오늘 점심 같이 먹는 거지? 치킨 땡기는데.
+| 수박도 좀 먹을까 봐. 두고 보지.
+| 알려줘
+|
+| -Cool JJJJJJJJJJJJJJ
+
+내 이름은 TONY가 아니라고 왜 계속 저러는 거야.
+THOMAS STARK가 완벽한 이름이라고.
+
+  </file>
+</Computer>

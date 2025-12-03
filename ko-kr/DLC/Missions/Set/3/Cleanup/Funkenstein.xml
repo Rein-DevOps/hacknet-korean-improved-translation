@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_fn" name="Funkenstein의 연구실" security="1" type="4" icon="DLCPC1" ip="21.32.43.54">
+
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>6881, 443, 22, 21</ports>
+  <portRemap>6881=69,22=1999</portRemap>
+  <trace time="200" />
+
+  <adminPass pass="redwood" />
+
+  <file path="home" name="d3f_ROOTKIT.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_extras.zip.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_REMINDER-DELETEMEt.txt">이걸 보고 있다면, 지금 너의 상황은 무엇을 상상하든 그 이상으로 나쁠 것이다.</file>
+
+
+  <file path="home/ableton" name="We_Are_Number_Onederwall.mp3">#BINARY#</file>
+  <file path="home/ableton/finished" name="Wonderwall_But_Every_Time_They_Say_Wonderwall_It_Gets_Faster.mp3">#BINARY#</file>
+  <file path="home/ableton" name="note.txt">
+이것들은 종합 앨범에 넣어야 함
+
+
+home/ableton/samples/burp.mp3
+home/ableton/samples/pointclicker_click.mp3
+home/ableton/samples/pointclicker_win.mp3
+home/ableton/samples/pointclicker_lose.mp3
+home/ableton/samples/noticemesenpai.mp3
+home/ableton/samples/ohno.mp3
+home/ableton/samples/madonna.mp3
+home/ableton/samples/windowsXP_error_sound.mp3
+home/ableton/samples/windows98_login_sound.mp3
+  </file>
+  
+  
+  <file path="home/ableton" name="samples.zip">#BINARY#</file>
+  
+  
+  <file path="home/ableton" name="todo.txt">
+원더월 메쉬업
+올스타 메쉬업
+원더월 및 올스타 메쉬업
+
+뻘글 유포자에게 공개할 현재 트랙들을 백업
+
+</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>FTPZilla -연결 32.43.54.65
+…연결 중...
+…연결됨.
+…업로드 중 (1/12)...
+...업로드 중 (2/12)...
+...업로드 중 (3/12)...
+...업로드 중 (4/12)...
+...업로드 중 (5/12)...
+...업로드 중 (6/12)...
+...업로드 중 (7/12)...
+...업로드 중 (8/12)...
+...업로드 중 (9/12)...
+...업로드 중 (10/12)...
+...업로드 중 (11/12)...
+...업로드 중 (12/12)…완료!
+...파일 12개를 아카이브 hells_maw.dec로 압축 중... 완료!
+...접속 종료.
+종료 중.</Command>
+    </Commands>
+  </Memory>
+
+
+</Computer>

@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="sshcrack01">
+  <goals>
+    <goal type="FileDownload" target="portcrack01" file="SSHcrack.exe" path="bin"/>
+  </goals>
+  <missionEnd val="0">transitionToBitMissions</missionEnd>
+  <nextMission>NONE</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>몇몇 도구를 한데 모으기</subject>
+    <body>
+좋아 - 그거면 당분간은 안전할 거야! 최소한 자네 컴퓨터로부터는...
+시작하기 전에, 필요한 게 몇 가지 있어. porthack만으로는 요즘 컴퓨터 대부분을 뚫을 수 없거든... 뭔가 볼만한 게 있는 컴퓨터는 말이지.
+
+내 친구부터 확인해봐 - &quot;Viper&quot;라는 이름으로 통해 - 끔찍한 이름이지, 알아. 그 친구는... 솔직히 제일 똑똑한 편은 아니지만 항상 유용한 코드를 구해오더라고.
+파일에 접근하는 건 문제없을 텐데 유용한 걸 찾는 게 좀 더 어려울 수 있어.
+
+프로그램이 로그하거나 저장하는 '일반적인' 파일, IRC 로그 같은 건 대부분 무시해도 돼. .exe 파일처럼 특별한 이름이 붙은 게 찾아야 할 거야.
+사용 가능한 파일은 &quot;scp&quot; 명령으로 다운로드해.
+
+행운을 빌어 - 끝나면 다시 답장해!
+
+--Bit
+0
+
+    </body>
+    <attachments>
+      <link comp="portcrack01"/>
+      <note title="Hacknet 빠른 참조지">빠른 참조 가이드
+
+&quot;probe&quot;로 보안 시스템 분석.
+&quot;porthack&quot;으로 활성 보안 침투.
+
+&quot;scan&quot;으로 인접 노드 스캔
+~/log 폴더의 로그는 &quot;rm [FILENAME or *]&quot;로 삭제
+
+&quot;scp [FILENAME]&quot; 명령으로 파일 다운로드
+      </note>
+    </attachments>
+  </email>
+</mission>

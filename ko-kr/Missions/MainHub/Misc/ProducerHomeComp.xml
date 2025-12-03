@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="producerComp" ip="37.187.27.55" name="제이슨의 랙북 프로" security="2" allowsDefaultBootModule="false" icon="laptop" type="2"> <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER"/>
+  <!-- Security Stuff -->
+  <trace time="-1"/> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    위험 이라는 단어가 왜 그리 좋지? 그냥 위험이 아니라, 절대위험이야. 굵은 글씨로. 그냥 객관적으로 봐도 최고의 단어야
+    최고의 구역? 절대위험 구역 최고의 가운데 이름은? 절대위험.
+   그 단어를 모든 곳에 쓸 수 있다면 좋을텐데.
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc">
+    타이타닉 2: 빙하의 복수
+    -각본-
+
+JACK DAWSON: &quot;아무도 그 생각을 한번도 못했을텐데 - 하지만 빙하가 우리한테 부딪친게 아니라…우리가 박았어!&quot;
+ROSE DEWITT BUKATER: &quot;뭐라고요?! 당신을 부활시킨 미친 과학 작전 때문에 당신 머리 어떻게 된 거 아니에요? 나는 당신을 *사랑*하기 때문에 당신을 다시 데려온 거에요&quot;
+JACK DAWSON: &quot;알아, 하지만 우린 여기서 위험에 처해 있어. 저 빙하에게는 가족이 있었고, 그들은 복수를 원해.  그들은 내가 죽기 직전에 내게 말했어… 그들은 결코 예상못했어…&quot;
+- JACK DAWSON은 그의 선글라스를 급히 꺼내 쓴다.
+JACK DAWSON: &quot;돌아올께.&quot;
+
+캘리포니아 해안으로 장면 이동.
+
+빙산이 수면에 나타나 엄청난 속도로 도시에 접근한다.
+대피 사이렌이 울리기 시작하고, 해변가의 사람들은 빙산을 가리키며 비명을 지르고, 필사적으로 도망친다.
+빙산 옆으로 또 다른 빙산들이 수면에 나타나고, 해안을 향해 돌진한다.
+
+ROSE DEWITT BUKATER: &quot;도와줘요!&quot;
+JACK DAWSON: &quot;로즈! 당신을 위해 여기 있어요! 당신을 결코 떠나지 않아요!&quot;
+
+선두의 빙산이 이제 해안에 당도하여, 두 주인공을 향해 미끄러진다. 빙산을 총을 꺼낸다.
+
+ROSE DEWITT BUKATER: &quot;재애애애애애애액!&quot;
+
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc">
+    우주 영웅의 전설
+    -목차-
+
+    1장: 성층권 돌파
+    2장: 딥 임팩트
+    3장: 역추진
+    4장: 심장부로 가는 내내
+    5장: 둔중한 흔들림
+    6장: 해군 소장 공격
+   7장: 네 개의 전리품
+    8장: 그의 감사의 깊이
+    9장: 후회, 두려움, 욕망
+    10장: 깊은 곳의 폭발
+    11장:엄밀한 리듬을 좇아
+    12장: 처음엔 부드럽지만 이후엔 대단히 격렬하게 
+  </encryptedFile>
+  
+</Computer>

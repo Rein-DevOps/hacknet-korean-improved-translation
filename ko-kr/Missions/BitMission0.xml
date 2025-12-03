@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>처녀항해</subject>
+    <body>축하해!
+이 자동 응답기로는 성공했는지 확인할 방법이 없지만, 이걸 보고 있다면 최소한 뭔가는 찾은 거겠지. 유용한 거면 좋을 텐데.
+
+내 옛날 테스트 서버 하나 뚫어봐. Viper가 소문대로 이것저것 챙겨두는 사람이라면, 침투에 필요한 건 다 있을 거야.
+기본 프로그램 외에는 포트 번호와 함께 실행해야 해. 이런 식으로:
+
+&gt;SSHCrack 22
+ ^filename ^portnumber
+
+뚫을 포트를 찾아서 실행하면 돼.
+
+참고로, 탭 키로 명령어를 자동완성할 수 있어. &quot;ssh&quot; 치고 탭 누르면 전체 이름으로 완성되는 식이지. 모든 것에 적용돼!
+
+행운을 빌어!
+
+--Bit
+0
+
+    </body>
+    <attachments>
+      <note title="보안의 기초 가이드">보안의 기초
+
+Probe로 열린 포트를 확인하세요.
+프로그램으로 대상을 지정하고 올바른 포트를 입력하세요.
+예: &quot;SSHCrack 22&quot;
+      ^filename ^portnumber
+충분한 포트를 뚫으면 &quot;Porthack&quot;으로 보안을 침해할 수 있습니다.
+      </note>
+      <link comp="bitMission00"/>
+    </attachments>
+  </email>
+</mission>

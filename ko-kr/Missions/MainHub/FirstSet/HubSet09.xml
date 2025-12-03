@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD"/>
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="Project Junebug" reqs="dechead, decypher,csecRankingS2Pass">
+매우 민감한 상황이 발생했어. 숙련되고 익명이며, 어려움에 처한 사람을 크게 돕기 위해 논란의 여지가 있는 행동을 기꺼이 수행할 외부 요원이 필요해.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>프로젝트 준버그</subject>
+    <body>
+해커,
+
+이건 일반적인 요청이 아니며, 우리도 그렇게 다루지 않을 겁니다. 안락사를 수행해달라는 요청을 받았습니다.
+당연히 우리는 얼마 전 데이터를 수집하기 위해 몇 명을 보냈고(의심을 사지 않도록 일부는 외부 그룹에서), 대체로 문제없는 결과가 나왔습니다 - 문제의 남성, "Elliot Whit"이 상당한 고통 속에 입원해 있으며, 본인의 희망과 달리 죽을 권리를 거부당하고 있는 것으로 보입니다.
+가족의 이전 시도가 실패해서 후속 노력을 계속할 수 없게 되었다가, 멤버가 이 옵션을 제안했습니다. 그가 착용한 심박조율기는 적절한 인증으로 원격 접근이 가능하며, 이것이 이 요청을 수행할 수 있는 방법일 수 있다고 생각합니다.
+
+이 요청의 성격을 고려할 때, 이 일에 관여하고 싶지 않다는 당신의 의사를 받아들일 수 있습니다. 답장에 "거부"라고 적어주면 프로젝트에서 제외하겠습니다.
+
+이 문제를 돕기로 결정한다면, 우리가 아는 한 이런 시도는 한 번도 없었기 때문에 상당한 조사와 테스트가 필요할 가능성이 높다는 점을 알아두세요.
+표적의 의료 기록에서 시작해서 칩을 식별하고, 제조사를 찾아내고, 거기서부터 진행하길 권장합니다.
+
+-CSEC 관리자
+    </body>
+    <attachments>
+      <link comp="medical"/>
+      <note title="프로젝트 세부사항">
+표적: Elliot Whit
+행동: 안락사
+</note>
+    </attachments>
+  </email>
+</mission>

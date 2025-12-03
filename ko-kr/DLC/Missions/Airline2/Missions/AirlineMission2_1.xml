@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline2_player">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Coel - 니세이 MK III_Exodus">
+추출. 정리.
+이 일이 얼마나 중요한지는 잘 알지.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>공백</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

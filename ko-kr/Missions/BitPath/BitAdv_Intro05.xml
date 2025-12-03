@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase5">
+  <goals>
+    <goal type="getString" target="ax889msjA"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro06.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 증식</subject>
+    <body>이 네트워크 보이지?
+거의 전부에 그 새로운 보안이 깔려있는데, 조금씩 뚫고 있어 - 아직 구멍이 몇 개 있긴 하지만, 진행이 느려.
+
+지금 내가 조사 중인 곳의 IP를 첨부했어. 내가 접근하는 쪽에서는 아직 균열이 안 보이는데 - 자네는 뭔가 나오고 있어?
+관리자 비밀번호 찾으면 이 이메일에 답장으로 보내줘 - 그 서버가 Bit이 이 모든 일에 어떻게 연관됐는지의 핵심인 것 같아.
+
+곳곳에서 나오는 이 "Hacknet 프로젝트"란 얘기도 좀 걱정되네... 들어본 적 있어? OS를 통째로 다시 쓴다는데...
+그건 나중에 알아보자. 지금은 이 릴레이로 들어갈 방법을 찾아봐 - 다음 단계는 그 후에 생각하지.
+
+아마 저들의 프로덕션이랑 스토어 서버 쪽을 둘러볼 거야 - "Prometheus"랑 "Romulus" 같은 것들. 어디에서든 길이 나올 수 있으니까.
+
+행운을 빌어,
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechOutsiderRepo"/>
+    </attachments>
+  </email>
+</mission>

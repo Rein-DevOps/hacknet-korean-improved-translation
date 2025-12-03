@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 조사</subject>
+    <body>흠.
+
+나도 오래 했지만, 이런 건 처음이야. 뚫을 수 없다고 하기엔 이르지만... 새롭긴 해. 뭔가 다르네. 흠.
+EnTech라고? 평범한 백신이나 만드는 회사 아니었나? 이런 걸 판다면 떼돈을 벌 텐데.
+
+이봐, 그 회사 프론트엔드 쪽엔 이렇게 화려한 게 없더라고. 웹 서버 쪽부터 파볼게 - 어느 시점부터 이 새로운 것들이 시작되는지 보려고. 꽤 깊숙이 있는 걸 보니까 어떤 이유로든 숨기려는 것 같아.
+왜 그런지는 모르겠지만 - 뚫기엔 엄청 골치 아파 보여 - 회사들은 그런 거 좋아하지. 새롭고 화려하기도 하고.
+
+이거 완전 수상해.
+자네 쪽에서도 한번 보고 얼마나 들어갈 수 있는지 확인해봐 - 나만 그런가 모르겠는데, 기대했던 것보다 훨씬 나은 단서인 것 같아.
+
+최대한 많이 본 것 같으면 연락 줘. 꼼꼼하게.
+
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechWeb"/>
+    </attachments>
+  </email>
+</mission>

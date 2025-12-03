@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="macrosoftWorkhorse04" name="Macrosoft Workhorse 서버 04" ip="168.61.82.245" security="3" type="3">
+  <ports>21, 80, 1433</ports>
+  <portsForCrack val="3"/>
+  <firewall level="-1"/>
+  <trace time="240"/>
+  <proxy time="0"/>
+
+  <file path="WORKLOGS" name="0118917.log">
+    작업: 파일 암호화
+    인수:
+    파일: LemonStealingWhore.avi
+    출력: SeriousBuisnessDocuments.dec
+    --------------------------------------
+    작업 완료 - 오류 0개 검출
+  </file>
+
+  <file path="WORKLOGS" name="8978163.log">
+    작업: 소스 컴파일 (C#)
+    인수:
+    파일: Main.cs
+    출력: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    작업 미완료 - 오류 1개 검출
+    파일 Main.cs를 찾을 수 없음
+  </file>
+
+  <file path="WORKLOGS" name="3345633.log">
+    작업: 파일 암호화
+    인수:
+    파일: WinCE_FirmwareSpecs.pdf
+    출력: WinCE_FirmwareSpecs.dec
+    암호: beepbeep
+    --------------------------------------
+    작업 완료 - 오류 0개 검출
+  </file>
+
+  <file path="WORKLOGS" name="489820.log">
+    작업: 소스 컴파일 (C#)
+    인수:
+    파일: Main.cs
+    출력: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    작업 완료 - 오류 0개 검출
+    경고 1개 검출:
+    Main.cs 라인 12 위치 8: 도달 불가 코드 검출
+  </file>
+
+  <file path="WORKLOGS" name="9982711.log">
+    작업: 파일 암호화
+    인수:
+    파일: Naruto_Xrated_Collection.zip
+    출력: printer_Drivers.dec
+    암호: BELIEVEIT
+    --------------------------------------
+    작업 완료 - 오류 0개 검출
+  </file>
+  
+  
+</Computer>

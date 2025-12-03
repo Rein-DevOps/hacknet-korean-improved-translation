@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="eosAdded1">
+  <goals>
+    <goal type="getString" target="warsix22"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Smash N' Grab">
+고객이 동료의 전화기에 있는 정보를 요청함
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>파괴 및 탈취</subject>
+    <body>
+요원,
+
+이 계약은 eOS 장치와 보안에 익숙해야 한다 - 고객이 동료 전화기에 저장된 정보를 찾고 있다 - 정확히는 비밀번호인데, 그걸 추출해달라고 한다. 우리가 요청한 대로 장치가 동기화된 컴퓨터의 IP를 제공했다.
+
+이 이메일에 링크되어 있다. 그들이 사용하는 비밀번호를 찾아야 한다 - 여러 개를 발견하면 가능한 한 모두 답장으로 보내라 - 검증 봇이 전부 시도해볼 것이다.
+
+행운을 빈다,
+-Entropy 관리자
+    </body>
+    <attachments>
+      <link comp="eosAdded1Comp"/>
+    </attachments>
+  </email>
+</mission>

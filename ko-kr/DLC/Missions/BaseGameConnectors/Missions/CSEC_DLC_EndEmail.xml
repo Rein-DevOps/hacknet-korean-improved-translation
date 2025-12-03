@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="CSEC_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>CSEC 허브 서비스</sender>
+    <subject>Re:Kaguya 시험</subject>
+    <body>에이전트,
+    
+Kaguya 시험을 수락한 후 한동안 접속하지 않았더군. 무언가 우리 쪽에서 조사할만한 일이라도 있는 건가?
+다른 프로젝트를 진행하기 위해 잠시 쉬고 있는 것이라면 문제될 건 없어. CSEC에서 당신의 자리는 안전하고 언제든 다시 임무를 수행할 수 있으니까.
+
+-CSEC 팀
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="xcRepOK" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+알 수 없는 포스팅 오류
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>회신: 내부 조사</subject>
+    <body>
+훌륭하군, 민간인. 불확실한 것은 하나도 남겨놓지 않았고, 그 결과는 확실하군. 
+
+모두 다 제대로 근무에서 벗어나지 않는 파일들이야. 프로젝트에 몰두하는 팀원들의 노력이 향후에 눈부신 성과를 이루어낼 수 있으면 좋겠군. 
+
+수고했네,
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

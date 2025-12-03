@@ -1,0 +1,44 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advExamplePC2" 
+          name="Adventure Example PC 2" 
+          ip="167.194.132.8"
+          security="0"
+          allowsDefaultBootModule="false"
+          type="1" > <!-- 1 = 기업, 2 = 홈, 3 = 서버, 4 = 공란 -->
+  <!-- 보안(Security)은 해킹 난이도를 나타내는 0~5 사이의 값입니다
+  1~4는 해당 개수만큼의 포트를 열어야 하며, 4 이상은 자동으로 보안이 강화됩니다
+  쉽게 확장할 수 있도록 추가 보안을 설정하거나 아래에서 구체적인 설정을 덮어쓸 수 있습니다 -->
+
+  <!-- 계정 -->
+  <adminPass pass="password" />
+
+  <!-- 파일 -->
+  <file path="home" name="Test_File">home 디렉토리의 테스트 파일입니다</file>
+  <file path="home/NewDirectory" name="Test_File">
+    경로에 뭔가를 추가하면 새 디렉토리도 함께 생성되는 긴 파일입니다
+
+    #BINARY
+    바이너리 데이터를 생성합니다(2000자)
+
+    #PLAYER_IP#
+   플레이어 컴퓨터의 IP로 변환됩니다
+
+    #PLAYERNAME#
+    플레이어 이름으로 변환됩니다
+
+    test test
+  </file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file> <!-- port 1433 ->
+
+  <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+
+  <addOnlineWebServer name="Reddit" url="http://www.reddit.com" /> <!-- http://를 잊지 마세요 -->
+  
+</Computer>

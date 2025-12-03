@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="practiceServer" name="관행" security="4">
+  <ports>80, 22, 21, 25, 1433, 3724, 6881</ports>
+</Computer>

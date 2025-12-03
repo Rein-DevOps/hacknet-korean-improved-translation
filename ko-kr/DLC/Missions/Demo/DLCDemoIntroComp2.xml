@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dDemointro2" name="Kaguya Source" security="3" type="4">
+
+  <!-- This is the second DLC intro server, that gives the player the intro exe that wipes their mail icon
+  It's designed to be pretty empty - it's a recruitment server that's designed to be hackable and targeted,
+  but Kaguys is pretty dilligent and wipes it often. The sort of people that will be trying this are a higher
+  class of Hacker too, so not as much vandalism. Mostly clean, I think - maybe just a single note or so in
+  a different folder?-->
+  
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+
+  <file path="bin" name="Recruitment.txt">
+내 이름은 Kaguya. 팀을 모집하고 있어.
+엘리트만 받을 것이며,  모든 자료는 공유하고 보다 큰 일을 도모하는 것이 목표야.
+관심 있는 사람은 여기 이 실행 파일로 지원할 수 있어.
+이 프로그램을 실행하면 시험에 응할 것이며
+본인의 자격이 미달일 수도 있음에 동의하게 되는 거야.
+행운을 빌어.
+  </file>
+  
+  <file path="home/backups" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+  <file path="bin" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+
+  <encryptedFile path="home/msg" name="kenobi.dec" extension=".txt" ip="192.168.1.1" header="onlyhope" pass="Obi-Wan">
+너희 팀이 옳은 일, 정의를 위해 싸운다는 얘길 들었어. 
+도와 줘, Kaguya. 네가 유일한 희망이야.
+좆같은 아마추어 해커놈들 몇이 우리 부모님의 네트워크에 침입해서 은행 계좌 정보, 여권 정보랑 노후 대비 저축 자금을 훔쳐갔어. 
+우린 이 쓰레기 같은 곳에서 탈출해 미국으로 가기 위해서 몇 년 동안 돈을 모아왔거든. 
+우리 여권 정보는 이미 암시장에 팔렸을 게 분명해, 돈은 이미 오래 전에 사라져 버렸겠지.
+누가 좀 도와줘. 제발.
+난 1337 해커는 아냐, 그치만 너희라면 날 도와줄 수 있을 것 같아.
+제발?
+kingjoffery227@jmail.com 
+</encryptedFile>
+
+  
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/MiamiThemeLight.xml"/>
+
+</Computer>

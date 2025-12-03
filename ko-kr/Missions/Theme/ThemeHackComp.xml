@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="themeHackComp" name="Proxy_Node-X22" security="1">
+  <dlink target="naixGateway"/>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="sys" name="x-server.sys">#GREEN_THEME#</file>
+  <file path="home" name="Get_Out.txt">
+재밌군,
+
+내 생각보다 훨씬 실력이 좋은데? 솔직히 놀랐어.
+
+농담이 텍스트로는 잘 전달이 안 되는 게 아쉽지만.
+
+한 가지만 더, 절대 아무것도 건드리지 마. 난 이 프록시가 마음에 들거든. 
+  </file>
+  <file path="log" name="@11907_Connection_Routed_173.194.35.172_To_173.188.235.2">173.194.35.172에서 173.188.235.2으로 연결이 라우팅됨</file>
+  <file path="log" name="@28907_Connection_Routed_173.194.35.172_To_203.194.22.112">173.194.35.172에서 203.194.22.112으로 연결이 라우팅됨</file>
+  <file path="log" name="@52734_Connection_Routed_173.194.35.172_To_#PLAYER_IP#">173.194.35.172에서  #PLAYER_IP#으로 연결이 라우팅됨</file>
+</Computer>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedeletion" target="dDemointro1" file="x-server.sys" path="sys"/>
+  </goals>
+  <missionStart val="0" suppress="true">loadConditionalActions:DLC/ActionScripts/HermeticAlchemistsActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="헤르메스 연금술사">
+  잘 알려지지 않은 철학 분야인 "헤르메스 연금술사"는 이상할 만큼 상당한 네트워크를 구축해 놓았더군. 조사를 해보니 저들의 관리자는 우리가 얼마 전부터 입수하고자 했던 툴을 개발하고 있었더라고.  
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>헤르메스 연금술사</subject>
+    <body>
+이 관리자는 추적 기술의 천재인 것 같은데, 어찌된 건지 이 연금술 사업에 완전히 빠져 있는 것 같아. 저들의 네트워크는 일종의 이상한 요새이긴 하지만, 우리는 이 관리자 녀석의 집 컴퓨터를 추적하고 이 소프트웨어를 입수해야 해.
+
+이건 팀 프로젝트다 - 팀에 도움이 될 만한 걸 찾으면 채팅으로 알리도록 해.
+행운을 빌어.
+    </body>
+    <attachments>
+      <link comp="dhaEntry" />
+      <note title="헤르메스 연금술사 계약">네트워크를 조사하고 관리자의 집 컴퓨터를 추적한다.
+그곳에서 새로운 종적 추적 또는 예방 소프트웨어를 다운로드하고, 드롭 서버에 업로드하도록.
+</note>
+    </attachments>
+  </email>
+</mission>

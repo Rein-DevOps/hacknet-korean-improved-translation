@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="Whit" isMale="true">
+  <Birthplace name="런던"/>
+  <Degrees>
+    <Degree uni="맨체스터 대학" gpa="3.3">법학 석사</Degree>
+    <Degree uni="맨체스터 대학" gpa="3.1">정치 과학 학사</Degree>
+  </Degrees>
+  <DOB>09/09/1961 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>없음</Allergies>
+    <Perscription>이버멕틴 x35 매월 :: 심박수 조절</Perscription>
+    <Notes>환자 심장의 재발성 중증 부정맥 문제로 인해, 침습적 수술 없이 미지의 변수를 설명하고 미세 조정이 가능하도록 심박 조율기를 장착했습니다.
+
+참고:
+.
+.
+심박 조율기 연결 ID: 202.6.141.219
+문서 및 노트: 66.96.147.84
+.
+.
+추가 세부사항:
+심박 조율기를 방해할 수 있는 조치를 취하거나 침습적 수술을 수행하기 전에, 안정성 확인을 위해 제조업체에 문의하십시오.
+    </Notes>
+  </Medical>
+  <Notes>심박 조율기 미션 사례</Notes>
+</Person>

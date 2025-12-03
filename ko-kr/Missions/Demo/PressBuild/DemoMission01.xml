@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <goal type="FileDeletion" target="pointclickerDemo" file="Bit.pcsav" path="PointClicker/Saves"/>
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission02.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>처녀항해</subject>
+    <body>축하해!
+솔직히 네가 성공했는지는 확인할 방법이 없지만, 이걸 보고 있다는 건 최소한 뭔가는 찾았다는 거니까, 정말 유용한 걸 찾았을 거라 믿어.
+
+여기 좋은 테스트가 하나 있어 - 방금 찾은 새 프로그램을 시험해볼 수 있는 거야. 내가 정말 부끄러울 정도로 많은 시간을 쏟아부은 게임이 있는데, 이렇게 된 이상 - 뭐 - 내 유산에 그런 게 남아있지 않아도 될 것 같아.
+서버 보안이 그리 강하지 않을 거야 - 들어가서 내 계정을 삭제해줘.
+
+새 도구를 사용해야 할 수도 있어. 그럴 땐 도구 이름과 타겟 포트 번호를 입력해서 실행하면 돼, 이렇게:
+
+&gt;SSHCrack 22
+ ^filename ^portnumber
+
+크랙하고 싶은 포트를 찾아서 실행하기만 하면 돼.
+
+아, 그리고 혹시 모를까봐 말해두는데, 탭 키를 누르면 명령어가 자동완성돼 - &quot;ssh&quot;를 치고 탭을 누르면 전체 이름이 자동완성되는 식이야. 모든 명령어에 적용돼!
+
+행운을 빌어!
+
+--Bit
+0
+
+    </body>
+    <attachments>
+      <note title="미션 개요">Point Clicker 서버에 연결하세요.
+Probe를 사용해 어떤 포트가 열려있는지 확인하세요.
+프로그램으로 하나를 타겟팅하고 올바른 포트를 지정하세요
+예: &quot;SSHCrack 22&quot;
+    ^filename ^portnumber
+
+충분한 포트를 뚫으면 &quot;Porthack&quot;을 사용해 타겟의 보안을 침해할 수 있습니다.
+&quot;ls&quot; 명령어로 파일과 폴더를 나열하세요
+사용자 이름이 &quot;Bit&quot;인 세이브 파일을 삭제하세요
+      </note>
+      <link comp="pointclickerDemo"/>
+    </attachments>
+  </email>
+</mission>

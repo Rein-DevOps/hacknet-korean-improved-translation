@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase8_WIN" activeCheck="true">
+  <goals>
+    <goal type="delay" time="15"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_ZFinale01.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 완료</subject>
+    <body>그렇게 끝이 나는군.
+복수치곤 공허해. 그가 남긴 그림자에 분노를 퍼붓고, 그를 돕기엔 너무나 늦어버렸지. 그래도 이게 옳다고 느껴져.
+익숙해져야겠지 - 아무도 알아채지 못할 거야. 손실에 격분할 놈들만 빼고는. 이게 얼마나 큰 피해를 막았든, 우리한테 감사할 사람은 없을 거야.
+세상이 그런 거겠지.
+자네가 많이 도와줬어, 고맙게 생각해.
+이 익명의 베일을 쓰고 할 수 있는 일에도 한계가 있거든 (그리고 이런 일 후에 벗는 건 끔찍한 타이밍이겠지), 그러니 CSEC에서 다시 만나지.
+
+거기는 늘 혼란스럽지, 곧 은혜를 갚을 방법을 찾을게.
+
+고마워. 진심으로.
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

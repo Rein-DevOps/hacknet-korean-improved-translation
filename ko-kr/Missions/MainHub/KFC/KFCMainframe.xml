@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="kfcMainframe" name="CFC 기업 메인프레임" security="5" type="4">
+  <trace time="320"/>
+  <proxy time="0"/>
+  <firewall level="0"/>
+  <dlink target="kfcWebServer"/>
+  <dlink target="kfcRecordsRepo"/>
+  <admin type="fast" resetPassword="true"/>
+
+  <file path="home/training_files" name="New_Employee_Welcome_Email.txt">
+    %NAME%,
+
+    CFC 가족이 된 것을 환영합니다!
+
+    Kernel's Food Corner는 훌륭한 경력, 재미있는 일, 친절한 팀을 제공합니다. 저희와 함께 좋은 시간 보내시길 바랍니다!
+    팀 멤버로서 12% 직원 할인 카드를 받으실 수 있습니다. 이 편지에 동봉되어 있습니다. 즐기세요!
+
+    첫 근무 때 매장과 관행에 대한 정식 교육을 받게 됩니다. 다시 한번 가족이 된 것을 환영합니다.
+
+    -경영진
+  </file>
+
+  <file path="home/training_files" name="11_Secret_Herbs_And_Spices.txt">
+    많은 신입 사원들이 호기심에서, 또는 회사에 더 깊이 관여하고 싶어서 비밀 레시피에 대해 궁금해합니다. 안타깝게도 레시피는 너무 중요해서 모든 직원에게 공개할 수 없습니다(특히 최근 직원 유지율을 고려하면). 따라서 보호되고 있습니다.
+    배합물은 정기적으로 표시 없는 흰색 플라스틱 봉투에 담겨 매장으로 보내지며, 지시에 따라 튀김 반죽과 혼합해야 합니다.
+
+    경영진도 레시피를 받을 수 없습니다. 사실 전 세계에서 단 2명만이 언제든 레시피를 알고 있으며(그들은 같은 차량으로 동시에 이동하는 것이 명시적으로 금지되어 있습니다).
+
+    우리의 완벽한 치킨 레시피는 신중하게 생산되고 주문되며, 매우 잘 보관되는 비밀이니 안심하세요.
+  </file>
+  <file path="home/training_files" name="Order_Records_Guide.txt">
+    각 매장의 주문 기록은 로컬로 기록되어야 하며, 아카이브된 업데이트는 매년 중앙 CFC 기록 저장소로 보내야 합니다.
+    주문 출처는 동일한 저장소에 보관되며, 기록은 비상시에만 이용 가능합니다(일반적으로 식중독 문제를 추적하기 위해). 요청 시 개인적으로 인쇄 형식으로만 발행됩니다.
+
+    CFC 기록 저장소: 202.7.177.65
+
+  </file>
+
+
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    Kernel's Food Corner의 사명은 하나입니다: 세계 최고의 맛있는 치킨을 제공하는 것.
+    그래서 우리는 최고의 재료, 신선하게 배달되는 통닭만으로 시작합니다.
+    그런 다음 우리만의 비밀 레시피로 신선하게 손으로 반죽하여 모든 레스토랑에서 인증된 CFC 요리사들이 신선하게 요리합니다.
+    쉬울까요? 아니요. 하지만 한 입만 먹어보면 왜 이 모든 추가 노력이 가치 있는지 알게 됩니다.
+    신선한 게 더 맛있으니까요. 가까운 CFC를 방문해서 직접 맛보세요.
+  </file>
+
+</Computer>

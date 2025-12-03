@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMissionFail01">
+  <goals>
+    <goal type="getString" target="168.61.82.246"/>
+  </goals>
+  <nextMission>Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>이걸로 충분하길</subject>
+    <body>
+요청한 작업을 완수한 것 같군, 최소한 대충 보기엔 그래. 이제 당분간은 이 커뮤니티의 이미지가 좀 더 문명적으로 유지되기를 바란다.
+
+지금으로선 일이 끝난 것 같지만, 다른 복사본이 없었다고는 완전히 확신할 수 없어 - 내가 잠수 타고 있는 해커 IRC 채널 중 하나에서 삭제된 것에 대한 얘기가 나올 줄 알았는데, 지금까진 아무 소식도 없거든. 반응이 지연되는 거거나 덮으려는 거면 좋겠는데.
+더 파보고 싶으면 마음껏 해.
+
+그 사이에 도와줄 게 있어 - 그 채널에서 누군가가 네가 조사하던 건에 대해 얘기하더라고 - 파일이 빼내진 서버의 IP를 가지고 있다고 하던데.
+
+그걸 좀 구해줄 수 있어? 그냥 여기에 IP를 추가 텍스트로 넣어서 답장해줘. 그 사람한테 간단한 추적을 걸었는데, 내가 링크한 곳에 데이터가 있을 것 같아. 
+
+고마워,
+-Tex
+
+    </body>
+    <attachments>
+      <link comp="entropyAdvFail01"/>
+    </attachments>
+  </email>
+</mission>

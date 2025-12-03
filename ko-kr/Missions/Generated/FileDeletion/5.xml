@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Stop the Harvesters">
+어떤 고객이 경쟁사에서 불법으로 고객의 데이터를 수집하여 광고 업체에 정보를 팔아서 시장에서 우위를 차지한 것을 발견했다. 
+이를 막아라.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 망친 수확</subject>
+    <body>
+요원, 
+
+우리 회사에서는 최근 한 경쟁사가 시장에서 불공정하고 부당한 방법으로 고객 데이터(이메일, 이름, 선호 사항, 등)를 수집하여 광고 업체에 팔아서 이득을 챙기고 있는 것을 발견했네. 
+이는 개인 정보 보호 차원에서도, 그리고 시장 윤리 차원에서도 있을 수 없는 일이네. 특히 1998년에 제정된 정보보호법에 어긋나는 일이지.
+
+ 당신이 저들의 서버에 들어가 판매하고 있는 사용자 정보 아카이브를 파괴해주면 좋겠네. 법적인 대응은 또 따로 취할 것일세 (그러니 증거 확보는 걱정할 필요 없네). 
+
+수고하게,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

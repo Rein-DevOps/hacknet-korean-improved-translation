@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMissionIntro">
+  <goals>
+    <goal type="FileDeletion" target="playerComp" file="SecurityTracer.exe" path="bin"/>
+  </goals>
+  <nextMission>SSHCrackMission.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>첫 접촉</subject>
+    <body>안녕.
+
+당신이 누군지 모르고, 앞으로도 알 수 없겠지만, 이 메일을 읽고 있다면 당신이 상황을 바로잡을 수 있는 유일한 사람일지도 몰라.
+
+지금 나는 갇혀 있어. 탈출구도 없고, 시간도 부족하고, 당신의 도움이 필요해.
+
+하지만 먼저 처리해야 할 게 있어. 빠를수록 좋아.
+HacknetOS는 지금 상태로 배포될 예정이 아니었어. 잠시 후면 자동 추적기가 작동하는데, 그걸 막아야 해.
+당신의 노드(넷맵에서 녹색)에 접속해서 &quot;SecurityTracer.exe&quot;를 찾아서 삭제해.
+
+끝나면 이 메일에 답장만 보내줘.
+
+서둘러!
+-Bit
+0
+    </body>
+    <attachments>
+      <note title="Hacknet 탐색 가이드">Hacknet 탐색 가이드
+
+디스플레이 모듈이나 &quot;cd [Foldername]&quot;, &quot;cat [Filename]&quot; 명령어로 파일을 탐색하고 읽을 수 있습니다.
+
+&quot;rm [Filename]&quot;으로 파일을 삭제할 수 있습니다.
+
+Tab 키로 명령어와 파일명을 자동완성할 수 있습니다.
+      </note>
+    </attachments>
+  </email>
+</mission>

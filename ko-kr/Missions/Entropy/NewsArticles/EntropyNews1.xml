@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy Group engaged in malicious Hacking?">
+최근 보도에 따르면 인터넷 그룹 "Entropy"가 악명 높은 해커를 비호하고 일감을 제공하고 있다고 한다.
+아직 확인되지 않은 정보지만, 사실이라면 이 그룹은 가까운 미래에 심각한 법적 조치에 직면할 것이 확실하다.
+이 기자의 시각에서 이는 생산적인 그룹들이 번성할 수 있게 해주는 네트워크에 대한 명백한 배신 행위이며, 엄중히 처벌받아야 마땅하다. 
+
+기자 : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy를 막아야 한다</subject>
+    <body>
+Entropy 데이터베이스를 파괴하라
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

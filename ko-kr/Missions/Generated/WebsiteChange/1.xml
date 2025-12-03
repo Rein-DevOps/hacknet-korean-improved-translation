@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="generatedWebVandal01">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="#LC_CLIENT#@jmail.com"/>
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Aid a recruitment drive for #CLIENT#">
+#CLIENT#가 현재 고전 중인 직원 채용 활동을 돕기 위해 경쟁사로 가는 지원서 일부를 자신들의 이메일로 리디렉션하려 함.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>채용 경쟁</subject>
+    <body>
+요원,
+
+최근 저희 회사는 새 직원을 구하는 데 어려움을 겪고 있습니다. 주로 경쟁사들의 압도적으로 성공적인 채용 활동 때문입니다.
+경쟁 환경을 평평하게 만들고 싶은데, 그들의 채용 트래픽 일부를 일시적으로 저희 쪽으로 리디렉션해서 말입니다.
+
+그들의 채용 웹사이트는 아래 링크에 있습니다. 그들의 연락 이메일 주소를 저희 것으로 바꿔주시기 바랍니다:
+
+#LC_CLIENT#@jmail.com
+
+
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

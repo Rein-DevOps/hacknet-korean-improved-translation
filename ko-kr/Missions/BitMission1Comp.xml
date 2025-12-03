@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="bitMission01" name="P. Anderson의 침실 PC" security="1" type="4">
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX">[IP MASKED]와 연결됨.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">[IP MASKED]와의 연결에 관리자 권한 부여됨.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">[IP MASKED]가 [Valence_Dossier.pdf] 파일을 읽음 -- 시스템 관리자</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">[IP MASKED]가 [Valence_Dossier.pdf] 파일을 삭제함 -- 시스템 관리자</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[IP MASKED]와의 연결 해제됨</file>
+
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+police num
+14 L 510 66
+
+
+claim num
+AAH 886</file>
+  
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[초안]
+
+05/08
+
+아버지,
+
+제 선택을 이해하시지 못한다는 거 알아요. 이해해달라는 것도 아니에요. 하지만 최소한 제 선택을 존중하고, 저를 여전히 아들로 대해주실 순 있잖아요.
+
+그게 안 되신다면, 보스턴을 떠날 수밖에 없어요. 제 영웅이자 롤모델이었던 분이 제 존재를 무시한 채 같은 도시에 살고 있다는 게 견딜 수가 없어요.
+
+최선을 다해 아버지께 설명하고, 이해하려 노력했지만, 이제는 한계입니다.
+
+James와 LA로 갑니다. 대화하고 싶으시면 연락주세요.
+
+가볍게 내린 결정이 아니라는 걸 알아주세요. 제게 꼭 필요한 선택이에요. 언젠가는 아버지도 있는 그대로의 저를 받아들여주실 거라 믿어요.
+
+사랑해요.
+
+Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt">
+[HotRice] 스트리밍 준비 됐어?
+[Kiah] 글쎄...
+[Kiah] 죽을 각오는 됐나?
+[M4cr0b4t] ㅋㅋㅋ
+[HotRice] 닥쳐 Johnson!
+[HotRice] 땅콩버터랑 마이크로칩 사건 또 들먹이게 만들지 마 :P
+[M4cr0b4t] 딱 한 번이었다고!
+[HotRice] 한 번이면 충분하지
+[HotRice] Hellerphant는 어디 있어? 연락 받은 사람?
+[Kiah] 아무도 몰라.
+[Kiah] 예상치 못한 순간에 나타나는 신비로운 환상의 짐승이지.
+[HotRice] 진짜, 스트리밍 스케줄 완전 엉망이야.
+[HotRice] 볼 때마다 예상과 달라. 스케줄이라는 게 그냥 추측과 무너진 희망의 뒤죽박죽이야.
+  </file>
+  
+  <file path="home/Documents" name="Laptop.txt">
+    컨벤션 보험 적용 안 됨 (배상, 권리 등??)
+    개인 보험
+    &quot;사건 전 미신고&quot;
+    (귀중품은 도난당하기 전에 신고해야 함???)
+
+    경찰:
+    &quot;수사는 가능, 보상 불가&quot;
+    결과는 기대하기 어려울 듯...
+  </file>
+  
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -서론
+    -결정적인 증거는 없지만 단서는 확보함
+    -컨벤션에서 조사 파일이 담긴 노트북 도난당함
+    -가장 가능성 높은 파일을 여기로 복사해뒀는데... --- ????? 분명 했던 것 같은데?
+    -발견한 내용은 곧 상세히 제출 예정
+  </file>
+</Computer>
+

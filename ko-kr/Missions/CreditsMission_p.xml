@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>회신: 끝</subject>
+    <body>
+아 참,  한 마디만 더 하겠습니다... 
+
+Hacknet을 불법복제하신 것 압니다. 
+
+괜찮습니다. 아마도 여러 가지 사정이 있겠지요. 돈이 없거나, 현재 인디게임에 대한 신뢰가 별로 없는 것에 대해 제가 뭐라 할 수 있는 것은 아니지요. 
+
+하지만... Hacknet은 거의 전부 제가 만들었고, 이것의 판매 수익금은 향후 프로젝트 및 업데이트에 직접적으로 투입됩니다. 게임이 마음에 들었으면, 사정이 괜찮아졌을 때 구매하는 것을 고려해보세요! 
+
+DRM에 반대하시는 입장이라면, DRM 없는 버전이 GOG.com과 Humble Store에 있습니다. 
+
+비록 저는 Steam 버전을 선호하지만요. 아무튼, 플레이해주셔서 감사합니다. 제가 이것을 만들면서 느꼈던 것만큼 여러분도 플레이하면서 즐거우셨기를 희망합니다.
+
+-Matt
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

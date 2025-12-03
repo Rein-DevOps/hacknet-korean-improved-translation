@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_whitelist" name="PacificAir_Whitelist_Authenticator" security="5" type="4" icon="PacificAir">
+
+  <!-- This server is part of the security system the external contractors "Psylance" put in place
+  Connections to the critical servers (Bookings mainframe, mail, and this one) are automatically denied
+  unless they're on the whitelist, hosted on this server.
+  
+  Shortly after the player gets here, Coel or Default will work their magic to disable it.
+  Alt plan is to add the team's IP's to the list, but that involves a lot of extras
+  (making comps for Coel/default if the player follows the lead, scan being less elegant,
+  someone needing to delete those entries after mission is over. Desirables, if I have time)
+  
+  This means that this computer contains a list of external IPs of employee home computers that can access it.
+  Scanning will reveal all of these, as a shortcut.
+  
+  It should contain a few technical documents explaining what it does, and a few notes from the Psylance staff about
+  people who want access etc, and a copy+paste message they can use to deny people.
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="55" />
+  <portsForCrack val="2" />
+  <ports>21, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <positionNear target="dpa_nethub" position="180" total="360" extraDistance="0.1"/>
+
+  <dlink target="dpae_airline_misc"/>
+  <dlink target="dpae_airline_mailLink"/>
+  <dlink target="dpae_airline_home"/>
+  <dlink target="dpae_psy_1"/>
+  <dlink target="dpae_psy_2"/>
+
+  <WhitelistAuthenticatorDaemon />
+  
+  <file path="Whitelist" name="list.txt">
+98.124.245.24
+141.8.224.143
+141.88.107.140
+208.91.197.160
+209.68.11.125
+  </file>
+
+
+  <file path="home" name="general.txt">이 서버는 Psylance의 수직 통합 보안 시스템의 필수 요소입니다. 그 기능은 귀하의 인프라에서 선택된 중대 요소에 대한 무단 연결을 방지하는 것입니다.</file>
+  
+  <file path="home" name="connection_autodeny_draft.txt">연결이 거절됨. 이유: 화이트리스트에 있지 않음
+이 메시지가 부정확하다고 생각하시면, 여기에 이메일 삽입 으로 Psylance 인증 관리자에게 문의하시기 바랍니다.
+참고: psylance에 전달</file>
+
+  <file path="home/requests" name="denial_template.txt">안녕하세요, 여기에 이름 삽입 님,
+서버 접속 신청을 해주셔서 감사합니다.
+안타깝게도, 이 장치에 대한 접속은 매우 제한적이며, 귀하의 접속 신청 사유는 화이트리스트에 추가되기 위한 임계값을 충족하지 않습니다.
+중요한 세부정보가 누락되었거나 이 메시지가 잘못 전달되었다고 생각하시면, 여기에 이메일 삽입 으로 Psylance 인증 관리자에게 문의하시기 바랍니다.</file>
+
+  <file path="home/requests" name="rq_g.txt">로그:거부
+참고:무책임한 노드 접속으로 알려짐</file>
+
+  <file path="home/requests" name="rq_n.txt">로그: 수락됨
+참고: 팀의 중요한 멤버, 접속에 중요하고, 신뢰할 수 있는 자로 알려짐</file>
+
+  <file path="home/requests" name="rq_test.txt">안녕, 내 이름은 어쩌구이고 저쩌구 사유로 접속이 필요합니다. 날 들여보내줘, 정말 외로워.</file>
+  
+</Computer>

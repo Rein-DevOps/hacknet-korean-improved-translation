@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Intro">
+  <goals>
+  </goals>
+  <missionStart>csecAddTraceKill</missionStart>
+  <nextMission>BitPath/BitAdv_Intro02.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 토대</subject>
+    <body>이봐,
+
+좀 비정규적인 방법이지만, 줄을 하나 당겼어. 자네가 바로 그 Bit 건을 맡았던 사람이지? 거기서 무슨 일이 있었는지 찾고 있는.
+추가 정보가 더 필요해서 같은 사람한테 부탁하고 싶었어. 이 메일을 받았다면 방금 배정된 계약을 끝냈단 뜻이니, 시작해도 좋겠지.
+
+솔직히 말하면, CSEC에서 "줄을 당긴다"는 건 가볍게 쓸 표현이 아니야. 특히 이번 경우는 더더욱. 자네는 빠르게 결과를 내니까, 이번에도 자네가 맡아줬으면 해.
+이번엔 좀 더 협력적으로 진행하지. 내가 자네가 참여하고 싶어할 거라 확신하는 데는 이유가 있어 - CSEC 자산 서버에 아주 매력적인 인센티브가 기다리고 있거든:
+
+~/bin/TK/TraceKill.dec
+이걸 찾아봐. 비밀번호는 "dx122DX"
+
+복사해서 답장을 보내줘. 항상 그렇듯 관리자들이 보안에 편집증적이라 익명으로 그들 시스템을 통해 내게 전달될 거야 - 뭐 어쨌든. 준비되면 여기 답장해, 다음 단계를 알려줄게.
+
+V
+    </body>
+    <attachments>
+      <link comp="mainHubAssets"/>
+    </attachments>
+  </email>
+</mission>

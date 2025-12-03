@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="nortronMail" name="Nortron 메일 서버" security="1">
+  <ports>25</ports>
+  <trace time="10.0"/>
+  <firewall level="17" solution="123456789ABC"/>
+  <link target="nortronMainframe"/>
+  <positionNear target="nortronMainframe" position="2" total="3"/>
+  
+  <!-- Mail Server Accounts -->
+  <account username="j.abrams" password="bootyking420" type="2"/>
+  
+  <mailServer name="Nortron Mail" color="220,208,69">
+    <email recipient="j.abrams" sender="Peter Evans" subject="Where's that report?">
+John,
+
+Rootkit 분석 보고서 아직 기다리고 있는데 - 진행 상황 어때?
+여기서 새 광고 캠페인 내보내려고 하는데 위에 있는 분들이
+마케팅 팀이 뭘 하는지 알긴 하는 건지 확신하고 싶어 하네.
+
+가능하면 월요일까지 줘봐 - 재촉하긴 싫지만 이게 다른
+사람들 일도 막고 있어.
+
+수고해,
+-Peter
+    </email>
+    <email recipient="j.abrams" sender="hornberg@gmx.de" subject="Fw:Fw: Best Graffiti">
+      -------- 원본 메시지 -------- 제목:     전달: 최고의 낙서
+      날짜:     2012년 10월 31일 수요일 18:54:54 +1300
+      송신:     TK Skull tkn.skull@xtra.co.nz
+        수신:     skull1@ntlworld.com
+          , &quot;JJ SK&quot; e4@bigpond.com
+            , &quot;G?nter Hornberg&quot; ghornberg@gmx.de
+              , &quot;Andrea Senior&quot; senior@xtra.co.nz
+                , &quot;Cols&quot; C.D.Wilson@xtra.co.nz
+                  , &quot;Flo Wilson&quot; FloJoW@xtra.co.nz
+
+From: gandgrichards@xtra.co.nz 
+전송: 2012년 10월 31일 수요일 2:58 PM&lt;br&gt;
+수신: gandgrichards@xtra.co.nz 
+제목: 전달: 최고의 낙서&lt;br&gt;
+
+제목: : 최고의 낙서 
+
+&gt; 
+ &gt; 
+ &gt; 진짜 대박이야... 즐겨봐
+ &gt;
+  
+--일부 내용이 로딩되지 않았을 수 있습니다--
+    </email>
+        <email recipient="j.abrams" sender="gandgrichrds@xtra.co.nz " subject="Fw: Aircraft Shots!">
+송신: gandgrichrds@xtra.co.nz 
+전송: 2012년 10월 19일 금요일 8:41 AM
+&lt;br&gt;수신: gandgrichrds@xtra.co.nz 
+제목: 전달: Aircraft Shots
+
+제목: .... 항공기 촬영....
+
+pps 파일 열어봐.&lt;br&gt;첨부: 파일...
+
+
+무료 이메일 이모티콘 - IncrediMail 제공
+
+--의심스러운 exe 서명으로 첨부 파일 제거됨--
+    </email>
+    <email recipient="j.abrams" sender="Nortron IT Support" subject="RE:Cant Log In">
+Abrams씨,
+
+이것에 대해 알려드리는 게 벌써 네 번째입니다. 당신 책상 위에 Nortron 방화벽 정책을 상기시키는 큰 표지판이 걸려 있는 걸 분명히 보셨을 겁니다. 우리는 보안을 매우 심각하게 받아들이며, 인터넷에 접속하기 전에 방화벽을 우회하기 위해 로그인하도록 요구하는 것은 회사를 안전하게 지키는 중요한 부분입니다.
+
+전에 말씀드렸듯이, 모든 내부 서버의 방화벽 우회 비밀번호는:
+
+123456789ABC
+
+입니다. 잊어버리지 않을 곳에 이걸 적어두세요.
+
+-IT
+
+
+  | IT,
+  | 아직도 안 고쳐졌어!
+  | 인터넷 접속이 전혀 안 돼!
+  | 인터넷 없이 어떻게 일을 하라는 거야!
+  | 무슨 방화벽 비밀번호 같은 걸 물어보고 있어.
+  | 고장난 거야? 왜 이걸 고쳐주지 못하는 거지, 자꾸 이래!
+  |
+  | 인터넷에 어떻게 들어가는 건데, 이거 엄청 중요하다고!
+  |
+  | Mr. J. Abrams
+  | Nortron 마케팅
+    </email>
+    
+  </mailServer>
+</Computer>

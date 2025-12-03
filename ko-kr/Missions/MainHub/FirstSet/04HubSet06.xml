@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work"/>
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="Track an Encrypted File">
+DEC 암호화 파일이 어디서 암호화되었는지 추적할 방법을 찾은 것 같아 - 우리에게 암호로 잠긴 파일이 있는데 열고 싶어. 시작할 만한 단서는 충분할 거야.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>스파이글래스를 통해</subject>
+    <body>
+DEC 암호화 파일들은 암호화된 헤더에 암호화가 이루어진 IP를 저장한대 - 아마 디버그 용도겠지만, 우리 보기엔 활짝 열린 보안 취약점이야 - 다행이지, 우리가 해독해야 할 파일이 있는데 암호를 전혀 모르거든.
+
+자, 첫 번째 단계는 - 이 헤더들을 읽는 방법을 찾는 거야. 좀 조사해봤더니 DEC Solutions 직원 중 한 명이 파일 암호 없이도 헤더를 해독하는 방법을 갖고 있을 수 있다는 걸 알아냈어.
+그 쪽을 둘러보고 쓸만한 게 있으면 답장해줘. 그 다음엔 추가 작업을 줄게.
+
+-CT 팀
+    </body>
+    <attachments>
+      <link comp="jscottHome"/>
+    </attachments>
+  </email>
+</mission>

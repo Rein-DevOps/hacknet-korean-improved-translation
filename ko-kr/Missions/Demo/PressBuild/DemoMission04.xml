@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission04" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_185.11.124.4_Disconnected" path="log"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_logarchive" path="log"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="x-server.sys" path="sys"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="netcfgx.dll" path="sys"/>
+  </goals>
+  <missionStart>demoFinalMissionStart</missionStart>
+  <missionEnd>demoFinalMissionEnd</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>설욕</subject>
+    <body>준비됐어.
+
+테이크다운이 필요해. 눈치챘겠지만, 지금까지는 대부분 네 실력을 끌어올리기 위한 거였어 - 여기서부터가 진짜 시작이야.
+&quot;Sequencer&quot;를 실행하면 내가 서버 하나에 남겨둔 스크립트가 작동할 거야. 웹 서버 하나로 연결을 열 거고, 그 서버를 파괴하면 돼 - 들어가서 /sys/ 폴더의 모든 걸 삭제해.
+
+이전과는 좀 다를 거야 - 그 서버가 숨겨진 데는 이유가 있어. 대규모 추적기가 달려있을 거야. 그게 sequencer가 도와주는 부분이야 - 최대한 오래 연결을 유지하고, UI에 남은 시간을 알려줄 거야. 계속 실행 중으로 유지해.
+
+자세한 내용은 항상 그랬듯이 첨부했어.
+일단은 이게 내가 보내는 마지막 메시지가 될 거야 - 어느 쪽이든 이 빌드는 임시로 만든 거였어 - 진짜를 위한 준비 과정.
+
+행운을 빌어.
+싸워.
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="미션 개요">시작하기 전에 이 메모를 암기하고 지워버려 - 모든 시스템 리소스가 필요할 거야.
+
+Sequencer 실행
+EnTech에 연결
+시스템 Probe
+포트 브레이커 실행
+Porthack
+/sys/ 폴더로 이동
+모든 것 삭제 (rm *)
+모든 로그 삭제
+연결 해제
+      </note>
+    </attachments>
+  </email>
+</mission>

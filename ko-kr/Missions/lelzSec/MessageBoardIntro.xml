@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionStart>assignPlayerToLelzSec</missionStart>
+  <nextMission>lelzSec/CompletedPathMission.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>중요한 링크</subject>
+    <body>
+오케이, 내가 너를 잘못 봤던 것 같아. 솔직히 인정하고 사과할게. 괜찮았어.
+
+네가 이제 꽤 괜찮게 증명해냈고, 다른 사람들이랑 얘기해봤는데 들어와도 된대.
+네 IP가 화이트리스트에 등록됐어 (그러니까 당분간 바꾸지 마), 이제 들어와도 돼.
+
+환영한다.
+
+-Naix
+    </body>
+    <attachments>
+      <link comp="lelzSecHub"/>
+    </attachments>
+  </email>
+</mission>

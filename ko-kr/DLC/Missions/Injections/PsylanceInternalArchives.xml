@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPsyArchives" name="Psylance Internal Archives" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="2" />
+  <ports>21, 22</ports>
+  <firewall level="-1"/>
+  <proxy time="1.2" />
+  <trace time="29" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="faithless" />
+  <positionNear target="dPsyInternal" position="212" total="360" extraDistance="0"/>
+  
+  <file path="home" name="ThisServer.txt">주의!
+이것은 자동 아카이브 서버입니다. 먼저 담당자와 상의하기 전에는 여기 있는 것들을 복사하지 마십시오!
+날짜별 아카이브는 자동으로 압축되고 여기에 복사되므로 우리가 작업했던 모든 내용들이 백업됩니다.
+-Faith
+  </file>
+
+  <file path="home/archives" name="0_q1.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q2.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q3.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q4.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q1.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q2.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q3.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q4.zip">#BINARY#</file>
+  <file path="home/archives" name="2_q1.zip">1101010001000110011#BINARY#</file>
+  
+  
+</Computer>

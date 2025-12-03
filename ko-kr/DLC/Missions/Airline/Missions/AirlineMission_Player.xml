@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline_player">
+  <goals>
+    <goal type="getadminpasswordstring" target="dpa_bookings"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="비행편 탑승 - #PLAYERNAME#">
+국제 항공사의 예약 메인프레임에 액세스하시오.
+  </posting>
+  <email>
+    <sender>비행편 탑승 - #PLAYERNAME#</sender>
+    <subject>비행편 탑승</subject>
+    <body>
+국제 항공사의 예약 메인프레임에 액세스하시오.
+----
+단도직입적으로 말하면, 나는 미래 보호 차원에서 국제 항공사 "Pacific Air"의 예약 메인프레임에 접속해야 한다.
+
+나는 이미 메인프레임을 조사했으며, 몇몇 단서를 입수했다. 우린 예약 메인프레임 자체의 IP 주소를 이미 알고 있지만, 진입하는 것은 그리 간단치 않을 것이다.
+메인프레임은 특별한 보안 뿐만 아니라, 전용 화이트리스트 서버로 보호되고 있다. 우리를 포함한 모든 외부 소스로부터의 연결을 완전히 거부할 것이다. 이를 해결하고 진입할 방법을 찾기 위해서, 우리는 네트워크로 진입하는 대안 진입점을 이용해야 한다(그런 게 있다는 전제 하에).
+
+네트워크는 Psylance 사이버 보안 그룹이 운영하고 있으니, 쉽지 않을 것이다. 언제나 흔적을 말끔히 감춰야 한다.
+
+진입 방법을 찾아내고 나면, 미션 완료 세부사항에 예약 메인프레임의 관리자 비밀번호를 첨부하도록.
+행운을 빌어.
+</body>
+    <attachments>
+      <note title="미션 가이드라인">
+예약 메인프레임 화이트리스트를 조사한다.
+LAX 진입점을 통해 네트워크를 탐색한다.
+예약 메인프레임에 대한 관리자 접속 권한을 취득한다
+미션 완료 세부사항에 메인프레임 비밀번호를 추가한다.
+      </note>
+      
+      <link comp="dal_lax" />
+      <link comp="dpa_bookings" />
+      
+    </attachments>
+  </email>
+</mission>

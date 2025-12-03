@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds2m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="SSL 브레이커 해독 및 설정">팀에게 유용하도록 복구된 SSL 브레이커를 재구성해. 유연성과 모듈 방식을 개선해 줘. 자세한 설명을 덧붙이면 더 좋고.
+  </posting>
+  <email>
+    <sender>크립시스</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

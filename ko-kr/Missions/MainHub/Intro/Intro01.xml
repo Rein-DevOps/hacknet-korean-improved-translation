@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubIntro1">
+  <goals>
+    <goal type="getString" target="ABX07cc9"/>
+    
+  </goals>
+  <nextMission>MainHub/Intro/Intro02.xml</nextMission>
+  <email>
+    <sender>CSEC 관리자</sender>
+    <subject>CSEC 초대장</subject>
+    <body>
+#PLAYERNAME# 님께,
+
+CSEC는 뛰어난 해커와 디지털 보안 전문가들만을 위한 초대 전용 그룹입니다. 저희는 탁월한 인재들에게 풍부한 지식과 자원을 제공하여, 함께 배우고 정보를 공유하며 성장하는 커뮤니티를 만들어가고 있습니다.
+그룹 멤버의 추천으로 귀하를 조직에 초대하게 되었습니다.
+
+절차상 필요한 사항으로, 그룹 가입을 위해 당신의 능력과 지식을 간단히 검증해야 합니다.
+
+계속하려면, 테스트 서버 중 하나에서 당신의 이름과 연결된 비밀번호를 찾아 이 이메일에 회신해 주세요.
+어려움이 있다면 네트워크 교육 아카이브를 참고하시기 바랍니다.
+
+축하드리며, 행운을 빕니다.
+-CSEC 관리부
+
+    </body>
+    <attachments>
+      <link comp="hubTestComp01"/>
+      <link comp="netEduComp"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="kfcRecordsRepo" ip="202.7.177.65" name="CFC 기록 저장소" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="125"/>
+  <proxy time="0"/>
+  <firewall level="2" solution="CHICKEN"/>
+  <positionNear target="kfcMainframe" position="1" total="3"/>
+  <link target="kfcMainframe"/>
+
+  <file path="home/Ordering" name="Seasoning_Order_Guidelines.docx">
+주문 분리 지침
+    
+혼합 양념 주문은 별개의 두 회사를 통해 따로 이루어져야 하며, 상기 각 회사는 혼합분의 절반씩을 공급한다(현재 뉴멕시코 공장은 향신료 1-6번을 섞고, 현지 켄터키 공장은 나머지 5가지 향신료를 섞음).
+별도의 두 탁송물은 CFC 유통 본부에서 혼합되어야 하며 가맹점 레벨 유통을 위한 표시가 없는 흰색 백에 담는다.
+
+준비된 혼합 양념 백은 가맹점으로 보내며, 그곳에서는 밀가루, 계란 분말, 분유와 섞어 만들어진 혼합 반죽에 소금을 넣고 보관하면 최종 상품이 생성된다.
+이는 비법이 디지털 복사본 형태로 완전히 유통되지 않게 한다.
+  </file>
+
+  <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt1.docx">
+    CFC 건조 식품 배달 주문 견본. 
+
+공장: 228 Esperenza Rd. 뉴멕시코 
+제품: 허브 및 향신료 혼합물. 
+단위 중량: 1kg
+ 총 단위: [UNIT_VOLUME_NEEDED]
+
+제품 생산 지침: 
+
+제조법 --
+    16% | 파프리카.
+    09% | 문지른 세이지.
+    24% | 마늘 분말.
+    28% | 올스파이스.
+    07% | 오레가노.
+    16% | 마조람. 
+
+  </file>
+  
+    <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt2.docx">
+    CFC 건조 식품 배달 주문 견본. 
+
+공장: 11 Mt Eden Rd. Shelbyville, Kentucky.
+ 제품: 향신료 혼합물. 
+단위 중량: 1kg. 
+총 단위: [UNIT_VOLUME_NEEDED]
+
+제품 생산 지침: 
+
+제조법 -- 
+   14% | 바질.
+    04% | 고추 분말.
+    42% | 글루탐산소다.
+    24% | 양파 소금.
+    16% | 피망(캄포트).
+
+  </file>
+
+  <file path="home/Ordering" name="Order_Requirement_Certs.docx">
+식품 관리자 인증 - 영어 PDF / 스페인어 PDF 
+
+DBPR 서식 HR 5030-080, 호텔 및 레스토랑 부문 검열관이 피허가자에게 식품 관리자 요구사항을 상기시키기 위해 사용하는 낱장 용지 (2010년 5월 7일) 
+식품 회수 자원 지침 - 
+
+남거나 초과된 통조림 식품 또는 상하기 쉬운 식품을 빈곤층에게 제공하거나, 수집하여 그런 단체로 운송하는 식품 회수 프로그램 참여 의사를 표시한 단체에 대한 PDF  플로리다 농무부 및 소비자 서비스 지침.
+식품 서비스 검사 보고서 - PDF 
+
+DBPR 서식 HR 5022-015, 호텔 및 레스토랑 부문이 공공 식품 서비스 기관에서의 검사를 기록하기 위한 서식 견본  (개정일: 2009년 10월 1일)
+  </file>
+  
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    Kernel's Food Corner에서, 우리의 사명은 세계 최고로 맛있는 치킨을 제공하는 것입니다. 
+   따라서 우리는 최상의 식재료, 신선한 상태로 배달되는 통닭만을 사용하여 시작합니다. 
+    그 다음에는 당사만의 비법으로 신선한 수제 반죽으로 준비하여 인증된 CFC 조리사들이 당사의 모든 레스토랑에서 귀하를 위해 신선하게 조리합니다. 
+    쉽나요? 아니요. 하지만 한 입만 먹어보면 어째서 이 모든 여분의 노력을 들일 가치가 있는지 알게 됩니다. 
+    신선한 것이 더 맛있기 때문이죠. 가까운 CFC에 방문하셔서 직접 맛보세요.
+  </file>
+</Computer>

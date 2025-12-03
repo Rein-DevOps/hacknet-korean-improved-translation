@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec4" activeCheck="true">
+  <goals>
+    <goal type="delay" time="3.50"/>
+  </goals>
+  <missionEnd>lelzSecVictory</missionEnd>
+  <nextMission IsSilent="true">lelzSec/CSEC_TransferMission.xml</nextMission>
+  
+  <email>
+    <sender>Polar Star</sender>
+    <subject>승리 - 어쩌면 전환점</subject>
+    <body>
+너는 주목받고 있다. 네 실력과 성과는 결코 작지 않다.
+더 나은 동료들과 함께할 자격이 있다. 곧 연락이 갈 것이다.
+
+계속하라.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

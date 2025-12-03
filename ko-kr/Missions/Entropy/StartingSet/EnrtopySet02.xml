@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="ppMarketing" file="SECURE_MAILLIST.dec" path="home/WORKSPACE"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="The famous Counter-Hack">
+최근 경쟁사에서 민감한 데이터를 빼내 악용할 목적으로 덜... 선의적인... 해커들을 고용한 회사 소식을 들었다.
+앞으로 기업들이 해커 커뮤니티를 이런 식으로 이용하지 못하도록, 그들의 거래가 순조롭게 진행되지 않게 할 것이다.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>영광의 카운터해킹</subject>
+    <body>요원,
+
+"PP Marketing"이라는 회사가 최근 프리랜서 해커를 고용해 경쟁사 서버에 침입하여 민감한 데이터(메일링 리스트로 추정)를 빼냈다. 그 해커는 데이터를 PP에 전송했고, 원래 소유자에게는 피해를 입혔다.
+당연히 이런 종류의 기업 스파이 활동이야말로 해커 그룹들에게 나쁜 평판을 가져다주는 일이고, 우리가 이런 일을 전부 단속하는 데 관심이 있는 건 아니지만, 인터넷 전역에서 이 일을 노골적으로 광고하는 건 좀 더 공개적인 일이라서, PP가 이걸로 이득을 보지 않게 하고 싶다.
+
+파일 이름을 정확히 모르니까, 들어가면 좀 파봐야 할 거다 - 훔쳐진 메일 리스트를 찾는 거야 - 아카이브되었거나 암호화되어 있을 수 있다. 삭제해줘.
+회사가 이런 상황에 대비했을 수도 있고, 보안 대응책을 마련해놨을 수도 있다는 점도 알아둬.
+
+-Entropy 관리자
+    </body>
+    <attachments>
+      <link comp="ppMarketing"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="multiplayerMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="opponent#0" file="system32.sys" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Anonymous</sender>
+    <subject>전투</subject>
+    <body>
+해커, 환영한다.
+
+자네는 상대 해커로부터 공격당하고 있다. 자네 최고의 기량을 발휘해야 한다. 자네가 먼저 당하기 전에, 그 또는 그녀를 격퇴하라.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

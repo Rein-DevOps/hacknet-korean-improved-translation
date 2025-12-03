@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_misc" name="Mark Robertson's Office Computer" security="2" ip="98.124.245.24" type="4" icon="DLCPC1">
+
+  <!-- Low security misc employee of the airline!
+  There's nothing mission critical here, this just exists to pad things out, give a little more variety
+  and have a location for a non-critical character to talk about stuff. Pretty free reign with this one!
+  -->
+  
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25, 192</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="360" extraDistance="0"/>
+
+  <file path="home" name="todolist.txt">todolist.txt
+
+- GitV 끝내기
+- 다음 주 일정 받기
+- animeFora 논쟁에서 이기기
+- 근육 키우기
+- 페이스북 삭제
+- 변호사 구하기
+- 실제로는 변호사 구하지 않기
+- 변호사 삭제하기</file>
+
+  <file path="home" name="watchlist.txt">
+볼 애니메이션 목록
+
+--진행 중--
+사이도니아의 밤
+초원의 염소
+두 사무라이
+볼 보이 칩스톱
+게임: 고난도 모드
+쉴드 사이언스 오프라인
+헤이 오!
+
+--아직 시작 안 함--
+초원의 염소 형세를 관망하기
+Die El Die
+사람을 한 번만 패고도 싸움에서 이기는 남자. 이것이 다음 주에 볼 에피소드의 전부이다!
+헤이-오!!
+헤이-오!: 우리가 만든 영화
+내 엉덩이와의 복잡한 관계
+내 엉덩이와의 복잡한 관계 II
+내 엉덩이와의 복잡한 관계 II OVA: 기업 콤플렉스
+불만족스러운 결말
+레트콘 파라다이스
+대마법사 알케미아
+시작;운명
+운명;동사/명사
+수집가 y 수집가
+비밀 발전기 이야기
+스푼 수집가!!!!!
+구명보트
+쓰리:Re:히어로
+헤븐요델
+두세 조각
+조각/둘
+마법의 친구 모토코 아르카나
+애니메이션 업계의 근로 환경에 관한 메타-논평
+멍청하고 멋진
+움직일 수 없는 복장
+빅 파이터…???</file>
+  
+  <file path="home" name="namegenerator.txt">이름 생성기 설치, 테이블탑 덕후 또는 기타 용도
+
+진행상황 로그: 
+접두사 0%
+접미사 92%
+
+접미사 - 허허벌판
+
+맹세,광활,조화,경계선,낭떠러지,사막,산맥,산,평야들,평야,해변,작은 언덕,절벽,섬,군도,섬,섬들,바위산들,바위산,공허,부재,고지,산,산맥,협곡,메사,비탈,진창,표지,폐허들,폐허,해안,해안들,전방,고국,낙수,낙수들,국경지대,황무지,고원,내륙지역,폭포,빙하,화산
+
+
+접미사 - 내륙 지역
+
+골짜기,숲,삼림,계곡,폐허,언덕,언덕들,동굴,동굴들,수풀,전초기지,연못,늪,호수,개울,폭포,협곡,진창,소택지,산길,시내,댐,소호수
+
+접미사 - 마을/야영지
+
+경계선,도시,소도시,마을,도로,교구,전초기지,캠프,자치주
+
+접미사 - 물에 가까운 장소
+
+항구,후미,선창,부두,항구,선창,정박지,소만,만,방파제,만곡부,내포,피오르드,부잔교,해협,호수,석호,늪지,유역,어귀,제방,좁은 수로,교량,운하,물길,해변,도하교
+
+접미사 - 군 관련 장소
+
+요새,진지,성,소요새,아성,근거지,보루,요새,성채,주둔지,탑,방책,근거지,병동,보급창
+
+접미사 - 부유한 시민의 장소
+
+장원,성,아성,대저택,별장,주택,빌라,사유지,궁전,홀,알카사르
+
+접미사 - 사적인 장소
+
+아파트,주택,농장,사유지,거주지,판잣집</file>
+  
+</Computer>

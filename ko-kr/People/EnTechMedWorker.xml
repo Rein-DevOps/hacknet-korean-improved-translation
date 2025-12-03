@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="entechboss" handle="Jojo" firstName="Joseph" lastName="Jorioni" isMale="true">
+  <Birthplace name="캘리포니아"/>
+  <Degrees>
+    <Degree uni="캘리포니아 대학" gpa="2.9">소프트웨어 공학 학사</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>178</Height>
+    <Allergies>없음</Allergies>
+    <Perscription> 스피로놀락톤 x70 격월 :: 심장 조절제로서의 알도스테론 억제제</Perscription>
+    <Notes>환자는 협심증의 급성 사례를 앓고 있습니다 - 심장으로의 산소 공급을 위한 혈류가 선천적인 혈관 결함으로 인해 정상보다 현저히 낮습니다.
+환자는 심부전 위험이 매우 높으므로 SpO2가 낮을 때 경보를 울릴 수 있는 조절 모니터를 착용하고 있으며, 신속한 대응이 필요합니다.
+이것은 심박 조율기가 아니라 단순히 조기 경보 시스템입니다.</Notes>
+  </Medical>
+  <Notes>
+  </Notes>
+</Person>

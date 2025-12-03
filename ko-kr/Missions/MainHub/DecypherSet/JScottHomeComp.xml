@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="jscottHome" name="Joseph Scott의 전투기지" security="3" icon="laptop">
+
+  <encryptedFile path="home/work" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  <file path="home/work" name="DEC_Header_Analysasdsadsafds.txt">
+  이거 정말 심각하게 악화되고 있어. 처음엔 전용 툴 없이도 암호화를 뚫을 수 있다는 문제였는데, 이제 이것까지?
+  헤더를 읽을 수 있다는 건 *여전히* 큰 문제야 - 거기엔 인코딩 소스 IP가 들어있거든. 이게 얼마나 심각한 보안 문제인지 알겠어?
+  디버깅 세션이나 고객 관계가 얼마나 편해질지는 나도 관심 없어.
+
+  자, 여기 우리한테 문제가 있다는 실질적인 증거가 더 있어. 첫 번째 폭탄의 먼지가 가라앉을 때까지 기다렸다가 이걸 터뜨려야겠어.
+  한꺼번에 두 개 터뜨리면 나 해고당할 수도 있으니까, 상황이 좀 진정될 때까지 이건 보관해둬야지.
+
+  아, DECHead.exe야, 왜 넌 나한테 이렇게 많은 문제를 일으키는 거야.
+  결국엔 아웃소싱을 더 많이 하는 거겠지.
+
+  내가 왜 텍스트 파일에 블로그를 쓰고 있는 거지..
+  으 진통제나 먹어야겠다.
+  </file>
+  <file path="home/work" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  
+</Computer>

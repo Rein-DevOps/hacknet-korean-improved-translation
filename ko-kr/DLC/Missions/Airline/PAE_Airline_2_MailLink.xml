@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_mailLink" name="Kim Burnaby's Office Computer" security="3" ip="141.8.224.143" type="4">
+
+  <!-- Misc airline employee. Close friend of the administrator of the bookings server.
+  This contains the login details of the owner's mail account for the airline, which is important for
+  player progression.
+  The details can be on an eOS device, if that's signposted here, or just sitting in a file.
+  Adding that extra layer of complexity is subject to testing and seeing how players perform on this network.-->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25</ports>
+
+  <file path="home/ePadBackup" name="MAIL.txt">eOS_MAILSYS_ACCOUNTDUMP
+    c704d41a-f5ae-411d-916f-6c484a34ef0f
+    pacificair 계정:
+    아이디: kburnaby@pacificair.com
+    암호: noneofyourbusiness
+  </file>
+
+  <file path="home/ePadBackup" name="NOTES.txt">
+Mark 추천:
+초원의 염소 (11/10)
+레트콘 파라다이스 (전반부는 훌륭해, 에피소드 13은 건너뛰어 (???))
+사람 패는 거는 한 번 밖에 안하나? 제목을 물어봐.
+  </file>
+
+  <file path="home" name="ePadUserGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadWarrantyGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadSupportTicket.txt">이 ePad라는 거 모든 파일을 백업해 놨지만 여전히 작동하지 않는데?! "공장 초기화"도 해봤지만 아직도 계정 설정에 애로사항이 있네. 
+하드웨어 문제 아닐까? 조사 좀 해줘!</file>
+
+  <positionNear target="dpa_whitelist" position="20" total="360" extraDistance="0"/>
+
+  <eosDevice name="Kim's ePad XL" id="dpae_airline_mailLink_eos" icon="tablet" empty="true">
+    <note>시스템 업데이트 노트: 
+OS 버전 손상. 지원팀에 문의바랍니다!</note>
+  </eosDevice>
+
+</Computer>

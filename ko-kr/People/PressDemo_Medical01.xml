@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  <Birthplace name="런던"/>
+  <Degrees>
+    <Degree uni="맨체스터 대학" gpa="3.1">컴퓨터 과학 석사</Degree>
+  </Degrees>
+  <DOB>06/08/1991 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>없음</Allergies>
+    <Perscription>아미오다론 (코다론) x70 격월</Perscription>
+    <Notes>환자는 부정맥으로 진단되었습니다. 처음에는 경미한 사례였으나 카페인 및 기타 각성제의 과다 사용으로 악화되었습니다. 환자는 자신이 공개적으로 인정하는 에너지 음료와 커피 섭취량에 대해 반복적으로 주의를 받았으나, 재발이 흔하게 발생합니다.
+전체 진단을 내리기 전에 각성제(합법 및 불법)에 대한 혈액 검사를 수행할 것을 권장합니다.</Notes>
+  </Medical>
+  <Notes>Press build 의료 사례</Notes>
+</Person>

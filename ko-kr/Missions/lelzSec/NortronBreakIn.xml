@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec1">
+  <goals>
+    <goal type="getAdmin" target="nortronMainframe"/>
+  </goals>
+  <nextMission>lelzSec/MessageBoardIntro.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>유쾌함</subject>
+    <body>
+아하하, 좋아, 좋아. 진짜 예술이야.
+
+오케이, 멋져. 이제 좀 그럴싸한데. 진짜 도전 해볼래?
+Nortron 메인프레임 뚫을 수 있을 것 같아? 보안 회사치곤 솔직히 좀 더 기대했는데, 그래도 꽤 빡센 방화벽을 돌리고 있긴 해.
+정석대로 때려잡으려면 엄청 귀찮을 거야, 뭐 알아서 잘 해봐.
+
+침투할 수 있겠어? 들어가기만 하면 뭘 하든 상관없어 - 관리자 권한이라도 따내면 인정해줄게.
+
+해낸다면 뭔가 줄 게 있을지도.
+
+-Naix
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

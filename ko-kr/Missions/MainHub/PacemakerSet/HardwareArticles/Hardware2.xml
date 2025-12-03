@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerHWArticle02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="이 서버 사용법">
+이 참조 서버는 Kellis의 독점 참조-컨텍스트 기술을 사용하며, 등록된 활성 제품과 관련된 콘텐츠만 표시합니다.
+이 서버에 접속할 때 사용하는 주소는 중요합니다. 시스템에서 귀하의 계정 정보를 고유하게 반영하기 때문입니다. 잃어버리지 마세요!
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>오류</subject>
+    <body>
+본 이메일을 받았다는 건 예기치 못한 오류가 발생했음을 의미한다.
+제발 당황해라.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="메모리 포렌식 (3/3)">
+    메모리 덤프(5 - 6)를 분석하고 보안 서버에 대한 링크를 찾는다.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,22 @@
+﻿<ConditionalActions>
+  
+  <OnAdminGained target="dhaComp2">
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.0">@channel "Solve"에서 너희 둘이 관심을 가질만한 암호화된 파일을 찾았어.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.2">해독해 보니까, "Rebis"의 암호는 "clarity"라는 내용인 것 같아. 그런데 내가 계정에 써보니까 안 되는 모양인데?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="50.2">알려줘서 고마워, @D3f4ult.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="60.2">그나저나 다들 eOS 스캐너는 준비됐지?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="66.0">그래, 난 다 됐는데... 왜?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="72.2">곧 알게 돼 :P</AddIRCMessage>
+
+  </OnAdminGained>
+
+  <OnConnect target="dhaAdminPhone" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="17.0">@channel eOS의 기본 관리자 비밀번호가 뭔지 아는 사람?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="24">기본 설정은 "alpine"이야.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.0">고마워.</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

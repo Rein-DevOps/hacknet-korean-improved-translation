@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_bookings" name="PacificAir_BookingsMainframe" security="5" type="4" icon="PacificAir">
+  
+  <!-- This is the endpoint server that is the ultimate goal of the mission.
+  Is has security that's too advanced for the player to break into by force,
+  but also has an option on it to reset the password, which emails the new
+  password to the administrator. This is how the player breaks in.
+  It isn't built to be investigated much, so doesn't need many files.-->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="6" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <DatabaseDaemon Name="PacificAir 예약 메인프레임" Permissions="adminonly" DataType="NONE" AdminEmailAccount="YasuArai@PacificAir.com" AdminEmailHostID="dpa_mail" />
+  
+  <positionNear target="dpa_nethub" position="0" total="360" extraDistance="0.06"/>
+
+  <WhitelistAuthenticatorDaemon Remote="dpa_whitelist" />
+  
+<file path="home" name="version_info.txt">SCHISS-CO 메인프레임 모델
+소프트웨어 버전 3.0.7.2_b91110
+3.0.7.2_b91110  보안 네트워크 및 스토리지 하드웨어 브랜드 리더</file>
+  
+<file path="home" name="settings_default.cfg">
+?cfg 버전 = "1.0" 인코딩 = "UTF-8" ?
+//여기에 커스텀 설정을 입력하거나, 또는 저희 온라인 포털에서 이용 가능한
+//Schiss-Co 라우터 설정 웹 애플리케이션을 실행하여 이 파일을 채우십시오.</file>
+
+<file path="home" name="readme.txt">이 메인프레임 제품에는 표준 설정 절차가 없습니다. Schiss-Co 지원팀 연락처 555-0167(내선번호: 2)로 문의하십시오(24시간 연중 무휴 운영). 암호를 물어보면, "shibboleet"(쉽볼렛)이라고 말하세요.</file>
+
+</Computer>

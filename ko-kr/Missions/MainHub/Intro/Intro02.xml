@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubIntro2">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+  </goals>
+  
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC 관리자</sender>
+    <subject>CSEC 초대 - 승인</subject>
+    <body>
+#PLAYERNAME#,
+
+자동 테스트 통과 축하해요. 다들 통과하는 건 아니거든요 (그래서 '도대체 왜 초대받은 거지?' 싶을 때도 있죠). 어쨌든, 이제 2라운드예요. 제가 뭔가 직접 만들어볼 차례라는 뜻이죠. 재밌을 거예요.
+
+좋은 걸 생각해뒀어요 - 너무 쉽지는 않을 거예요!
+
+CFC 서버에 침투해서 비밀 허브와 향신료 11가지를 찾아와 주세요.
+
+목록을 손에 넣어서 CSEC 공개 드롭 서버에 업로드하면, 기꺼이 받아들일게요.
+
+행운을 빌어요!
+
+-Vap0r
+CSEC 관리자
+
+    </body>
+    <attachments>
+      <link comp="kfcWebServer"/>
+      <link comp="hubPubDrop"/>
+    </attachments>
+  </email>
+</mission>

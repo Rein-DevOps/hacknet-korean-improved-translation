@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dal_lax" name="LAX_Pacific_Server" security="5" type="4">
+
+  <!-- This is a server for Pacific Air located in LAX Airport - kaguya or someone else went there physically and scanned for it's signal.
+  I don't have many thoughts on what should be on here. It's also valid to keep it empty. Up to you!
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="49" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  
+  <dlink target="dpa_nethub" />
+
+  <file path="home" name="settings_default.cfg">?cfg 버전 = "1.0" 인코딩 = "UTF-8" ?
+//이 파일은 사용자가 수정해서는 안 됩니다;
+//파일은 Schiss-Co 라우터 설정 웹 애플리케이션이
+// 로컬 클라이언트에서 실행되면 채워집니다.
+</file>
+  
+  <file path="home" name="settings_custom.cfg">
+?cfg 버전 = "1.0" 인코딩 = "UTF-8" ?
+//여기에 커스텀 설정을 입력하거나, 또는 저희 온라인 포털에서 이용 가능한
+//Schiss-Co 라우터 설정 웹 애플리케이션을 실행하여 이 파일을 채우십시오.
+  </file>
+  
+  <file path="home" name="readme.txt">
+Schiss-Co 무선 라우팅 서버를 구입하신 것을 축하합니다! 귀하는 전세계에서 가장 안전한 네트워크 제품을 구입하셨으며, 약간의 설정만으로 귀하의 시스템은 완벽한 보안을 갖출 것입니다.
+
+보안을 위해, Schiss-Co 라우터를 처음 연결할 때 기본 설정을 즉시 바꾸는 것이 좋습니다.  처음엔 개방되어 있으므로 아무런 문제 없이 간단히 설정할 수 있습니다.
+
+이제, 설정을 위해 사용 중인 클라이언트의 사용 가능한 USB 포트에 Schiss-Co 전용 인증 키를 삽입하십시오. 이 장치는 Windows, Mac, 또는 매뉴얼이나 저희 웹사이트에 명시된 모든 Linux 배포판/버전에서 실행 가능합니다. 이것은 필수 단계입니다. 귀하가 Schiss-Co가 지원하는 하드웨어/소프트웨어 조합을 사용하는지의 여부를 확인해야 합니다.
+
+이것은 설정 마법사를 시작합니다.
+
+오프라인 설정을 하려면 서부 지역 영업 시간 중에 언제든지 555-0167로 문의하십시오 - 숙련된 담당자가 기꺼이 안내해 드릴 것입니다.
+
+Schiss-Co 브랜드 라우팅 하드웨어에 타사 소프트웨어를 사용하는 것은 용납하지 않음을 유의하시기 바랍니다. 
+  </file>
+  
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.12"/>
+  
+</Computer>

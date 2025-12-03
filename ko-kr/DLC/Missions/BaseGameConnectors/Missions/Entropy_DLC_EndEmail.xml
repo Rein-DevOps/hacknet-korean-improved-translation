@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="Entropy_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>Tex</sender>
+    <subject>별일 없지?</subject>
+    <body>#PLAYERNAME#,
+    
+Kaguya 시험 미션을 수락한 이후로 Entropy에 다시 로그인하지 않았던데, 잘 지내고 있는 거야??
+뭐, 또다른 그룹이려니 생각은 하고 있었지만, 하도 소식이 없어서 말이야.
+
+Entropy 활동을 잠시 쉬는 것뿐이라면, 언제든지 돌아와도 좋다는 걸 알아줘.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+    </attachments>
+  </email>
+</mission>

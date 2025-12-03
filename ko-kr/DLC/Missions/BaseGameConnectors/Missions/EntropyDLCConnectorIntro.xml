@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="Entropy_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_entropy</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Kaguya 시험"> ### CAUTION ###
+Entropy 관리자가 이 계약이 비정상적으로 길거나, 위험하거나 또는 어렵다고 표시했다.
+본인의 능력에 대한 자신이 충분하지 않다면, 관리자는 이 문제의 조사에는
+나중에 착수할 것을 권한다.
+ ### CAUTION ###
+ 
+알 수 없는 에이전트가 소수의 그룹 리더들에게 팀원 모집 공고를 게시했다. 누구나 조사할 수 있는 공개 초대장이다.
+  </posting>
+  <email>
+    <sender>Entropy 메일봇</sender>
+    <subject>Kaguya 시험</subject>
+    <body>에이전트,
+    
+"Kaguya"라는 인물이 유명한 DigiSec 커뮤니티 리더들과 다양한 그룹 관리자들에게 공고를 보냈다.
+팀을 구성하기 위한 팀원 모집 공고처럼 보인다. Entropy의 공개 정책의 일환으로, 우리는 이 초대장을 관심 있을만한 사람들 모두에게 공개하는 바이다.
+
+이는 Entropy와는 별도의 그룹이기 때문에, 이 진영에 가입하면 우리 커뮤니티를 잠시 떠나게 될 지 모른다는 점을 유의하기 바란다.
+Entropy와의 거래가 끝나지 않았거나, 혹은 현재 우리와 같은 길을 계속 가기를 원한다면, 나중에 이 기회를 다시 잡을 수 있을 것이다. 이 계약을 중단하고 나중에 이 스레드를 선택하는 것을 고려하도록.
+
+그렇지 않다면, 제시된 지시사항에는 IP 주소(아래 첨부)와 “시험을 시작하는” 방법이 포함되어 있다.
+
+행운을 빈다.
+-Entropy 관리자
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

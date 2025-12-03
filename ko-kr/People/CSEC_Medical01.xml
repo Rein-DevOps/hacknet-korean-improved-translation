@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Whitewash" firstName="Jonas" lastName="Sandburg" isMale="true">
+  <Birthplace name="런던"/>
+  <Degrees>
+    <Degree uni="맨체스터 대학" gpa="2.9">컴퓨터 과학 석사</Degree>
+  </Degrees>
+  <DOB>05/03/1993 14:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>없음</Allergies>
+    <Perscription>알벤다졸 x70 격월 :: 노트 참조</Perscription>
+    <Perscription>이버멕틴 x35 매월 :: 노트 참조</Perscription>
+    <Notes>환자는 고환 상피종의 급성 사례로, 8세 때 처음 발견되었으며 그 이후 정기적으로 치료를 받아 좋은 효과를 보이고 있습니다. 감염 부위의 부종이 매우 눈에 띄지만, 우수한 위생 관리와 지속적인 치료로 관리 가능한 상태입니다.
+    </Notes>
+  </Medical>
+  <Notes>CSEC Med case for M_09  </Notes>
+</Person>

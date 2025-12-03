@@ -1,0 +1,86 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="hubEosMisison" name="Sal_Home_Workstation" security="4" type="2">
+
+  <file path="home/docs" name="Anastasia.txt">
+[swinters77] 그래 이번 주말에 뭐했어?
+[jlogan74] 별 거 없었어, 제리가 또 출장 나갔어.
+[swinters77] 그렇다면 너도 집에 없었겠네.
+[jlogan74] 글쎄…난 결국 라이스 집에 갔을지도 모르지.
+[swinters77] 제인, 이건 감당하기 힘들어지는 것 같아.
+[swinters77]언제까지 이럴 수 있을 것 같아?
+[jlogan74] 알아, 안다고. 너도 알다시피, 그냥 힘들어.
+[jlogan74] 제리는 항상 외근하느라 멀리 있고, 집에 돌아오면 출장 때문에 녹초가 되있지.
+[jlogan74] 마지막으로 커피 한잔 하러 같이 나갔던 게 언제였는지도 기억이 안나.
+[jlogan74] 라이스는 그냥 거기 있었지. 그건 처음엔 실수였지만, 지금은 뭔가로 바뀌고 있는 것아.
+[jlogan74] 이제 나는 이런 난관에 빠져 있어.
+[swinters77] 이제부터 너를 아나스타샤라고 부를 거야 :P
+  </file>
+  
+  <file path="home/docs" name="lab_nightmare.txt">
+[137847] 결과는 나왔어?
+[137849] 응, 결정적이 아니래.
+[137847] 정말? 이번엔 우리가 분명 해결했다고 생각했는데.
+[137849] 셀 카운트가 지난번보다 훨씬 높아.
+[137849] 하지만 그들이 호스트를 공격하는 것 같지는 않고, 그냥 유휴 상태로 있어.
+[137847] 나는 앞으로 몇 달이나 더 이 프로젝트에 매달릴 수 있을지 모르겠다.
+[137849] 로마는 하루 아침에 세워지지 않았어. 신들은 자신들의 힘을 얻어야 해.
+[137847] 마지막으로 집에서 잠잔 게 언젠지 기억도 안나.
+[137849] 그래, 나도 알아. 너 코골이 소리가 실험실 전체에 울린다.
+[137847] 정말? 이런. 미안.
+[137849] 귀엽다.
+[137849]그럼 이제 계획이 뭐지?
+[137847] 최신 샘플을 구해서 유전자 구조를 새로운 경로로 돌려보려고.
+[137849] 알았다. 오늘 점심 같이 먹을래?
+[137847] 상황 봐서.
+[137849] 무슨 상황?
+[137847] 함박 스테이크라고 부르기도 뭐한 그 따위 걸 우리한테 또 먹이려고 할 건지 보고. 
+  </file>
+  
+  <eosDevice name="Elanor Helleran's ePhone 4S" id="salEosPhone">
+    <note>
+ids
+등록 :
+AAX1BB7
+      
+Steam :
+TW9VF-RMVRT-CTTRM
+WQYZC-ATI4Q-8AJPM
+VA63J-B63TH-G089R
+93K9P-6XDMY-8WNPH
+BAQW5-87ELW-XGBF0
+67AMX-FXQ7N-XEDW6
+BLCV6-0AVQY-AEBDD
+9WXA5-4QE6M-PGNHM
+359XW-VIBZC-F9GQ2
+F9MH0-P5PLK-374I5
+FML2Q-83CET-CIKPT
+8PLXZ-I4PQ4-502XP
+QFNIM-ZGKGR-Z0FJ0
+QM4KE-ZKP5W-RA5II
+5D6G4-0TPXC-26564
+5G4BR-LDVVD-NWDZZ
+ZTG4B-K9M5B-92HCR
+DVD0P-0IQ2J-98YJT
+9RDIZ-NDMFD-4YF37
+MGQCL-PPN4E-5WWB4
+ARD4Q-CI2WC-6VJT2
+    </note>
+    <note>
+Shopping
+      
+Coffee
+Monster
+Rockstar
+NOS
+Amp
+Full Throttle
+Xyience
+Arizona Energy
+Rip It
+Venom
+Food x lots
+    </note>
+    <mail username="sal@jmail.com" pass="22foxhound"/>
+  </eosDevice>
+
+</Computer>

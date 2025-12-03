@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Add a Death Row record for a family member">
+처형된 사람의 가족이 우리에게 연락해서 사형수 기록을 공식 목록에 추가해달라고 했네.
+판결 뒤에는 분명 뭔가 수상한 거래가 있었고(부당한 판결이었다고 강하게 암시했지) 사건을 은폐하고 기록을 공식 목록에서 제외하려는 시도가 있었던 것 같아. 그들의 말로는 "최소한 그의 마지막 유언만이라도 보존하고 싶습니다"라고 하네.
+
+참고: 이 작업은 수동 데이터베이스 레코드 조작이 필요한 비정상적으로 복잡한 작업으로 표시되어 있습니다. CSEC 관리자들은 UNIX 터미널 베테랑에게 이 작업을 맡기길 권장합니다.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>부당한 누락</subject>
+    <body>
+사형수 기록을 만들어야 해. 고인의 가족이 다음 세부정보로 데이터베이스에 정확한 항목을 추가해달라고 요청했네:
+
+------------------------------------
+이름: "John"
+
+성: "Boorman"
+
+최후 진술: "I'm ready, Warden"
+------------------------------------
+
+다른 세부사항은 중요하지 않지만, 가능한 한 다른 기록들과 비슷하게 만들어야 해. 이를 위해 CSEC 자산 서버(/home/Templates 위치)에 템플릿 기록을 업로드했네.
+복사해서 로컬에서 편집한 다음 업로드하는 걸 권장하네. 이름과 사용하는 기록 번호를 반영하도록 파일명을 정확히 변경하는 걸 잊지 말게("mv" 명령).
+
+요청자의 메시지:
+"정말 감사합니다. 재판과 관련된 모든 것이 처음부터 수상했습니다. 우리는 여전히 그가 무고했다고 굳게 믿고 있으며 지금도 그 인정을 받기 위해 최선을 다해 싸우고 있습니다.
+그런데도 데이터베이스에서 빠져있다는 건 그의 기억에 대한 모욕입니다. 최소한 그의 마지막 말만이라도 보존하고 싶습니다. 다시 한 번 감사드립니다."
+    </body>
+    <attachments>
+      <link comp="mainHubAssets"/>
+      <link comp="deathRow"/>
+      <note title="레코드 세부사항">이름: &quot;John&quot;
+성: &quot;Boorman&quot;
+최후 진술: &quot;I'm ready, Warden&quot;</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,112 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="ppMarketing" name="PP Marketing Inc." security="2" type="4">
+  
+  <proxy time="1.1"/>
+  <portsForCrack val="2"/>
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1"/>
+  <trace time="400"/>
+  
+  <account username="admin" password="willsmith"/>
+
+  <encryptedFile path="home/WORKSPACE" name="SECURE_MAILLIST.dec" ip="74.125.237.119" header="Marketing encryption lv.2">속았지, 해커야? 이 리스트가 아니란다. 설마하니 훔치려 올 걸 뻔히 알면서 데이터를 공공 서버에 둘 리가 없지!
+  여기, 적당한 파일 크기를 위해 추가한 쓰레기 바이너리 데이터나 가져가렴.
+    
+#BINARY#
+    
+그럼 이만,  
+ - 진짜 보안 전문가
+  XOXO
+  </encryptedFile>
+
+  <file path="home/WORKSPACE/INDUCTION" name="welcome.docx">
+안녕하십니까. P.P. Marketing의 최전선으로의 첫 출근을 축하합니다. 기업의 대외 이미지에 속지 마십시오. 이것은 전쟁이고, 당신은 선의의 편에서 싸우는 것입니다. 미국 제일의 기업 마케팅 회사에서 일하는 것은 쉬운 일이 아니지요. 모든 고객은 각자 전투요새입니다. 모든 제품은 무기이지요. 모든 캠페인은 우리 고객들이 우위를 차지할 수 있도록 우리가 싸워내야 하는 전투입니다. 
+
+브랜드간의 시너지 상승을 위해 언제나 우리 회사의 내부 조직이 외부의 커뮤니케이션과 일치하도록 하는 것이 매우 중요합니다. 귀하가 어떻게 하면 본인의 온라인상의 영향력을 통해 우리 캠페인의 노출을 극대화시킬 지에 대해 문의 사항이 있다면 직속 라인 매니저와 공유 학습 세션을 잡으십시오. 
+
+인사부의 부장으로서, 진로의 새로운 단계에 들어선 귀하에게 모든 행운이 따르기를 바랍니다. 
+    
+Jane Halliday - P.P Marketing 인사부 부장</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="dresscode.docx">
+IT 부서와 시설 외의 전 직원들은 P.P Marketing의 대외 이미지 개선을 위해 다음의 드레스코드를 따라야 합니다:
+     
+- 검정색, 다갈색, 흑색, 혹은 남색의 비즈니스 수트를 항상 착용할 것.
+- 착용한 수트에 어울리는, 흰색, 하늘색, 아이보리색 혹은 회색의 와이셔츠를 항상 착용할 것
+- 남성 직원은 검정색, 빨간색, 파란색, 보라색, 혹은 초록색의 넥타이를 맬 것. 연구에 따르면 패턴이 있는 넥타이는 고객들에게 위협감을 주므로 단색만 허용함. 
+- 여성 직원들은 오픈 칼라 셔츠를 착용해야 하며, 겨울 동안에는 수수한 색깔의 스카프 착용이 허용됨. 
+- 검정색 혹은 갈색의 광을 낸 구두 착용
+    
+IT와 시설 직원들은 남색 작업복이 제공되며, 이는 주기적으로 빨래하고 다림질하여 건강한 기업 이미지에 이바지할 것. 
+    
+본 드레스 코드를 엄격히 지켜주시기 바랍니다. P.P Marketing은 겉으로 보여지는 모습을 매우 중시하는 기업입니다. 
+    
+Jane Halliday - P.P Marketing 인사부 부장</file>
+  
+  <file path="home/WORKSPACE" name="Maillist_info.txt">(엄청나게 많은 돈을 요구한) 해커에게서 받은 메일리스트입니다. 일종의 암호화 작업이 되어 있는 것 같지요? 대체 왜 그 해커에게 돈을 지불한 거죠? 
+인사부에서는 다른 사람을 고용해서 해독하든지, 사용할 수 있게 만든다고 하는데, 애초에 그 해커의 말로는 크기가 맞으니까 해독만 할 수 있으면 우리가 원하는 데이터가 맞을 거라더군요. 
+이 무슨 꼴이람. 뭐, 비록 지금 사용할 수는 없지만 그래도 뭔가 건지긴 한 거겠지요...</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="complaint_procedure.docx">
+동료 직원이나 회사의 방침에 대해 불만 사항을 접수하고 싶은 직원들은 직속 라인 매니저나 부서의 책임자에게 106B 서류를 제출해야 합니다. 사건이 발생한 지 30일 이내에 불만 사항에 대해 증거와 함께 서술하여야만 조사가 진행될 것입니다. 모든 불만 사항은 인사부에서 철저하게 조사할 것이며, 조사가 시작된 지 12개월 이내에 만족할만한 결과를 내도록 할 것입니다.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="winters_kevin.txt">
+Kevin Winters 직원이 모든 외부 주소로 발송한 이메일에 P.P Marketing의 내부 방침에 대해 악의적인 정보가 있는지 스캔하라는 요청이 있었습니다. 운영부 책임자 James Wilson이 해당 요청을 승인하였습니다. 특히 Winters가 경쟁 기업에 영업 비밀을 공개하였는지에 대한 증거를 찾고 있습니다.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="kw_evidenceA01.txt">
+[winters] Terry, 정말 수상한 일이 벌어지고 있다니까. 
+[craigmore] 저들이 수상한 거야 온 세상이 아는 걸 뭐.
+ [winters] 리스트를 다른 업체에서 말 그대로 구매하고 있어. 보통 j-mail 데이터베이스에서 작동하는 광고 구매야. 
+[craigmore] 그게 무슨 소용인데?
+ [winters] 자체 개발팀에서 알고리즘이랑 이메일 행동이랑 연구해서 어떤 상품이 눈에 띌지 분석하고 그러거든. 
+[craigmore] 그래? 그거 정말 치사하네. 
+[winters] 게시판에서 사용자인척 하고 은근슬쩍 대화에 마케팅 자료를 끼워넣는 일을 할 인공지능 채팅 봇을 개발하고 있다는 소문도 있어. 
+[winters] 일종의 인공지능 암시 마케팅이지 
+[craigmore] 이런. 
+[winters] 들어봐. 나한테 일자리를 주겠다고 약속하면 내가 가능한 한 모든 걸 하드 드라이브에 담고 여길 퇴직할게.
+ [winters] 더 이상 여기 있을 수 없어.
+</file>
+  
+  
+  
+  <file path="home/documents" name="IncidentLog1.txt">
+[nem] 주말 동안 S3에 접속했어?
+ [felix] 아니, 왜? 
+[nem] 없어진 파일이 있고, 인터넷 사용량이 껑충 뛰었는데, 로그는 없어.
+ [felix] 거 이상하네.
+ [felix] 방화벽이 해제되었는지 확인해봤어? 
+[nem] 아니, 아직. 
+[nem] 이런. 
+[felix] 왜? 
+[nem] 메일 서버 RDP가 다운됐어. 
+[nem] 확인하러 서버실로 갈게.
+ [nem] 잠시만.
+</file>
+  
+<file path="home/documents" name="IncidentLog2.txt">
+[nem] 모든걸 다 묶어서 전송한다
+ [felix] 일단 외부에 저장해두고 나중에 불러와야지 뭐
+ [felix] 이거 정말 말도 안 돼. 
+[nem] 우리 보안을 뚫었다니 믿을 수 없어. 
+[nem] 수개월치의 이메일이 사라졌어.
+ [nem] Letterman이 화가 단단히 날 거야. 
+[felix] Weinstein도 아마 뚜껑 열릴 걸. 
+[nem] 당신도 해고 당하지 않게 조심해. 
+[nem] 나중에 봐.
+</file>
+  
+  <file path="home/documents" name="logs.txt">
+[gscott] 오늘 아침에 발송된 메모 봤어? 
+[cgershwin] 돈도 안 주면서 초과근무를 하라니, 이거 대체 말이 돼? 
+[gscott] 놀라운 일도 아니지 뭐. 스타트업 회사라는 건 알지만, 직원 대우를 이따위로 해선 안 되지.
+ [gscott] 연봉도 잔뜩 깍고 여기 온 거란 말야.
+ [cgershwin] 앞으로 석 달 안에 뭔가 바뀌지 않으면
+ [cgershwin] 난 나가려고. 
+[gscott] 나도 그럴까. 
+[gscott] 퇴근 후에 맥주 콜? 
+[cgershwin] 그 쪽이 쏜다면! 
+</file>
+  
+</Computer>

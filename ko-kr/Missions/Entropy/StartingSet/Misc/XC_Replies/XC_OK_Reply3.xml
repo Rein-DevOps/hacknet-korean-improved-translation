@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="xcRepOK">
+  <goals>
+    <goal type="getString" target="2133"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <posting title="ERROR">
+알 수 없는 포스팅 오류
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>회신: 내부 조사</subject>
+    <body>오류</body>
+    <attachments></attachments>
+  </email>
+</mission>

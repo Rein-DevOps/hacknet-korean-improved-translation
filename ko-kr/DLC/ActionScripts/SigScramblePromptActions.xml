@@ -1,0 +1,14 @@
+﻿<ConditionalActions>
+  
+  <OnConnect target="dhsDrop" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="105.0">우와아.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="110.0">@channel, SignalScramble 써 본 사람 있어? 연금술사 서버에서 가져온 거 말이야.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="114.0">이거 진짜 죽여주네.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="130.0">그래, 정말 감동적이더라. 이 물건에 대한 얘기는 어디서 들었어, @Kaguya?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="140.5">기업 비밀이야.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="147.5">그래도 마음에 들었다니 다행이네. 나중 작업에 큰 도움이 될 것 같아.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="160.0">멋져어어어어</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

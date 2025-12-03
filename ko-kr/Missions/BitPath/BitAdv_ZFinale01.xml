@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_finale01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission> <!-- For real this time :D -->
+  <email>
+    <sender>Bit</sender>
+    <subject>터미널</subject>
+    <body>이봐,
+이걸 먼저 쓰는 게 현명한지 모르겠는데 - 모든 게 계획대로 됐다면, 이게 내게서 듣는 마지막 말이 될 거야.
+아마 누구든 내게서 듣는 마지막이 되겠지... 하지만 이건 희망적이야! 이 메시지가 자네한테 전송된다면, 그건 내가 바랄 수 있는 최고의 소식이거든.
+
+그러니까, 고마워. 쉽지 않았을 거야 - (쉽지 않았을 거야?였나?).. 이 시제는 좀 익숙해지는 데 시간이 걸리겠군.
+
+아직 마지막으로 부탁할 게 하나 남았어 - 이미 너무 많이 부탁했지만. Porthack은 완전한 독립형이 아니야 - 한때는 그랬지만, 글쎄, 이제 자네도 이해하겠지, 왜 이게 사람들이 그냥 주고받을 수 있는 형태로 존재할 수 없는지.
+그것의 코어 - 심장부가 마지막 남은 조각이야. 변조할 수 없게 만들어졌지만, 내가 할 수 있는 건 다 했어. 이게 내 마지막 부탁이야, 너무나 많았던 부탁 중에서.
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="porthackHeart"/>
+    </attachments>
+  </email>
+</mission>

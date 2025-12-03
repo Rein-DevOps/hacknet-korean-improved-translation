@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="entropyAdvFail01" name="KyonBox" security="3" ip="176.194.38.111">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <account username="admin" password="haruhi"/>
+  <proxy time="2"/>
+  <trace time="70"/>
+  <file path="home/loot" name="Macrosoft_dox.txt">Macrosoft 스토리지 서버:
+  168.61.82.246
+  </file>
+  <file path="home/docs" name="jessie.txt">
+[lilsebastian] 그래서, 나올 수 있을 것 같아?
+[kkswatch] 모르겠어, 엄마가 외출하는 거 싫어하시거든.
+[lilsebastian] 맥도날드 사줄게.
+[kkswatch] 진짜?
+[lilsebastian] 뭐든지 원하는 걸로.
+[kkswatch] 그 다음엔 뭐 할 건데?
+[lilsebastian] 음, 전망대에 올라가는 건 어떨까 했는데.
+[lilsebastian] 별이라도 보고 그러면서.
+[kkswatch] 오 진짜? 이거 데이트처럼 들리는데.
+[lilsebastian] 데이트면 괜찮아?
+[kkswatch] 25분 후에 뒷골목에서 봐. 준비하고 있을게.
+[lilsebastian] :D
+  </file>
+  
+  <file path="home/docs" name="lantime.txt">
+[jlord93] 이번 주말 준비됐어?
+[xn00bslayerx] 당연하지!
+[xn00bslayerx] 술이랑 안주 다 챙겨놨어
+[jlord93] 며칠 동안 360NOSCOPE만 날려버리는 거야 :p
+[xn00bslayerx] 이번 주말 랜파티에 Jessie도 왔으면 좋겠다
+[jlord93] 또 시작이네....
+[xn00bslayerx] 닥쳐!
+[jlord93] 네 1337 실력으로 감동시켜봐
+[jlord93] 어쨌든, 난 간다. 내일 학교에서 봐.
+  </file>
+  
+  <file path="home/docs" name="update.txt">
+[slaggedfire] 개발자들이 이번 업데이트에 쑤셔넣은 헛소리 좀 봐?
+[slaggedfire] 대체 누가 절차적 풀 애니메이션에 신경 쓰냐고?
+[slaggedfire] 난 진짜 콘텐츠를 원한다고!
+[zuggj1] 게다가 이것도 엄청나게 돈 받아먹겠지
+[slaggedfire] 로그인해서 레이드 다시 돌릴래?
+[zuggj1] 뭐 그러지 뭐.
+  </file>
+  
+</Computer>

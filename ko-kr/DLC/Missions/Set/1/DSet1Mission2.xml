@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mission id="dRicerMission">
+  <goals>
+    <goal type="fileupload" target="dRicer" file="SSLTrojan.dec" path="home/projects" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="라이서">
+SSL 포트를 뚫는 방법을 개발해왔던 사람이 어디 있는지 소식을 들었어. 문제는, 녀석들의 보안 설정이 약간 특이해.
+  </posting>
+  <email>
+    <sender>라이서</sender>
+    <subject>라이서</subject>
+    <body>
+SSL 포트를 뚫는 방법을 개발해왔던 사람이 어디 있는지 소식을 들었어. 문제는, 녀석들의 보안 설정이 약간 특이해.
+----
+목표물, 즉 라이서는 맞춤형 설정에 환장한 놈 같아. 그래서 보안 설정도 특이해. 곳곳에 있는 구성과 포트, 서비스 할당이 전부 표준에 맞지 않아.
+침입에 성공하면 최신 SSL을 파괴하는 소프트웨어를 복사해 줘. 암호를 거는 식으로 보안이 걸려 있겠지만, 상관없어. 뭔가 찾으면 (링크된) 우리의 드롭 서버에 업로드해. 그럼 우리가 그걸 받아서 작업할 테니까.
+    </body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="dRicer" />
+      <note title="임무 안내">라이서의 서버에 접속하여 보안을 우회하라.
+최신 SSL 파괴 소프트웨어를 찾아라.
+추신: 암호화되거나 숨겨졌을 수도 있다.
+뭔가 중요한 걸 찾으면 파일을 팀의 드롭 서버에 업로드하라.</note>
+    </attachments>
+  </email>
+</mission>

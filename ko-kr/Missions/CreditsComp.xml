@@ -1,0 +1,271 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="creditsComp" name="크레딧 서버" ip="226.187.99.3" security="0" icon="chip" allowsDefaultBootModule="false" type="4">
+
+  <dlink target="academic"/>
+  <dlink target="deathRow"/>
+  <dlink target="ispComp"/>
+  <dlink target="medical"/>
+  <dlink target="jmail"/>
+  
+  <SongChangerDaemon/>
+  <ports>21, 22, 25, 80, 1433, 104, 3724</ports>
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+
+  <file path="sys" name="x-server.sys">#MINT_THEME#</file>
+  <file path="home" name="Credits.txt">-- Hacknet --
+^A Game By
+%MATT TROBBIANI
+
+^Logos, Assistant Writing, Testing
+Sarah Riggall
+
+
+^Appearance Mockup
+Jeremy Mitchell
+
+^Additional Writing
+Stephen "Hellerphant" Heller
+
+^-Music-
+
+^The Otherworld Agency
+Fabian Malabello 
+$Founder Managing Director
+
+Thanks Rumblefish Inc.
+- Cinematrik
+"The Quickening" by Cinematrik (RFID15710)
+"Revolve (R Mix)" by Cinematrik (RFID15810)
+
+- Rico Puestel
+Roja Drifts By (Timo Jahns Strings Remix)
+PSTL001
+(C) 2014 Ponsactrilau
+
+- Tonspender
+"Broken Boy" - examples EP
+"Irritations" - examples EP
+
+- Chris Larkin
+Ending speech recording and backing
+Hacknet Credits track
+
+ROLLER MOBSTER
+(Franck Hueso)
+Performed by
+- Carpenter Brut
+(p) No Quarter
+Under permission by Warner Chappell Music France
+
+- Ryan Burge
+Recursion
+Phase of the moon
+
+- Remi Gallego (AKA The Algorithm)
+Panic Track
+Malware Injection
+
+- Matt Mclean
+Feeding Ear | Out run the wolves
+
+- Sean Gillespie
+TETRAMETH
+
+Special thanks to Inspiration from
+www.ccmixter.org
+
+
+^-Backgrounds-
+"Been Away Too Long" - White Theme
+"Journey" - Green Theme
+Both by Angelus-Hellion
+angelus-hellion.deviantart.com
+
+
+^-SFX-
+Dark Drone 008
+mckinneysound - http://www.freesfx.co.uk
+Hospital ECG
+https://www.sounddogs.com/sound-effects-library/2175.htm
+https://www.sounddogs.com
+Doom Shock + TraceKill
+Inspiration From
+http://www.kyutwo.com
+Audiojungle.com
+Drones and Transitions
+
+Thanks to Wertstahl for extra SFX
+
+^-Porting and FNA-
+Ethan "flibitijibibo" Lee
+
+^-Testing and Thanks-
+Elle Dunbar
+Chris Johnson
+Tristan "tijit" Trabilsie
+Jamie Williamson
+Alex Mackay
+Noblekale
+Sam Crisp
+Dylan Sale
+Richard Taylor
+Ben Kislby
+Matt LeKrupa
+Brad Wesson
+Jamie Pillianaros
+Giselle Rosman
+Bec Pelvay
+Ben Carter
+Stephen Trobbiani
+Gib Trobbiani
+Laura Trobbiani
+Ben Trobbiani
+Aidan "Aidy" Coxon
+
+^-International Testers-
+Quinton Porter
+Radek Golan
+Player Fero
+Jacob Johnson
+Daniel Lieberwirth
+BirdCute
+Andreas Lenhardt
+Rain Shatter
+Colamaeleon
+
+^-Port Testers-
+Ladislav Vydra  -  Richard Middel  -  Willem-Jan Zijderveld
+Lukasz Klatka  -  Lucia Fabiola Martinez Fajardo  -  Michael Tanzer
+Ambidotus Insignis  -  Barrett Eckhart  -  Heide Queen
+Willem-Jan Zijderveld  -  Daniel Sapelli  -  Kacper Tonia
+Sean Mackedie  -  TECHNO vids  -  Derek Power
+Alexander Ford - Matthieu Rose
+
+^-Translators-
+ - Game Scribes - 
+Team lead by William Farrell
+Special thanks to Colamaeleon for coordination and testing
+
+^German
+ - Hanna Siek - 
+Sebastian Raake
+Thomas Jager
+jonasschloemer
+
+^Dutch
+Master Grid
+
+^French
+- Pierre Cholet -
+The Corsaire
+jdbarte
+Wk Slicex
+Aokami
+
+^Spanish
+Nahuel Peruzzo
+Victor Sanchez Collado
+Wazbat
+Adam
+delaguila fernando
+
+
+^- Published by : Fellow Traveller -
+
+Chris Wright
+$Managing Director, Fellow Traveller
+
+Stephen Heller
+$Product Manager And Community Manager, Fellow Traveller
+
+Lex Suurland
+$Business Development Manager, Fellow Traveller
+
+Fiona Murray
+$Finance Manager, Fellow Traveller
+
+James Kozanecki
+$PR, Fellow Traveller
+
+Travis Plane
+$Director, Fellow Traveller
+
+Aaron Bertinetti
+$Director, Fellow Traveller
+</file>
+
+<file path="home" name="Congratulations.txt">
+축하합니다! 
+
+사실 저는 이 게임의 프로토타입을 친구들과 플레이하기 위해 48시간 걸려 만들었었지요. 제 유튜브 채널(&quot;TheOrann&quot;)에서 제가 프로토타입을 만드는 과정을 고속으로 재생한 것을 볼 수 있습니다.
+ 프로토타입에 대한 반응이 괜찮아서 3년 정도의 시간을 투자해 방금 끝내신 게임으로 확장했습니다. 게임이 마음에 들었으면 좋겠네요! 
+
+게임이 재미 있었는지 없었는지 알려주세요! 여러분의 평가를 듣고 싶습니다. 제 이메일 주소는 &quot;matt@hacknet-os.com&quot;이고, 제 트위터 ID는 @Orann
+
+입니다. 감사하고, 축하합니다!
+-Matt Trobbiani
+
+  </file>
+  
+  
+  <file path="home" name="Hidden_Stuff.txt">
+게임 내에는 메인 스토리와 직접적인 관련은 없지만 개발 과정에서 남겨진 추가 기능이나 트릭이 숨겨져 있습니다. 예를 몇 가지 들자면:
+
+--CD 트레이 열기--
+명령어 &quot;openCDTray&quot;를 실행하면 연결 중인 컴퓨터의 CD 트레이를 열게 됩니다. 본인의 컴퓨터에 연결되어 있는 경우, 정말로 컴퓨터 본체의 CD 드라이브를 열게 됩니다. 멀티플레이어 모드에서 상대방의 컴퓨터에 연결했을 때도 가능합니다! 
+명령어 &quot;closeCDTray&quot;를 실행하면 다시 닫습니다.
+
+--Fork Bomb--
+멀티플레이어 모드에서 사용하기 위해 만든 Forkbomb라는 이름의 &quot;바이러스&quot;가 있는데, 연결된 노드에 &quot;exe forkbomb&quot;으로 실행시킬 수 있습니다. 실행시키면 30초 동안 해당 노드를 사용할 수 없게 만듭니다! 
+멀티플레이어 모드에서 스스로에게나 상대방에게 실행시키면 램 사용량을 금방 증가시킵니다. 램이 포화 상태가 되면 (게임 내에서) 컴퓨터를 재시작시킵니다. 재빨리 대처한다면 피해를 보기 전에 바이러스의 프로세스 식별자를 찾아서 kill 명령어로 중지시킬 수 있습니다!
+
+--SecurityTracker.exe--
+첫번째 미션에서 삭제한 파일 SecurityTracker.exe은 실제로 실행되는 exe 파일로, 실행시키면 본인을 추적하게 됩니다! 다운로드해서 시험해보고 싶으시면 이 컴퓨터의 /bin 폴더에서 찾으실 수 있습니다. 반드시 금방 프로세스를 kill하십시오!
+
+--이름 생성--
+Hacknet 내의 컴퓨터나 회사 이름들은 여러 가지 기본 이름과 수식어의 목록에서 선택되어 생성됩니다. 플레이할 때마다 다르게 된다는 뜻입니다! 
+Entropy 서버의 미션은 매번 다른 이름이 나타나도록 설정되어 있습니다.
+
+--내부 일관성--
+게임 내 서버들(이메일 서버 등)은 절차적으로 생성된 계정과 이메일을 포함하는 내부적으로 일관된 서버입니다! 
+늘 연결하는 이메일 서버(Jmail.com)를 해킹해서 살펴보세요! 이메일의 저장 형식을 해독하고 제 파서가 어떻게 작동하는지 확인해보십시오. (힌트: &quot;@*[AMPERSAND]^#%@)_!_)*#^@![AMPERSAND]*)(#^[AMPERSAND]&quot;).
+
+--더 있습니다!--
+컴퓨터들에는 비록 규모가 크지는 않지만 보물이 몇 가지 숨겨져 있는 파일시스템이 있습니다. 얼마나 찾을 수 있나 탐색해보세요!
+  </file>
+  
+  <file path="home" name="SecretPath.txt">
+Hacknet에는 제3진영이라고 할 수 있는 비밀의 경로가 있습니다.. 더 찾아보고 싶으시면 좀 더 적극적으로 다시 플레이해보세요. 숨겨진 비밀을 더 찾아보세요. 특히 일이 어떻게 발생했는지, 어쩌다 그렇게 된 것인지, 그리고 그 원인은 어디에 있는지 등이요. 
+끈기만 있다면 모든 사람들과 해커들을 추적하고 조사할 수 있습니다.
+  </file>
+  
+  <file path="home" name="Thanks_Again.txt">
+
+    정말로 감사합니다!
+    게임이 재미 있었는지 없었는지 꼭 제게 이메일을 보내주세요: &quot;matt@hacknet-os.com&quot;.
+    반드시 읽도록 하겠습니다!
+
+    다시 플레이하시겠다면 선물이 있습니다. &quot;1337.1337.1337.1337&quot;에서 모든 포트 익스플로잇이 있는 서버를 게임 초반부터 접근할 수 있습니다.
+
+    다시 한 번 감사드립니다!
+    -Matt Trobbiani
+  </file>
+  
+  <file path="home" name="Wallpapers.txt">
+녹색 및 흰색 주제의 배경 화면은 재능이 넘치는 Angelus-Hellion이 제공하였습니다. 
+
+둘 다 풀해상도 버전을 그의 DeviantArt 페이지에서 찾으실 수 있습니다:
+
+http://angelus-hellion.deviantart.com
+
+  </file>
+  
+</Computer>
+

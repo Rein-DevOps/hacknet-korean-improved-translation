@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dpetsM1">
+  <goals>
+    <goal type="databaseEntryChange" comp="dPets_MF" recordName="minx" fieldName="NeoPoints" operation="greater" targetValue="999999"/>
+  </goals>
+  <missionStart val="1" suppress="true">loadConditionalActions:DLC/ActionScripts/PetsAcceptedActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="디지펫 - #PLAYERNAME#">
+오래된 전설적 타겟 디지펫이 팀에 테스트로 주어졌습니다. 고지를 점령하세요.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>디지펫</subject>
+    <body>
+오래된 전설적 타겟 디지펫이 팀에 테스트로 주어졌습니다. 고지를 점령하세요.
+----
+이건 딱히 내가 의도한 바는 아닌데. 우리의 최종 작업 두 개 중 첫 번째 작업의 준비가 거의 완료됐어.
+내 친구 중 하나가 내가 진행 중인 어떤 작업을 시작할 수 있도록 정보를 많이 캐내 줬는데, 일단 팀의 실력을 보여달라고 요구하고 있어.
+아무나 다 너희 셋의 실력을 인정하는 건 아니라서 말이지. 그래서 말인데
+
+지금, 불행히도, 이 네트워크는 장난이 아니야. 해킹 기술에 대한 궁극의 시험이지. 그래서 #PLAYERNAME#와 D3f4ult의 팀워크가 필요해.
+
+작업 자체는 메인 프레임 데이터베이스의 값 몇 가지를 섞는 거야. 유저 "Minx"가 "디지포인트"의 값을 1,000,000 이상으로 올리고 싶어 해.
+
+정신 바짝 차려. 이건 까다로운 미션이야.
+-Kaguya</body>
+    <attachments>
+      <note title="디지펫 미션 가이드라인">
+프론트엔드 웹 서버에 침입해 노드를 스캔할 것. 네트워크 관리자에게 경보가 가지 않도록 아무런 피해도 입히지 말 것.
+침입할 방법을 찾을 때까지 메인프레임을 찾아 네트워크를 조사할 것.
+유저 "Minx"를 찾아 "디지포인트"를 1,000,000 이상으로 설정할 것.
+데이터베이스 뷰에서 변경사항을 확인할 것.
+      </note>
+      
+      <link comp="dPets_Home" />
+      
+    </attachments>
+  </email>
+</mission>

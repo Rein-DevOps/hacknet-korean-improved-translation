@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">옛날 연금술사들은 금속에게는 일종의 생명이 있다고 믿었다. 즉, 금속은 토성으로 상징되는 납으로 시작하여 시간이 지나면서 여러 원소들로 진화되어 결국에는 금(태양)이 된다는 것이다.
+
+나중에야 그 뜻이 단순히 상징적이라는 것을 알게 되었지. 생명과 물질은 주기적으로 진화한다. "위에서와 같이 아래에서도"라고 에메랄드 비문에 적혀 있다. 
+
+친구여, 그대 역시 진화할 것이고, 새로운 주기가 시작될 것이며, 이는 찬란할 것이다.</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">에메랄드 비문
+
+이는 오류가 없는 진실로써, 확실하고 가장 진실된 것이다.
+
+단 하나의 기적을 이루기 위해, 아래와 위는 같으며 위와 아래는 같다.
+
+그리고 모든 것이 하나의 명상으로부터 나왔으니, 모든 것은 적응을 통해 하나로부터 나온 것이다.
+
+태양이 그 아버지, 달이 그의 어머니이며, 바람이 그를 잉태하였고, 땅이 그를 길렀다.
+
+만물의 완벽함의 아버지가 여기에 있다.
+
+만물의 힘은 흙으로 통합될 때 완전해진다.
+
+노고를 들여 불로부터 땅을, 그리고 만물로부터 정교함을 분리하라.
+
+그것은 땅에서 하늘로 올라가고 다시 하늘에서 땅으로 내려오며, 우월한 것과 열등한 것 모두의 힘을 받는다.
+
+이를 통해 그대는 만물의 영광을 얻게 되며
+이로써 모든 어두움이 그대로부터 사라질 것이다.
+
+그것의 힘은 모든 힘 가운데 으뜸이니 모든 미묘한 물질을 돌파하고, 모든 단단한 물질을 뚫기 때문이다.
+
+이렇게 하여 세상이 창조되었다.
+
+이러한 방식(또는 과정)으로 완성된 작업들은 실로 경이로우며, 그 지식이 여기에 있다. 나는 만물에 대한 철학의 세 조각을 가지고 있기에, 헤르메스 트리스메기스트라고 불린다.
+
+이로써 내가 언급한 태양의 운행에 대한 내용은 수행되었으며 완료되었다.</file>
+
+  <file path="home" name="nameofgod.txt">요드
+헤
+바브
+헤
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">환상과 변화의 패턴은 주기적으로 나타나며 여러 세대, 분야, 주제를 통해 반복되고 투영된다.
+  
+이는 현 시대의 기술 역시 연금술 기록을 문자 그대로 따르는 것만 봐도 분명한 사실이다.
+
+종교적 상징이나 전쟁 행위가 아닌 사회의 도구로써 '방화벽'이 다시 나타났다. 그리고 그것은 여전히 같은 방식으로, 같은 단어로 지칭된다.
+흙, 제1질료, 곤(困)
+
+레비스(Rebis)에서, 운동, 연결, 이동성의 지혜를 찾으라.
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+도에서 하나가 나온다.
+하나에서 둘이 나온다.
+둘에서 셋이 나온다.
+셋에서 모든 것이 나온다.
+  </LogoDaemon>
+  
+</Computer>

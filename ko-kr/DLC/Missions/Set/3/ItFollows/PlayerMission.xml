@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_dest" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="결론은">누군가가 Kaguya의 뒷담화를 까더라. 놈들을 찾아내서 진짜인지 알아내고, 필요하다면 놈들의 입을 막아버려. 남들 눈에 띄면 곤란하거든.</posting>
+  <email>
+    <sender>도서관</sender>
+    <subject>그러니까</subject>
+    <body>
+누군가가 Kaguya의 뒷담화를 까더라. 놈들을 찾아내서 진짜인지 알아내고, 필요하다면 놈들의 입을 막아버려. 남들 눈에 띄면 곤란하거든.
+----
+익명의 유저가 소수의 해커 포럼에서 날 두고 추잡한 얘기를 하면서 분쟁을 일으키기 시작했어. 나는 이런 걸 걱정할 정도로 해커 사회에서 악명이 높지도 않고, 그 유포자는 그 IRC 채널에서 웃음거리가 되긴 했지만 몇몇 주장이 적당히 구체적이라는 게 약간 걱정돼.
+
+내 지인들 중 한 명이 유포자의 IP를 알려줬어. 그런데 난 지금 다른 일 때문에 바빠. 그러니 네가 해결해 줘.
+
+놈들의 주장을 확인해 봐. 그럴듯한 증거가 있는 것 같으면, 증거는 물론이고 놈들의 파일을 전부 날려버려. 우리를 건드리면 안 된다는 걸 알려줘야지. 우리 조직이 범접할 수 없는 존재처럼 보여야 해. 혹시 암호화된 키를 발견하면 IRC에 올려줘. 나중에 내가 더 조사해 볼게.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds3_entry" />
+      <note title="임무 안내">놈들의 험담을 조사해라. 증거가 '진짜'거나 'Dreadnought'라는 사람이 언급되면 놈들의 파일을 전부 삭제해라.</note>
+    </attachments>
+  </email>
+</mission>

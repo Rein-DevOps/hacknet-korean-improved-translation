@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="eosIntroComp" name="Jason&apos;s PowerBook Plus" security="2" icon="laptop">
+
+<file path="home/documents" name="Kelly.txt">
+[valley] 집에 가는 길에 뭐 사갈 거 없어? 
+[kittyhat22] 그런 건 왜 물어봐? 
+[valley] 왜 이래, 끝난 거 아니었어? 
+[kittyhat22] 끝나긴 뭐가? 
+[valley] 아무 것도 아닌 일로 싸우는 거. 
+[kittyhat22] 당신은 집에 있는 날이 없지, 집에 있을 때는 나한테 말도 안 걸지 
+[valley] 내가 우리 빚 갚고 여기서 벗어날 수 있도록 뼈빠지게 일하고 있다는 것을 좀 알아준다면
+ [valley] 당신은 종일 뭐하는데? 
+[kittyhat22] 나한테 공격을 돌리지 마. 
+[kittyhat22] 나도 취직하려고 열심히 뛴 거 알잖아. 최소한 나는 당신을 이해하려고 하고 있어. 하지만 당신은 나한테 관심이 없어.
+ [valley] 개소리. 집에 가서 봐.
+</file>
+  
+<file path="home/documents" name="lmao.txt">
+[dirtweed] 주말 어땠어? 
+[willow] 빨래방에서 쫓겨나기 전까지는 괜찮았지. 
+[dirtweed] ㅋㅋㅋㅋㅋㅋㅋㅋ
+ [dirtweed] 거기서 쫓겨났다고? 뭘 했길래?
+ [willow] 그게... 내가 술이 잔뜩 취해서 넘어지는 걸 경비원들이 발견했다나봐. 
+[dirtweed] ㅋㅋㅋ 
+[willow] 그래서 나를 밖으로 데려가는데 내가 &quot;나 안 취했어, 자식들아&quot;라고 저항했다고&quot; 
+[willow] 그런 다음에 경비원 한 명에게 완전히 토사물 세례를 퍼부었다는 거야. 밖에 약 30명이 줄 서서 보고 있는데
+ [dirtweed] 저런! 
+[willow] 나 잔다. 아직 숙취야. 잘 자.
+</file>
+  
+<file path="home/documents" name="lmao.txt" EduSafe="false">
+[budzyyy] 대체 무슨 일이야?
+ [heller] 대체 어디 있는 거야? 
+[budzyyy] 잘 모르겠어 
+[budzyyy] 깨어나 보니까 상의도 없이 덤불 속에  있더라고 
+[heller] 우리가 너 몇 시간 동안이나 찾아다녔어. 
+[heller] 마지막으로 널 봤을 때 E한테 집적거리면서 아이스크림차 쫓아다녔는데 
+[budzyyy] 이 동네에 아이스크림차가 있어?
+ [heller] 아니, 근데 어젯밤에 네가 있다고 그러더라 
+[budzyyy] 아무래도 내 몸이 예전 같지 않은가 보다. 
+</file>
+  
+  <eosDevice name="Jason's ePhone 4S" id="eosIntroPhone">
+    <note>돼지고기 찐빵
+      
+----------------------  
+백설탕 1.5 큰술&lt;br&gt;  
+미지근한 물 250ml&lt;br&gt;  
+이스트 1.5 작은술&lt;br&gt; 
+ 식용유 1 큰술&lt;br&gt;
+  베이킹파우더 1.5 작은술&lt;br&gt;  
+밀가루 400g&lt;br&gt;
+  ---------------------- 
+   
+설탕 + 물을 그릇에 넣고 녹인 후 이스트를 넣은 다음 덮고 10분 기다린다.
+    
+나머지를 체로 친 다음 섞어서 매끄럽고 쫀득한 반죽이 될 때까지 치댄 다음 수건으로 덮고 한 시간 동안 둔다.
+   
+ 조금씩 떼어 동그랗게 빚은 후, 원하는 속을 넣고 20분 동안 찐다.
+  
+    </note>
+    <note>토르티야
+
+----------------------
+밀가루 2컵&lt;br&gt;
+소금 1/2 작은술&lt;br&gt;
+베이킹파우더 1 작은술&lt;br&gt;
+라드 1큰술&lt;br&gt;
+물 3/4 컵
+----------------------
+
+가루류를 섞은 다음 라드를 첨가한다. 물을 넣고 반죽을 만든다. 매끄러워질 때까지 반죽한다.
+
+ 얇게 밀어 황금색이 날 때까지 팬에 부친다.</note>
+    <mail username="jjstacks@jmail.com" pass="tintin7"/>
+  </eosDevice>
+  
+  <account username="admin" password="tintin7"/>
+</Computer>

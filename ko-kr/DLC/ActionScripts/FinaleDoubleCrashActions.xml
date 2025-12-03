@@ -1,0 +1,53 @@
+﻿<ConditionalActions>
+
+  <OnConnect target="dhs" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-30.70">------------------------------------------------</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-30.75">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.0">*** CHANNEL 기능 초기화: ## k_rmt_BACKUPOVERRIDE.bat ##</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.2">*** CHANNEL 모드 설정: +b (차단) 유저 @Coel</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.4">*** @Coel이 CHANNEL에 의해 강퇴되었습니다.</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.6">*** 유저 @Kaguya가 CHANNEL에 의해 추가되었습니다.</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.8">*** 유저 @D3f4ult가 CHANNEL에 의해 추가되었습니다.</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-32.2">------------------------------------------------</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-21.8">좋아, 돌아왔어. </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-20.8">@D3f4ult, 거기 있어? Coel이 우릴 차단하려고 한 것 같아.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.8">그래, 들어왔어. 그 년이 내 메인 게이트웨이를 꺼버렸더라고. 지금 비상용 랩탑으로 들어왔지만, 다시 셋업하려면 오래 걸릴 것 같아.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-6.8">젠장... 몇 분 내로 설치하는 거 도와줄게.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-2.8">일단 먼저 해결해야 되는 것들이 있어.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-0.8">알았어. 내 도움이 필요하면 말만 해.</AddIRCMessage>
+
+    <!-- Current time -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.2">좋아...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="3.2">추락했군. 끝났어.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="6.2">@#PLAYERNAME#, @D3f4ult, 잘했어. 해결해 줘서 고마워.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="9.2">@D3f4ult, 이렇게 되기 전에 Coel이랑 내가 얘기할 때까지 기다려줬으면 좋았을텐데. 쉽게 얻을 수 있는 인재가 아니잖아. 절대로.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="15.2">@#PLAYERNAME#, 이해해 줘서 고마워. 넌 옳은 선택을 한 거야.</AddIRCMessage>
+
+    <RunFunction DelayHost="dhs" Delay="16.0" FunctionName="deActivateAircraftStatusOverlay" />
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20.8">두 번째 비행기는 어떻게 됐어? 보고서가 실린...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.2">젠장. 그것도 추락했군... #PLAYERNAME#?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="26.2">아...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="30.2">그래. 좋아. 괜찮아. 가장 안전한 방법이지. 우린 확실히 처리했어. 두 배로. 이걸 해결하는 게 최우선 과제였고. 여지를 주지 않은 게 다행이었어.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="34.0">맙소사...</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.2">좋아. 생각 좀 하자...</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="41.2">지금은 흩어져야 할 것 같아.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="45.6">특히 Coel이 타락했으니 당분간 같이 일하지 않는 게 좋겠어.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47.0">:/</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48.2">그래...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="53.2">너희들의 연락처는 가지고 있으니까, 사태가 진정되면 연락할게.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="56.2">다음 서버가 너희들의 트래커를 지울 거야. 거기 있는 건 전부 가져도 돼. 내가 가진 것들을 나머지도 너희들이 가져가도록 올려둘게.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="59.2">너희 둘이랑 같이 일해서 즐거웠어. 도와줘서 고마워.</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="62.2">나중에 보자, Kaguya, #PLAYERNAME#.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="65.2">다들 몸 조심해.</AddIRCMessage>
+    <!-- Kaguya copy over double crash assets to personal server here -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="67.2">!ATTACHMENT:link#%#Kaguya_Projects#%#54.183.231.34</AddIRCMessage>
+    
+  </OnConnect>
+
+</ConditionalActions>

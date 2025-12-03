@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="암호화 파일 추적">
+DEC 암호화 파일이 어디서 만들어졌는지 추적할 방법을 찾은 것 같아. 우리에게 암호로 잠긴 파일이 하나 있는데 이걸 열어야 해. 충분한 단서가 있을 거야.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>답장: 스파이글래스를 통해</subject>
+    <body>
+좋아, 뭔가 괜찮은 거 찾았나?
+
+크로스로드에 있는 파일 이름을 &quot;CSEC_encode_1.dec&quot;로 바꿔놨어. 이제 사람들이 함부로 건드리지 못할 거야. 참고로 우리가 입수했을 때 원래 이름은 &quot;WinCE_FirmwareSpecs.dec&quot;였어.
+
+파일 헤더를 읽어서 어디서 인코딩됐는지 알아내고 암호를 추적해봐! 암호를 찾으면 이 이메일에 답장으로 보내줘. 나머지는 우리가 처리할게.
+
+도움 고맙다,
+-CT Team
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+    </attachments>
+  </email>
+</mission>

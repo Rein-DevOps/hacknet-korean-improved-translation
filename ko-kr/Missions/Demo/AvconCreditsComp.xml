@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="avconCreditsComp" name="Avcon 크레딧 서버" security="0">
+  <addAvconDemoEndDaemon name="Demo End"/>
+  <file path="home" name="Entropy_Contact.txt">
+    &quot;Entropy&quot;라는 해커 그룹이 신규 멤버를 모집 중이래. 모집 서버도 만들어뒀고.
+
+    &quot;199.59.149.230&quot;으로 서버에 접속할 수 있어.
+
+    -M
+  </file>
+  <file path="home" name="ProxyOverloadGuide.txt">
+    프록시를 과부하시키려면, 먼저 관리자 권한이 있는 노드에 셸 노드 몇 개를 설정해.
+    &quot;shell&quot; 프로그램을 실행하면 돼 (예: &quot;exe shell&quot;).
+
+    여러 개의 셸이 실행 중인 상태에서 대상 시스템에 접속해 오버로드 기능을 사용하면,
+    대상에 요청을 폭주시켜 프록시가 처리를 따라잡기 위해 일시적으로 종료되게 만들 수 있어.
+
+    이렇게 생긴 틈을 이용하면 프록시가 막았을 프로그램을 자유롭게 실행할 수 있지.
+    -M
+  </file>
+  <file path="home" name="Credits.txt">
+    -----HackNet-----
+
+    A Game by:
+    --Matt Trobbiani--
+    Twitter: @Orann
+    Email: mtrobbia@gmail.com
+
+    Flavour Text and Logos:
+    --Sarah Riggall--
+
+    Appearance Concept
+    Jeryth
+    http://www.reddit.com/user/jeryth
+
+    -Music-
+    Revolve - Hisboyelroy
+    Leviathan - Kirkoid
+    Ana - Hisboyelroy
+    www.ccmixter.org
+
+    -Testing and Thanks-
+    Tristan &quot;tijit&quot; Trabilsie
+    Jamie Williamson
+    Alex Mackay
+    Noblekale
+    Chris Johnson
+    Sam Crisp
+    Dylan Sale
+    Richard Taylor
+    Ben Kislby
+    Matt LeKrupa
+    Brad Wesson
+    Jamie Pillianaros
+  </file>
+  <file path="sys" name="DefaultBootModule.txt">[해제]</file>
+  <!--
+  <addEmailDaemon />
+  -->
+</Computer>
+

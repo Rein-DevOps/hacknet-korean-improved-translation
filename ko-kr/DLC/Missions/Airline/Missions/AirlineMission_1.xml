@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline_1">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="비행편 탑승 - Coel">
+국제 항공사의 예약 메인프레임에 액세스하시오.
+  </posting>
+  <email>
+    <sender>공백</sender>
+    <subject>공백</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

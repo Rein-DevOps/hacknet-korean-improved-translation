@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_psylance" name="Psylance Cyber Security_Employee IRC" security="5" ip="50.31.225.93" type="4" icon="Psylance">
+  
+  <!-- This will have the IRC of the Psylance guys on it - player will need to log in to view it. -->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Psylance 클라이언트 관리자 IRC 채널" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">언론에서는 비디오게임이 사람들을 난폭하게 만든다고 하지만, 수백 년 전에는 마녀라고 생각되는 사람들을 산 채로 화형시켰단 말이지. 내 생각에 인간은 단지 수많은 얼간이들의 집단에 불과해.</post>
+    <post user="da_vito">ㅋㅋㅋ</post>
+    <post user="dardypants">난 믿을 수 없는 걸, Yasu, 진짜로</post>
+    <post user="faithless">저거 누구야?</post>
+    <post user="dardypants">Yasu Arai, Pacific Air IT 관리자.</post>
+    <post user="dardypants">자기 이메일 비밀번호를 대놓고 공개하고 있잖아! 관리자 주제에, 젠장.</post>
+    <post user="faithless">뭐라고 했는데?</post>
+    <post user="dardypants">그대로 인용:</post>
+    <post user="dardypants"> 내 노트북에 로그인하고 그걸 해 줄 수 있어? 암호는 1185JACK</post>
+    <post user="faithless">이런, 아하하하</post>
+    <post user="faithless">그걸 네가 직접 타자쳤다는 사실조차 믿을 수 없다</post>
+    <post user="dardypants">그 놈한테 얘기해서 당장 바꾸게 했어, 괜찮아.</post>
+    <post user="dardypants">이메일 비밀번호도 다른 거야… 하지만.</post>
+    <post user="dardypants">우린 이 네트워크를 보호하는 게 일이잖아! 이건 완전히 우리를 대놓고 방해하는 거나 다름없다구.</post>
+  </IRCDaemon>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+</Computer>

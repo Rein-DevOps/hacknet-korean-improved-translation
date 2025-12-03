@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="milburgHigh" name="Milburg High IT Office" security="2" type="4">
+  
+  <proxy time="0.9"/>
+  <portsForCrack val="1"/>
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1"/>
+
+  <adminPass pass="*******"/>
+  
+  <file path="home/misc" name="People_not_To_Trust.txt" EduSafe="false">
+[jinkle] 어이, 풀 좀 구할 수 있는 데 없을까?
+ [jinkle] Lacy에서 누가 당신한테 연락하라더군. 
+[marcy] 원하는 게 뭔데?
+ [jinkle] 앗싸, 1온스에 얼마야? 
+[marcy] 145 달러 
+[jinkI;tle] 좋아, 좋아. 어디서 접선할래?
+ [marcy] 그러니까, 상등급 풀 1온스를 145 달러에 사겠다는 거지?
+ [jinkle] 그렇다니까.
+ [marcy] 좋아. IP 주소 확보했다. 곧 도착할 거야. 
+[jinkle] 뭐, 대체 어떻게 한 거야?
+ [marcy] 경찰이란 건 특별하니까..... 
+[jinkle] 젠장할. 난 이제 엄마한테 죽었다.
+  </file>
+  
+  <file path="home/MH_STAFF" name="Student_TopSearchHistory.txt" EduSafe="false">
+1  구글 
+2  젖가슴
+ 3  가슴
+ 4  섹스 
+5  옆가슴 
+6  포르노 
+7  포르노 필터 해제하기 
+8  포르노 필터에 안 걸리는 법 
+9  내전 그림 작품 
+10 GTA 
+11 트월킹 
+12 트월킹이 무엇 
+13 트월킹 기술 
+14 프랑스 전쟁 그림에서 상의 탈의한 여자 
+15 스포츠 
+16 구기 스포츠
+....
+  </file>
+  
+  <file path="home/MH_STAFF" name="Announcements.txt">
+인터넷/프록시 서버 정지 공고에 대해서 말인데, 
+
+우리 직원들 중에는 &quot;프록시 서버 정지&quot;가 무슨 뜻인지 모르는 사람도 있지만, 우리 학생들은 그게 무슨 뜻인지 잘 아는 모양이더군요.
+ 간밤에 예고된 정지 기간 동안, 학생들 몇몇이 인터넷은 아직 사용할 수 있지만 검색 필터는 작동하지 않는다는 것을 알고 20분 사이에 총 22테라바이트 분량의 포르노를 학교 서버와 개인 컴퓨터에 다운로드했더라고요. 
+물론 보다 강화된 보안 수단으로 이런 일이 앞으로 없도록 했으면 좋겠습니다만, 최소한, 다음 번에는 아예 예고를 하지 않았으면 좋겠군요. 
+
+수고하십시오,
+-행정부
+  </file>
+  
+  <file path="home/MH_STAFF" name="pw_memo.log">
+4:37 PM - MBIT: 요즘 보안에 대해서 생각하고 있는데 말이야 
+4:37 PM - JBrooks: 그래? 
+4:37 PM - MBIT: 응, 업그레이드 설치하고 작업하는 게 너무 일이 많아질 것 같아서 
+4:37 PM - MBIT: 근데 이거 좀 봐 
+4:38 PM - MBIT: 쉬운 해결방법이 있어: 
+4:38 PM - MBIT: IT 비밀번호를 
+4:38 PM - MBIT: *******로 하면 돼
+ 4:38 PM - JBrooks: 무슨 소리야
+ 4:38 PM - MBIT: 그러니까! 
+4:38 PM - MBIT: 그냥 * 7로 하자고 
+4:38 PM - MBIT: 비밀번호 자체를 별표 줄줄이로 하자고 
+4:38 PM - MBIT: 그럼 누가 맞출 수 있겠어? 아무도 못할 걸. 누군가가 해킹한대도 여전히 보호된 것처럼 보이잖아! 
+4:38 PM - MBIT: 말 그대로 깰 수 없지!
+  </file>
+  
+  <file path="home/MH_STAFF/PRIVATE_STUDENT_EMAILS" name="mail.txt">학생에게서 감사의 이메일이 오면 여기에다 저장해야지. 
+이거 외로워서 살 수가 있나. Notepad.exe, 나를 이해해주는 건 너밖에 없구나 :(</file>
+  
+</Computer>

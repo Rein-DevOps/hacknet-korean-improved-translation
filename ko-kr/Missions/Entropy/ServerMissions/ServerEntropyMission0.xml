@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <posting title="Entropy Database Test Mission">
+테스트 미션 완료 확인 - 뉴스 서버 다운시키기.
+  </posting>
+  <email>
+    <sender>Entropy</sender>
+    <subject>TestMission</subject>
+    <body>
+안녕, 요원.
+
+이것은 서버 테스트 미션이다.
+이미 완료했을 것이다. 아직 하지 않았다면 지금 수락해서 첫 번째 임무를 수행하라.
+뉴스 서버를 다운시키는 것이다.
+
+-Entropy
+    </body>
+    <attachments>
+      <link comp="entropy01.1"/>
+    </attachments>
+  </email>
+</mission>

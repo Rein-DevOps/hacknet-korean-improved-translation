@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dAttackHome" name="Striker_Battlestation" security="3" ip="72.60.4.119" >
+
+  <trace time="-1" />
+  <portsForCrack val="1" />
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1</portRemap>
+  <proxy time="0.1" />
+
+  <file path="home/uni" name="assignments.txt">대학 성적 서버에 침입해서 원하는 대로 성적을 고치는 것과 실제로 과제를 하는 것 중에서 어느 쪽이 더 쉬울까 모르겠네. 물론 성적을 조작하는 쪽이 훨씬 더 재미있겠지만, 서버가 철통이라서.
+사이버 보안 학위를 따기 위한 수업의 성적을 해킹하는 건 뭔가 말이 안 되는 거 같기도 하지만 말야...
+  </file>
+
+  <file path="home/uni" name="notes.txt">할 일:
+  
+예술의 이해 3 (UA101-3)
+예술의 이해 4 (UA101-4)
+정보통신 기초 101 3
+
+진행 중:
+영화학 기초 1 (IFS-1)
+제출 준비:
+CMS101-1
+CMS101-2
+
+지금까지의 생각:
+이거 싫다. 진짜 싫다. 정말 싫다. 이 멍청이들 다 싫다. 왜 작문을 이렇게 못해. 니들 대학생이잖아. 다 성인이잖아!!!!!</file>
+
+  <file path="home/uni" name="IFS1-1-film_study.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-1-reading_comprehension.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-2-understanding_paragraphs.doc">#BINARY#</file>
+
+  <file path="home/themes/CCTThemePack" name="This_Pack_Downloaded_From_CoolComputerThemes.Rice.txt">
+    이 테마 팩은 CoolComputerThemes.Rice에서 다운로드되었습니다! 멋진 컴퓨터 테마에 필요한 모든 것은 저희를 방문하시면 구할 수 있습니다!
+  </file>
+  <customthemefile path="home/themes/CCTThemePack" name="Hora_x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="Hora-Alt_x-server.sys" themePath="DLC/Themes/HoraThemeAlt.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="Miami-blue_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml"/>
+
+  <file path="home/themes" name="CCTThemePack.zip">#BINARY##BINARY#</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <positionNear target="dAttackSource" position="90" total="360" extraDistance="0"/>
+
+</Computer>

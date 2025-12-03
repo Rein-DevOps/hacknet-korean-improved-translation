@@ -1,0 +1,53 @@
+﻿<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <!-- Coel was on Alchemists cleanup duty, Default was on "Personal Ties" 
+    We want to delay the player for 30 seconds here so they can get hacked without starting the next mission...
+    -->
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-10.0">작업 완료. @Coel, 이런 걸 시켜서 미안해. 나도 그걸 깨끗이 처리하려고 노력했거든.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="0.1">고마워. 내가 직접 처리했다면 더 좋았겠지만... 뭐 그렇지.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3">정말 동감이야. 걱정하지 마. 네 쪽은 잘 되어가?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="5.0">이번 일을 해결해 줘서 고마워, @D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="9.0">별 거 아냐, 대장.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="15.2">그래, 헤르메스 연금술사 서버를 다시 한 번 전부 뒤져서 싸그리 정리해야겠어. 그래야 이제부터 안전해질 거야.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">누가 곳곳에 접속 종료 로그를 남겼지만, 문제 없어. 여기저기 헤집진 않았으니까.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="24.5">음, 맞아. @Kaguya, 접속 종료 로그를 처리할 수 있는 도구 좀 구할 수 없겠어?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="28.1">Forkbomb 말고 다른 거?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.1">그건 너무 조잡해서. :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="35.1">으으음, 그건 인정.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.1">찾아볼게. 장담은 못하겠지만.</AddIRCMessage>
+    
+  </OnConnect>
+
+  <!-- These trigger when the player has passed the recovery and connects back to IRC for the first time -->
+  <OnConnect target="dhs" needsMissionComplete="false" requiredFlags="startupBreakinTrapPassed">
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-220.0">@channel 긴급상황! @#PLAYERNAME#이(가) 사방에 경보를 울렸어. 문제가 생긴 것 같아.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-210.0">@Coel, 현재 작업 취소해. 이거 해결하는 것 좀 도와줘.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-200.0">!ATTACHMENT:link#%##PLAYERNAME# PC#%##PLAYER_IP#</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-194.0">@#PLAYERNAME#의 IP야. 무슨 일인지 알아보고 고쳐줘.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-185.0">@Kaguya 알았어.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-180">더 필요한 거 있어?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-175.0">응, 잠깐만.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-160.0">좋아, @#PLAYERNAME#한테 줬던 작업을 너한테 넘겼어. 어디서 공격이 들어온 건지 알아봐. 부디 조심해.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-155">알았어.</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-120.0">VM 레벨 공격이었어. 최선을 다했지만, 지금 그걸 수리하는 건 @#PLAYERNAME#한테 달렸어...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-115.0">잘했어, @Coel. 내가 계속 지켜볼게.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-110.0">새로운 소식 없어, @D3f4ult?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-90.0">몇몇 링크를 모으고 있어. 최대한 깔끔하게 알아보려고.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-85.0">계속해.</AddIRCMessage>
+
+    <!-- After this displays in real-time -->
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.0">잘 돌아왔어, @#PLAYERNAME#.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="8.0">잘했어, #PLAYERNAME#.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">어이, @#PLAYERNAME#. Kaguya가 알아보라고 했지만, 엄청나게 보호된 프록시 같아. 하지만 네 로그를 통해서 추적할 수 있을 것 같아.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25.0">물론 우선권은 너한테 있지만, D3f4ult 스타일로 화려한 불장난을 지르고 싶다면 나한테 IP를 알려줘.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="40.0">그리고 미래의 나에게 하는 말이지만, 다른 해커를 잡아둘 수 있도록 shell로 함정을 깔아두는 게 좋겠어...</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

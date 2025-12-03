@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="Masters in Digital Security" uni="Manchester University" gpa="3.0"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Teach an old dog new tricks [Int.Academic]">
+조직의 잠재적 협력자에게 이력서에 추가할 학위가 필요해.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>바이너리 유니버시티</subject>
+    <body>디지털 보안 회사의 높은 자리에 친구를 두는 건 좋은 일이지 - *특히* 컴퓨터 보안에 대해선 아무것도 모르는 친구라면 말이야.
+최근 우리 요원이 그런 우호적인 사람 한 명과 접촉했는데, 우리가 할 수 있는 것들을 살짝 보여줘서 그를 완전히 우리 편으로 만들 필요가 있어.
+
+그에게 새 학위를 하나 만들어주려고 해, 그가 사는 맨체스터 지역 대학에서.
+
+이름: John Stalvern
+학위: "디지털 보안 석사"
+대학명: "맨체스터 대학"
+GPA: 3.0 이상
+
+중요: 흔적을 반드시 지워 - 국제 교육 기관들은 신뢰성을 유지하기 위해 평판에 의존해. 넌 지금 그걸 침해하는 거야. 만약 이게 발각되면 용서받지 못할 거다.
+
+행운을 빈다,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic"/>
+      <note title="학위 세부사항">이름: John Stalvern
+학위: &quot;디지털 보안 석사&quot;
+대학명: &quot;맨체스터 대학&quot;
+GPA: 3.0 이상</note>
+    </attachments>
+  </email>
+</mission>

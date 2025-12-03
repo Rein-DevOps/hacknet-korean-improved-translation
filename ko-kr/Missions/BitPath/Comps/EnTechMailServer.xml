@@ -1,0 +1,148 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="enMail" name="EnTech 메일 서버" security="5" ip="156.151.59.82">
+
+  <adminPass pass="ax889msjA"/>
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999"/>
+  <trace time="500"/>
+
+  <positionNear target="EnTechMainframe" position="5" total="6"/>
+  <account username="nstanford" password="murloc33" type="2"/>
+  <account username="hnManager" password="hnmanager22" type="2"/>
+  <account username="bcarter" password="dota4lyf" type="2"/>
+  <account username="rc" password="byC89kMMe" type="2"/>
+  
+  <mailServer name="EnTech Mail" color="0,129,242">
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project Update">
+안녕하십니까,
+
+먼저 말씀드리고 싶은 건, 진척이 놀랍다는 점입니다. 연결 모듈에서 겪은 차질에도 불구하고, 목표 마감 기한 내에서 헤쳐나왔습니다. 모두 훌륭한 일을 해냈어요. 초기에 파악한 문제점들은 외부 계약자들이 해결하고 있는데, 인상적인 결과를 보여주고 있습니다!
+
+이 프로젝트는 모두에게 깨달음을 준다고 생각하며, 현재 디지털 보안이 겪고 있는 문제들을 해결하는 올바른 방향이라는 제 생각을 더욱 확고히 해주고 있습니다.
+이렇게 직접 현재 시스템을 한계까지 밀어붙임으로써, EnSec 개발과 이론에서 엄청난 발전을 이뤄냈습니다 - 프로젝트들이 이제 그 어느 때보다 서로를 돕고 있고, 이런 모습을 보니 정말 고무적입니다.
+
+곧 더 많은 소식으로 찾아뵙겠습니다,
+계속 좋은 일 해주세요,
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project concerns and responses">
+안녕하십니까,
+우리 엔지니어 중 한 분이 프로젝트 방향에 대한 우려를 표명했습니다. 인용하자면:
+"악의적으로 사용된다면, 우리가 만들고 있는 건 극도로 위험한 도구가 될 수 있습니다. 배포가 극도로 신중하게 추적되고 모니터링될 것이라고 보장할 수 없다면, 양심상 이 프로젝트를 계속할 수 없을 것 같습니다".
+
+탁월한 지적이며, 투명성을 위해 전체 회사와 함께 이야기하고 싶은 주제입니다.
+이전에 말씀드렸듯이, 이 배포 잠금과 추적은 설계 초기에 문제가 될 것으로 파악한 부분입니다. 강력한 도구를 만들 때 필연적으로 따라오는 문제는 오용될 경우 강력한 결과를 가져온다는 것입니다. 이 문제 영역은 외부 전문가의 도움을 받는 것이 최선의 방법이라고 판단한 경우 중 하나이며, 그들이 훌륭한 결과를 보여주고 있는 곳이기도 합니다.
+아직 시연할 완성품은 없지만, 제가 인지하고 있는 문제이며 계속 논의하고 싶은 주제라는 점을 확신하세요. 현재로서는 *모든* 빌드에 무작위 간격으로 자동 활성화되는 보안 추적기가 내장되어, 이런 초기 단계에서도 불법 빌드를 추적하는 데 도움이 됩니다.
+
+계속 좋은 일 해주세요,
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="bcarter@entech.com" subject="Re: Romulus passwd">
+이봐,
+
+처음부터 설정해줬어야 했는데, Romulus 관리자 비밀번호는:
+
+h7ggNKl2
+
+데스크톱에 링크가 있을 텐데, 없으면 156.151.1.12로 연결하면 돼.
+
+행운을 빌어,
+-Ben
+    </email>
+
+    <email recipient="nstanford" sender="Hacknet team Management" subject="Welcome to the Hacknet Team">
+안녕하십니까, Hacknet 팀에 오신 것을 환영합니다. 프로젝트의 민감한 특성상, 팀 참여의 상당 부분이 프로젝트 내 다른 구성 요소들과 격리되어 진행될 것이며, 프로젝트의 완전히 조립된 빌드를 보게 되는 일은 거의 없거나 아예 없을 것입니다.
+이 때문에, 프로젝트의 전반적인 목표에 대해 좀 더 맥락을 제공하고자 합니다.
+
+Hacknet OS는 획기적인 컴퓨터 보안 검사 및 침투 테스트 프레임워크로 처음부터 설계되었습니다.
+EnTech는 이것을 새로운 디지털 보안 소프트웨어 제품군(EnSec)의 동반 제품으로 제작하고 있으며, 기존 보안 패키지에 대한 우월성을 입증하기 위한 마케팅 및 프레젠테이션 장치로 활용할 예정입니다.
+본질적으로 Hacknet은 마케팅 도구이지만, 독립적인 프로젝트로서는 지금까지 만들어진 가장 야심차고 강력한 AntiSec 도구 중 하나입니다.
+
+팀에 오신 것을 환영합니다 - 믿을 수 없을 만큼 흥미진진한 프로젝트의 일부가 되셨다는 데 동의하실 거라 확신합니다.
+-Hacknet 팀 관리부
+    </email>
+
+    <email recipient="nstanford" sender="EnTech Management" subject="EnTech Current projects and Direction">
+안녕하십니까, EnTech에 오신 것을 환영합니다!
+현재 두 개의 큰 프로젝트를 진행 중이며, 곧 귀하의 팀에서 더 자세한 프로젝트 소개를 받게 될 것입니다만, 이 이메일은 현재 방향과 프로젝트들이 어떻게 맞물려 있는지에 대한 개요를 제공하기 위한 것입니다.
+첫 번째는 EnSec으로, 완전히 새로운 컴퓨터 보안 제품군이며 컴퓨터 보안에 혁명을 일으키도록 설계되었습니다. 인간의 실수는 항상 모든 보안 시스템의 문제 영역이 될 것이지만, 그것이 *유일한* 문제 영역이 되어야 한다고 믿습니다. 시스템 내에서 인간 실수의 가능성을 제거하고 최소화하며, 우리의 새로운 독점 시스템을 사용함으로써, 디지털 보안은 더 이상 일이 아니라 선택이 됩니다.
+Hacknet OS는 EnSec의 동반 프로젝트로, 보안의 기존 문제점을 입증하고 우리가 진정으로 최고의 보안 옵션이라고 믿는 것으로 모두가 업그레이드할 수 있는 강력한 가치 제안을 제공하기 위해 작성되었습니다.
+
+환영합니다!
+-RC
+    </email>
+    
+    
+    <!-- CEO emails -->
+
+    <email recipient="rc" sender="Anonymous" subject="RE(5): New Case - Bit">
+
+      대금이 접수되었고 우리의 거래는 종결되었다.
+      ---
+
+      젠장젠장젠장, 대체 뭘 한 거야? 내가 원한 건 이게 아니야.
+      이게 아니라고, 이 미친놈아! 제발.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(4): New Case - Bit">
+
+      대상은 사망했다.
+      약속한 대로 대금이 지급되지 않으면 내 직원들이 고객에게 문제를 제기할 것이다.
+      ---
+
+      아직 죽지 않았다면 너무 늦은 건 아니야. 당장 취소해, 대금을 철회한다. 이러라고 고용한 게 아니라고, 젠장.
+      프로젝트에 대한 개인적 가치는 차치하고라도, 당신의 멍청한 오해 때문에 내가 살인에 공범이 될 수는 없어.
+
+    </email>
+    
+    <email recipient="rc" sender="bcarter@entech.com" subject="RE: Mainframe Access Emergency">
+
+      물론이지,
+
+      사용자: admin
+      비밀번호: v19328hQ9
+
+      네가 끝날 때까지 자동 비밀번호 로테이션을 중지시켜 놓을게.
+      -Ben
+
+      ----
+      뭔가 생겼어. 둘러볼 수 있게 메인프레임 접근 권한이 필요해. 최근 접속과 빌드를 조사할 거라 관리자 권한이 필요해.
+
+    </email>
+
+    <email recipient="rc" sender="Anonymous" subject="RE(3): New Case - Bit">
+
+      너무 늦었어, 멈출 수 없다. 익명이야. 구체적인 행동을 원한다면 명확하게 말해야 한다.
+      ---
+      죽었다고? 대체 무슨 소리야? 컴퓨터를 부수고 체포하라고 했지, 죽이라고는 안 했어. 당장 취소해. 너무 멀리 갔어, 내가 직접 처리할게.
+
+      그는 천재야. 프로젝트에 반대하더라도 살아는 있어야 해. 제발 멈출 방법을 찾아봐.
+      농담이 아니라면 당신이 전적으로 책임져야 할 거야. 장난치지 마.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(2): New Case - Bit">
+
+      지시를 내렸다. 비싸지만, 일주일 내에 죽을 것이다.
+      평소처럼 당신 계좌로 청구했다.
+      ---
+
+      함께 일하게 되어 반갑다. 이번에 구체적으로 무슨 계획인가? 그는 중요하고 많이 알고 있다.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE: New Case - Bit">
+
+      알았다. 내가 처리하지.
+      ---
+
+      전 직원 한 명이 폭주해서 프로젝트를 위협하고 있어. 대부분과 달리 이 사람은 실제로 뭘 하는지 알고 진짜 문제가 될 수 있어서 걱정이야. 이렇게 노골적으로 말하기는 싫지만, 이 프로젝트는 나에게도, 세상에게도 너무 중요해서 이런 일로 위험에 처하게 할 수 없어. 단념시킬 수 있겠어?
+      세부사항은 첨부했어. "Bit"이라고 불러.
+
+      -rc
+    </email>
+
+  </mailServer>
+  
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ham1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="헤르메스 연금술사 - Coel">
+이상한 철학 그룹 서버 시스템의 관리자가 우리의 향후 프로젝트에 필요한 소프트웨어를 개발했어.
+    </posting>
+  <email>
+    <sender>은폐</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

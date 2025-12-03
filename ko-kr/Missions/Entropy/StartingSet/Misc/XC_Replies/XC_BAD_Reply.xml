@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+알 수 없는 포스팅 오류
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>회신: 내부 조사</subject>
+    <body>
+그렇군, 
+
+이건.. 약간 프로답지 못해 보이는군. 아무래도 우리 저명하신 박사님과.. 프로젝트 자원의 합당한 사용에 대해 조만간 면담을 나눠야겠군. 
+
+알려줘서 고맙네,
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

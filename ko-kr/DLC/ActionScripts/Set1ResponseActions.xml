@@ -1,0 +1,14 @@
+﻿<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-15.0">암호해독기 설치 완료!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-12.0">안타깝지만 아직 이식할 순 없어. 조만간 새롭게 공유할 수 있는 .exe 파일을 만들 거야.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-7.0">지금은 그냥 나한테 파일을 보내줘. 그럼 내가 조사해 볼게.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-3.0">이걸 제대로 설치하는 시간보다, 네가 암호를 해독하는 시간이 얼마나 오래 걸릴지 참 궁금하다.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="0.5">그래, 나도 내 자신이 쪽팔린다. 하지만 대답은 안 할 거야. 그건 잘 작동하고, 내가 시간만 투자하면 더 좋아질 거야. 지금은 그것만으로도 우리 모두 잘 해낼 수 있을 거고. -_-</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.2">안 그러면 곤란해.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.5">-_-</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

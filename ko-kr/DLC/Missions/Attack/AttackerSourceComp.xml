@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dAttackSource" name="Striker Proxy" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga: 그렇게 독하게 굴지 마.
+StrikeR: 그러는
+StrikeR: 너야 말로.
+StrikeR: 먹이 주지 마.
+StrikeR: 그리고 그 망할
+StrikeR: 테마를 보내 달라고.
+fdsfjga: 하.
+fdsfjga: 지금 바로?
+StrikeR: 어.
+fdsfjga: 게임 끝날 때까지 기다릴 수 있어?
+StrikeR: .
+fdsfjga: 농담 아냐.
+fdsfjga: 나 지금 바쁘거든
+StrikeR: 어, 너 자리 비움인 줄 알았는데.
+fdsfjga: ㅋㅋㅋ 개새끼.
+StrikeR: xd
+fdsfjga: 야.
+StrikeR: 뭐.
+StrikeR: 원하는 게 뭐야.
+fdsfjga: 게임 끝났어.
+StrikeR: 뭐.
+fdsfjga: 우리가 플레이하던 게임?
+StrikeR: 그게 뭐였더라?
+fdsfjga: 이런 씨발
+fdsfjga: 이런 밴댕이
+StrikeR: 금방 온다. 자리 비움.
+fdsfjga: 허튼소리
+StrikeR: 안 속네
+fdsfjga: 테마 파일 줘 말아?
+StrikeR: 으어어어어어어
+StrikeR: 좋아.
+StrikeR: irc로 옮기자.
+fdsfjga: 여기가 irc야.
+StrikeR: 워워.
+StrikeR: 그랬던가
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR: 테마 파일이 망가졌어.
+fdsfjga: ?
+StrikeR: ?
+fdsfjga: ???
+StrikeR: 망가졌다고.
+StrikeR: 뭐.
+fdsfjga: 뭐/?
+StrikeR: 뭐라고 해야 할지 모르겠는데
+StrikeR: 로딩이 안 돼.
+fdsfjga: 확인해 볼게.
+fdsfjga: 나는 로딩 잘만 되는데.
+fdsfjga: 그냥 니가 못하는 거 아냐?
+StrikeR: 그거야.
+StrikeR: 현실적으로 생각해 보자.
+StrikeR: 극히 드문 일이지만.
+fdsfjga: 너 파일 확장자 망가뜨렸어?
+StrikeR: 아니.
+fdsfjga: 확인해 봤어?
+StrikeR: 어.
+fdsfjga: 진짜 확인해 봤어?
+StrikeR: 어.
+fdsfjga: 다시 확인해 봐.
+StrikeR: 씨발.
+fdsfjga: 그래서 파일 확장자는 어떻게 된거야, 응?
+StrikeR: 테마 파일이 내 마음에 드는 게 다행인 줄 알아
+fdsfjga: ?
+fdsfjga: 그래 니 똥 굵다 됐냐 임마
+fdsfjga: :3
+StrikeR: 신고함.
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga: 야.
+fdsfjga: 말해줄 게 있어
+fdsfjga: 너 나가고 jammy가 네 욕을 하고 다니더라.
+Fdsfjga: 여자애들은 dota 되게 못한다고
+fdsfjga: 쫀심 상해서 그래 ㅋㅋㅋ
+StrikeR: ㅋㅋ
+StrikeR: 나 다음 게임 땐 미드 할거야.
+fdsfjga: 어. 이미 모두에게 말해 놨어.
+StrikeR: 게임에서 이기는 건 상관 없어
+fdsfjga: 아, 안 돼.
+StrikeR: 뭘 안 돼.
+fdsfjga: 제발
+StrikeR: 미드 쉐도우핀드
+StrikeR: 그 치즈 빌드 알지?
+fdsfjga: 안 돼.
+StrikeR: 다곤 멕
+StrikeR: 빡쳐서 게임 끄게 해 주지.
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga: 너
+fdsfjga: 진짜
+fdsfjga: jammy 해킹했냐?
+StrikeR: ?
+fdsfjga: 이런 젠장.
+fdsfjga: 너
+StrikeR: 걔 프록시 안 썼어.
+StrikeR: 제발 해킹해달라는 거나 다름 없지
+fdsfjga: 이런
+fdsfjga: 걔 #dota에서 징징대고 있었어.
+fdsfjga: 기다려봐
+StrikeR: 오 효과가 있었어?
+fdsfjga: 그래, 너 걔 비디오카드 망가뜨렸어
+fdsfjga: 완전히 먹통됐더라
+StrikeR: ㅋㅋㅋ 걘 내가 비디오카드 뭐냐고 물어봤을 때 의심을 했었어야지
+fdsfjga: 믿을 수가 없군.
+fdsfjga: 걔 거기에 월급 다 부었대
+StrikeR: 백신에 $5는 투자했어야지.
+fdsfjga: 나도 걔가 너한테 개새끼같이 군 건 아는데
+fdsfjga: 좀 심하다고 생각 안 하냐.
+StrikeR: 아니.
+StrikeR: ㅋㅋㅋ
+fdsfjga: ㅋㅋ 알 만하군.
+StrikeR: 걘 좀 정신 차려야 돼
+StrikeR: 그
+StrikeR: 뒷다마가
+StrikeR: 어떤
+StrikeR: 결과를 가져오는지.
+StrikeR: ㅋㅋㅋ
+StrikeR: 내가 gpu bios 플래시하는 동안 뭘 찾았게?
+fdsfjga: 으어 뭔데?
+StrikeR: 녀석이 어떤 여자한테 집요하게 작업 걸다가 까인 채팅 기록 전체.
+fdsfjga: 말도 안 돼.
+StrikeR: 응, 걔 모든 msn 대화를 저장해 뒀더라. ㅋㅋㅋ
+fdsfjga: 그거 굉장한데.
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy: 안녕 :)
+- - -
+j4mmy: 이봐!
+* j4mmy님이 쿡 찔렀습니다! *
+- - -
+j4mmy: 안녕?
+- - -
+j4mmy: *어깨 마사지*
+* j4mmy님이 스티커를 보냈습니다! *
+- - -
+j4mmy: *안녕*
+* j4mmy님이 쿡 찔렀습니다! *
+- - -
+* j4mmy님이 쿡 찔렀습니다! *
+j4mmy: 젠장 좀 그만 무시하라고.
+[A]LEX[A]: 원하는 게 뭐야.
+j4mmy: 안뇽? :)
+[A]LEX[A]: 잘 들어.
+[A]LEX[A]: 나 너한테 관심 없거든.
+[A]LEX[A]: 그만 귀찮게 굴래?
+j4mmy: 뭐??
+j4mmy: 되게 무례하게 구네
+[A]LEX[A]: 아니, 진짜 무례한 게 뭔지 알아?
+[A]LEX[A]: 속이 뻔히 보이는 메시지를 보내는 거야.
+[A]LEX[A]: 나랑 자고 싶어하는 게 뻔히 보인다구.
+[A]LEX[A]: 네가 나랑 잘 될 확률은 말 그대로 0% 거든. 네 랜덤 메시지랑 쿡 찌르기가 실제로는 그 확률을 마이너스로 떨어뜨렸지만.
+j4mmy: 나한테 히스테리 부릴 필요는 없잖아.
+[A]LEX[A]: 아니! 나한테는 안 통해. 죄책감 조장해서 날 조종할 생각은 꿈도 꾸지 마.
+[A]LEX[A]: 결론: 꺼져, 루저새꺄. 시리얼이 우유에 불어터지게 울어봐라.
+[A]LEX[A]: 안녀어엉 :)
+* [A]LEX[A]님이 오프라인입니다. 메시지가 전송되지 않을 수 있습니다. *
+* [A]LEX[A]님이 오프라인입니다. 메시지가 전송되지 않을 수 있습니다. *
+* [A]LEX[A]님이 오프라인입니다. 메시지가 전송되지 않을 수 있습니다. *
+</file>
+  
+  
+  
+  
+</Computer>

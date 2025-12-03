@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advStartPoint" 
+          name="Adventure Startpoint PC" 
+          ip="167.194.132.5"
+          security="0"
+          type="2" >
+
+  <!-- 주의: ID "advStartPoint"는 항상 어드벤처 모드 세션 시작 시 나타납니다
+  네트워크의 시작점으로 이 컴퓨터를 사용합니다 -
+  여기에 몇 가지 파일을 넣고 다른 곳에 연결해야 합니다
+  -->
+  
+  <dlink target="advExamplePC" />
+  
+  <!-- 파일 -->
+  <file path="home" name="Test_File">home 디렉토리의 테스트 파일입니다</file>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <!-- 포트 1433 --> 
+
+</Computer>

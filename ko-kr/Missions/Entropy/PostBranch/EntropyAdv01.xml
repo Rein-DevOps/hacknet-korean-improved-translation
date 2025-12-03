@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission03">
+  <goals>
+  </goals>
+  <missionStart>entropySendCSECInvite</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>축하 인사</subject>
+    <body>
+요청한 작업을 완수한 것 같군 - 이제 당분간은 이 커뮤니티의 이미지가 좀 더 문명적으로 유지되기를 바란다.
+
+현재 Entropy에 대한 네 공헌에 크게 감사하지만, 이 조직이 너를 만족시키지 못할 거라는 게 분명해졌어.
+솔직히 말해서 Entropy는 해커 세계에서 큰 플레이어가 될 생각이 없었어 - 빠르게 악화되는 해커 서브컬처의 대중 이미지에 선의의 전면이 되고자 만든 거였지.
+
+Entropy가 도움이 필요할 때 계속 도와주길 바라지만, 넌 이 제안을 받을 자격이 충분해;
+
+나는 CSEC라고 알려진 꽤 강력한 초대 전용 해커 그룹의 멤버야 - 오직 뛰어난 해커들과 컴퓨터 보안 전문가들로만 구성된 그룹인데, 네가 딱 맞을 것 같아.
+너에게 초대장이 가도록 요청을 넣어뒀으니, 곧 가입 테스트가 담긴 이메일을 받게 될 거야.
+
+이걸 가볍게 하는 게 아니라는 걸 알아줘 - 이 그룹의 초대장은 어떤 서클에서는 굉장히 탐내는 거거든. 
+
+그럼, 행운을 빌어,
+-Tex
+    
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="naixGateway" name="Naix 루트 게이트웨이" security="3" ip="173.194.35.172">
+  <adminPass pass="roxxane"/>
+  <proxy time="2"/>
+  <trace time="70"/>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="sys" name="x-server.sys">#GREEN_THEME#</file>
+  <file path="home" name="PirateKart_2011.zip">#BINARY#</file>
+  <file path="home" name="Macrosoft_Internal_Raid_Archive.rar">#BINARY#</file>
+  <file path="home" name="to_get.txt">
+    //시간 나면 받아놔야 할 플러그인 목록
+    Access Me
+    Add N Edit Cookies+
+    Chickenfoot
+    CookieSwap
+    DOM inspector
+    Domain Details
+    Firebug
+    Firebug Autocompleter
+    Firecookie
+    FireFTP
+    Firesheep
+    FormBug
+    FoxyProxy
+    Google Site Indexer
+    Greasemonkey
+    Groundspeed
+    HackBar
+    Host Spy
+    HttpFox
+    iMacros
+    JavaScript Deobfuscator
+    JSview
+    Key Manager
+    Library Detector
+    Live HTTP Headers
+    PassiveRecon
+    Poster
+    RefControl
+    Refspoof
+    RESTClient
+    RESTTest
+    Resurrect Pages
+    Selenium IDE
+    SQL Inject ME
+    Tamper Data
+    URL Flipper
+    User Agent Switcher
+    Vitzo WHOIS
+    Wappalyzer
+    Web Developer
+    XSS Me
+  </file>
+  
+  <file path="home" name="contract.txt">
+[cs#2827] 알겠습니다. 계정 번호를 알려주시겠습니까?
+[Gregory] 네. 6724001984입니다.
+[cs#2827] 지금 조회해보겠습니다.
+[cs#2827] 성함과 생년월일을 확인해주시겠습니까?
+[Gregory] Gregory Jordan Childs, 1982년 1월 22일입니다.
+[cs#2827] 감사합니다. Gregory Childs 고객님이 맞으시네요.
+[cs#2827] 다음 계약 장소는 티라스폴입니다. "Spool"이라는 사람이 브리핑을 담당할 겁니다.
+[cs#2827] 8월 9일까지는 현장에 도착해주시길 바랍니다.
+[cs#2827] 급료 $33,000와 경비 $10,000가 지정하신 계좌로 입금됩니다.
+[Gregory] 계약을 수락합니다.
+[cs#2827] 행운을 빕니다. Alliegence Energy 고객 서비스센터를 이용해주셔서 감사합니다.
+[Gregory] 최악의 위장술이군.
+</file>
+  
+<file path="home" name="admissionletter.docx">
+Julius에게,
+
+축하합니다! 왕립 군사정보위원회에 정식으로 입학이 허가되었습니다. 당신이 학업을 이어가기 위해 우리 명문 교육기관을 선택해주셔서 매우 기쁩니다.
+
+다음 달 캠퍼스에 도착하시면 입학 사무소에서 캠퍼스 ID와 기숙사 배정을 받으시게 됩니다.
+
+학기가 시작되면 뵙기를 고대하겠습니다.
+
+Thaddius Venture
+입학처장
+RMIC
+
+추신: 기부에 깊이 감사드립니다. 정말로요. 
+</file>
+  
+  <file path="home" name="[#PLAYERNAME#]x-server.sys">#BASE_THEME#</file>
+</Computer>
+

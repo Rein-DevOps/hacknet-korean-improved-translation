@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerSetReplyBranch">
+  <goals>
+    <goal type="getString" target="deny"/>
+  </goals>
+  <missionEnd val="1">addFlags:csecPacemakerDeny</missionEnd>
+  <nextMission>MainHub/PacemakerSet/PacemakerSet_Deny_Reply.xml</nextMission>
+  <posting title="Error">
+
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>답장: 프로젝트 왕풍뎅이</subject>
+    <body>
+      충분히 이해합니다.
+
+      고려해줘서 고맙습니다.
+      이 문제에 대해서는 최대한 신중하게 다뤄주시기 바랍니다.
+
+      -CSEC 관리자
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+알 수 없는 포스팅 오류
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>회신: 학교로 복귀</subject>
+    <body>
+정말? 
+
+*******.... 우와. 이거 천재인지 바보인지 모르겠구만. 둘 다 아닐까?
+ 확인 스크립트가 작동한다고 해서 그런가 테스트해보려고 직접 확인한 건데! 
+
+어라. 이건... 학교 행정부에게 있어서 알쏭달쏭한 답신이 되겠군. 에휴. 
+
+암튼 일은 수고했다. 처리 수속을 시작한다.
+-관리자
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

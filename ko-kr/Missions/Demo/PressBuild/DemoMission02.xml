@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Helleran_Elanor"/>
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission03.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Ghosting the Vault</subject>
+    <body>잘했어 - 준비됐군.
+이제 왜 내가 이 모든 걸 미리 부탁하는지 설명할 때가 됐어. 여전히 이 모든 걸 인터넷에 공개할 생각이야 - 최대한 많은 기회가 필요하거든. 네가 그 리스트 최상위에 있긴 하지만, 그냥 '최선의 추측'만으로는 의존할 수가 없어.
+갚아야 할 빚이 있어. 이 일을 해내도록 도와준 사람들에게 말이야(그들이 스스로 알고 있었든 아니든).
+
+특히 한 명, Gila라는 CSEC 해커 친구가 있는데, 이 프로젝트를 도와주는 대신 일거리 하나를 요청했어 - 그런데 이제 내가 할 수가 없어. 이 막바지에 어떤 흔적도 남길 위험을 피하려고 하드 드라이브를 너무 깨끗이 밀어버려서, 또 무리한 부탁을 하게 되네.
+
+그가 원하는 건 의료 기록 하나를 가져다 보내주는 거야. 내가 할 수 있는 선에서 Int.Medical의 보안을 망가뜨려 놨으니, 지금 가진 걸로 충분히 들어갈 수 있을 거야. 그가 원하는 게 뭔지 아래에 첨부했어. 이 서버는 진짜니까, 로그를 지워야 해 - 실수하지 마.
+
+이게 네 첫 진짜 임무가 될 거야 - 행운을 빌어.
+
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="미션 개요">
+International Medical 데이터베이스에 연결하세요
+활성 보안을 뚫으세요
+(Probe/Programs/Porthack)
+
+&quot;Elanor Helleran&quot;의
+기록을 찾으세요
+의료 기록을
+&quot;gila@jmail.com&quot;으로
+이메일로 보내세요
+
+/logs 폴더의 모든 로그를 지우세요 (rm *)
+      </note>
+      <link comp="medicalDemo"/>
+    </attachments>
+  </email>
+</mission>
